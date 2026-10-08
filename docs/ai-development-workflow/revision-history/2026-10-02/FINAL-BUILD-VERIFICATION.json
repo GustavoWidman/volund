@@ -1,0 +1,251 @@
+{
+  "study": "unattended-optimization-v3",
+  "recorded_utc": "2026-10-02T01:05:51.972215+00:00",
+  "typst": "0.15.1",
+  "package": "charged-ieee:0.1.4",
+  "sources": {
+    "main.typ": "47ab700ca76e1061401820169c9dc244bdb106c12c4bc00c45dece35117f92fb",
+    "extended-methods.typ": "faec4867b0a87b140e6dd4e240a00b7706241a633242409d08073dc53cc5bcce",
+    "refs.bib": "e37e62eb93ab277116e6b44a7236668b6e976c0ad3e1824db76318700a73ef9c",
+    "SOURCE-LEDGER.md": "31277fae16aa4b9c7b01a02eb60046051fe544a80e4217791cdc72956c916da4"
+  },
+  "pdfs": [
+    {
+      "path": "ai-development-workflow-draft.pdf",
+      "sha256": "f4ead58f7f9b3446f4cc03ba1ffb8c7b1780a5cd24a2244283d83987c875cec7",
+      "bytes": 197441,
+      "pages": 7,
+      "outside_page_text_spans": 0
+    },
+    {
+      "path": "ai-development-workflow-supplement.pdf",
+      "sha256": "54ee7a98648deddbaedf7cb5b4602031c02966e9a2c5c2fac3bf01a35a92f65d",
+      "bytes": 251745,
+      "pages": 10,
+      "outside_page_text_spans": 0
+    }
+  ],
+  "figure_assets": [
+    {
+      "path": "figures/v3-development.pdf",
+      "sha256": "b8f22447810172ad39945b8aa2b854d07efe000a8d5284b6b2d2af6fbcaaa2ed",
+      "width_points": 237.60000610351562,
+      "height_points": 158.39999389648438
+    },
+    {
+      "path": "figures/v3-endpoints.pdf",
+      "sha256": "b4fd3c2f289d072ee7613b78874d86c7a42156dee36250139bbdeb113b0ee4b3",
+      "width_points": 237.60000610351562,
+      "height_points": 154.8000030517578
+    },
+    {
+      "path": "figures/v3-families-shift.pdf",
+      "sha256": "e94f69ccbd955932361f8575d856b8975ee45d341cfbdd82b97b1a8f7ca41873",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-families-transfer.pdf",
+      "sha256": "76a581f620bfc48e4d0cbde4de3ea594a81a5bbd324d8d1c61d41231e86f78ea",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-family-pairs-shift-c1.pdf",
+      "sha256": "80423af946c6b6531fe5af2b5a2fae62c66a329b346551e97a7a1e15391ddb78",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-family-pairs-shift-c2.pdf",
+      "sha256": "e32f47d5aad4ac24445fb496ae65ad85c12230384b78b5db419fdf218ca3f83c",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-family-pairs-shift-c3.pdf",
+      "sha256": "f0ad357ded65a098e9b4b5be3f04b1879419fbcb4d57b9a09f0a0df3bee49c5c",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-family-pairs-transfer-c1.pdf",
+      "sha256": "d4662fe1c6ac4e9b9c7209f1dd106c5e0a7fc89aee62b806f8204808eb91a0d0",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-family-pairs-transfer-c2.pdf",
+      "sha256": "3ad5411b84148d5662e27e19fbcc39d0eb0b05d3c8d148885e39bd5378305a21",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-family-pairs-transfer-c3.pdf",
+      "sha256": "b61edc365aa78e80db7d7d167bcf8823c061b89f8b6f50281317919500d89430",
+      "width_points": 237.60000610351562,
+      "height_points": 183.60000610351562
+    },
+    {
+      "path": "figures/v3-role-cost-c1.pdf",
+      "sha256": "1a9fede53c964a2b9946f4446a3207f9fe0fc5f633738b12035aa07e9e445036",
+      "width_points": 237.60000610351562,
+      "height_points": 140.39999389648438
+    },
+    {
+      "path": "figures/v3-role-cost-c2.pdf",
+      "sha256": "46b77ef7dcdbd992e0e90d07ed96830a583458d498c61293e442fc30a3e85965",
+      "width_points": 237.60000610351562,
+      "height_points": 140.39999389648438
+    },
+    {
+      "path": "figures/v3-role-cost-c3.pdf",
+      "sha256": "7d0ede97b7856505201cecbfe78fd86bc461682797e9a9a9e1fa3a58b7df4769",
+      "width_points": 237.60000610351562,
+      "height_points": 140.39999389648438
+    },
+    {
+      "path": "figures/v3-role-tokens-c1.pdf",
+      "sha256": "578bcc5c7a8684d6c611d031880be7dca37aae9a1690752dd1081ab2e49f8add",
+      "width_points": 237.60000610351562,
+      "height_points": 151.1999969482422
+    },
+    {
+      "path": "figures/v3-role-tokens-c2.pdf",
+      "sha256": "11f75871cf758b114095c718c0867c56c769b22fb473348cf63b4295b350efb3",
+      "width_points": 237.60000610351562,
+      "height_points": 151.1999969482422
+    },
+    {
+      "path": "figures/v3-role-tokens-c3.pdf",
+      "sha256": "87bc4626b62fea18af152d558fd275d1db60f6d6bc5fa5cbf06cf88e40863c8b",
+      "width_points": 237.60000610351562,
+      "height_points": 151.1999969482422
+    },
+    {
+      "path": "figures/v3-workflow.pdf",
+      "sha256": "108e1b2aaf2442cba3869608fcae2575f50ec3434672812b7c4eee0fd36b4ffe",
+      "width_points": 237.60000610351562,
+      "height_points": 129.60000610351562
+    }
+  ],
+  "figure_minimum_label_size_points": 8,
+  "figure_size_evidence": "../../experiments/unattended-optimization-v3/analysis/figures/qa-01/vector-font-metrics.json",
+  "main_figure_count": 3,
+  "main_figure_placement_inches": 3.3,
+  "renders": [
+    {
+      "path": "preview/final-v3-reviewed/main-page-1.png",
+      "sha256": "50874057e1fd3c822afdce36c403695d81db0a60e65c5d56c2b97a92dab5ad9b"
+    },
+    {
+      "path": "preview/final-v3-reviewed/main-page-2.png",
+      "sha256": "572d6191879ed46a43e75fd7938922c68b04219dfe41db9b4e6b742156ae374d"
+    },
+    {
+      "path": "preview/final-v3-reviewed/main-page-3.png",
+      "sha256": "a60eec8022fc0fc8d0861a345b9906e9bae90d6ef38870ac37b1e7cdadc6556e"
+    },
+    {
+      "path": "preview/final-v3-reviewed/main-page-4.png",
+      "sha256": "210151adb9ec050b49cb7aa49b3c7f07df7b3a4dcd6d9ec7314b38ebc9c377a7"
+    },
+    {
+      "path": "preview/final-v3-reviewed/main-page-5.png",
+      "sha256": "421ae30f8cf306443b243e355a37849cfe9f571c3b94981c9a908738184f29f9"
+    },
+    {
+      "path": "preview/final-v3-reviewed/main-page-6.png",
+      "sha256": "b8ab9b57fd835db5942a32528e96ec02fef2247b8f147859f9a18ec969162bdc"
+    },
+    {
+      "path": "preview/final-v3-reviewed/main-page-7.png",
+      "sha256": "691c57c7f19bf475f5282297d17de0c42fb9f8317226eb6e138b9741d06cec70"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-01.png",
+      "sha256": "bbfc9bb32bfbe90094a9692efcb4b488527f3335b3971f9745dc0a3ce77f9535"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-02.png",
+      "sha256": "ea9854106213088249b6875831df0e7afda0cfd6107eabc4b498678cf509b6eb"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-03.png",
+      "sha256": "a7865599b5da5af4fe31467cda1184ceba3713b5177b62a8fcb2e787556bc0b2"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-04.png",
+      "sha256": "3c4ee42a307ed401df74052f4fd6ed7e2a750706a041f827b0ba64585a61e165"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-05.png",
+      "sha256": "3bd842d841c8e2d11791758cba3599a1bfbc3f63869dde167e6c90a6e6535736"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-06.png",
+      "sha256": "d80bfa56cf3573f665f2e5f48fa1eca4feee49f1944912b476a84519cf823efd"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-07.png",
+      "sha256": "5bc28ea1bc7fd05d17299e3346721031dab0dcd2a9660e5b338ea62fd52e4e95"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-08.png",
+      "sha256": "78e376472b577d4452289355522844120fc1396770c22c63c0016c20102bd48b"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-09.png",
+      "sha256": "43f8ec0b46a7a73ef31d8f415f052c223d333c307a1bd01e63181e8983c2074d"
+    },
+    {
+      "path": "preview/final-v3-reviewed/supplement-page-10.png",
+      "sha256": "867c69645ca70c018ef2d749fe23180d06c7b765888e564a502ddd735b369235"
+    }
+  ],
+  "visual_qa": {
+    "worker_all_pages_inspected": true,
+    "main_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "supplement_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "clipping_overlap_missing_glyphs_observed": false,
+    "final_page_reference_columns_balanced": true,
+    "table_headers_repeat": true,
+    "root_final_pagination_recheck": "requested; root already inspected complete prior pass and approved changed-page pass before final pagination"
+  },
+  "static_checks": {
+    "reference_entries": 15,
+    "all_references_cited": true,
+    "unresolved_reference_keys": [],
+    "result_placeholders": false,
+    "full_width_main_figures": false,
+    "final_report_unchanged": true,
+    "freeze_unchanged": true
+  },
+  "scientific_review": "../../experiments/unattended-optimization-v3/analysis/final-audit/INDEPENDENT-RESULTS-REVIEW.md",
+  "posthoc_review": "../../experiments/unattended-optimization-v3/analysis/final-audit/POSTHOC-MEMORY-REVIEW.md",
+  "limits": [
+    "Finite source-specific descriptive study; no causal component inference",
+    "Post-hoc five-call C3 memory supplementation is excluded from original acceptance, performance and campaign usage/cost",
+    "Observed API-equivalent cost subtotal is not an actual bill or whole-project bound",
+    "Author approval, venue, declarations, public release and submission remain pending"
+  ]
+}

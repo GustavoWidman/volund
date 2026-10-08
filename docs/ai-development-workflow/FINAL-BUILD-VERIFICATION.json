@@ -1,0 +1,177 @@
+{
+  "base_commit": "23cfd8448d819c8e9a245e9afef5869791abc484",
+  "recorded_utc": "2026-10-08T14:53:04.744950+00:00",
+  "typst": "0.15.1",
+  "package": "charged-ieee:0.1.4",
+  "frozen_experiment_files_checked": 263,
+  "experiment_files_changed": 0,
+  "numeric_table_validation": "pass",
+  "sources": {
+    "main.typ": "6dc25d56e6d77a2dc9439358ec356d94b591a0d08a6296a5967d31863a38cf81",
+    "extended-methods.typ": "df8dcfd726c936dfa562d928828b61ebc3ccc09831bdc996182d72f98e083e88",
+    "refs.bib": "2c5ead00afdd20b83a91af39bc6adea4c2aae5dea7feaa9b6dcda351603eb409",
+    "SOURCE-LEDGER.md": "708f6a8cea02e19243735a470ed2cea12e37b0d1609a59d6dfabe46608fdc368"
+  },
+  "pdfs": [
+    {
+      "path": "ai-development-workflow-draft.pdf",
+      "sha256": "9d6ac35eab12bd7bf2fc99df1cb9cb4993057ab2524333f456ad036d7f8549aa",
+      "bytes": 229469,
+      "pages": 7,
+      "outside_page_text_spans": 0
+    },
+    {
+      "path": "ai-development-workflow-supplement.pdf",
+      "sha256": "07d3def6ecab91c92b7b66e59afcbcc01c057f59d30ec1a132f9d0400ee8b9c7",
+      "bytes": 246808,
+      "pages": 10,
+      "outside_page_text_spans": 0
+    }
+  ],
+  "figure_assets": [
+    {
+      "path": "figures/v3-development.pdf",
+      "sha256": "b8f22447810172ad39945b8aa2b854d07efe000a8d5284b6b2d2af6fbcaaa2ed"
+    },
+    {
+      "path": "figures/v3-role-tokens-c1.pdf",
+      "sha256": "578bcc5c7a8684d6c611d031880be7dca37aae9a1690752dd1081ab2e49f8add"
+    },
+    {
+      "path": "figures/v3-family-pairs-shift-c3.pdf",
+      "sha256": "f0ad357ded65a098e9b4b5be3f04b1879419fbcb4d57b9a09f0a0df3bee49c5c"
+    },
+    {
+      "path": "figures/v3-role-cost-c3.pdf",
+      "sha256": "7d0ede97b7856505201cecbfe78fd86bc461682797e9a9a9e1fa3a58b7df4769"
+    },
+    {
+      "path": "figures/v3-families-transfer.pdf",
+      "sha256": "76a581f620bfc48e4d0cbde4de3ea594a81a5bbd324d8d1c61d41231e86f78ea"
+    },
+    {
+      "path": "figures/v3-endpoints.pdf",
+      "sha256": "b4fd3c2f289d072ee7613b78874d86c7a42156dee36250139bbdeb113b0ee4b3"
+    },
+    {
+      "path": "figures/v3-family-pairs-transfer-c3.pdf",
+      "sha256": "b61edc365aa78e80db7d7d167bcf8823c061b89f8b6f50281317919500d89430"
+    },
+    {
+      "path": "figures/v3-families-shift.pdf",
+      "sha256": "e94f69ccbd955932361f8575d856b8975ee45d341cfbdd82b97b1a8f7ca41873"
+    },
+    {
+      "path": "figures/v3-role-tokens-c3.pdf",
+      "sha256": "87bc4626b62fea18af152d558fd275d1db60f6d6bc5fa5cbf06cf88e40863c8b"
+    },
+    {
+      "path": "figures/v3-role-cost-c1.pdf",
+      "sha256": "1a9fede53c964a2b9946f4446a3207f9fe0fc5f633738b12035aa07e9e445036"
+    },
+    {
+      "path": "figures/v3-workflow.pdf",
+      "sha256": "108e1b2aaf2442cba3869608fcae2575f50ec3434672812b7c4eee0fd36b4ffe"
+    },
+    {
+      "path": "figures/v3-family-pairs-shift-c2.pdf",
+      "sha256": "e32f47d5aad4ac24445fb496ae65ad85c12230384b78b5db419fdf218ca3f83c"
+    },
+    {
+      "path": "figures/v3-role-cost-c2.pdf",
+      "sha256": "46b77ef7dcdbd992e0e90d07ed96830a583458d498c61293e442fc30a3e85965"
+    },
+    {
+      "path": "figures/v3-role-tokens-c2.pdf",
+      "sha256": "11f75871cf758b114095c718c0867c56c769b22fb473348cf63b4295b350efb3"
+    },
+    {
+      "path": "figures/v3-family-pairs-shift-c1.pdf",
+      "sha256": "80423af946c6b6531fe5af2b5a2fae62c66a329b346551e97a7a1e15391ddb78"
+    },
+    {
+      "path": "figures/v3-family-pairs-transfer-c1.pdf",
+      "sha256": "d4662fe1c6ac4e9b9c7209f1dd106c5e0a7fc89aee62b806f8204808eb91a0d0"
+    },
+    {
+      "path": "figures/v3-family-pairs-transfer-c2.pdf",
+      "sha256": "3ad5411b84148d5662e27e19fbcc39d0eb0b05d3c8d148885e39bd5378305a21"
+    }
+  ],
+  "renders": [
+    {
+      "path": "qa-volund/main/page-6.png",
+      "sha256": "abe30345da73666594356fadf60200504d6f6e88b83c26a14cd079c50d2380c2"
+    },
+    {
+      "path": "qa-volund/main/page-2.png",
+      "sha256": "ec746e76850ac044ad742dbb5236db4a60385ebcbc58b3cf4d890b8d4c93fb16"
+    },
+    {
+      "path": "qa-volund/main/page-1.png",
+      "sha256": "cb568ca74e26929f842018cbdb4e5a7be41ff86f3e66453b2ae5604ff6da8722"
+    },
+    {
+      "path": "qa-volund/main/page-3.png",
+      "sha256": "c14e51584d3aa9dd16da513dd054cc7f502ee71980642b32fd64876fb1e35c49"
+    },
+    {
+      "path": "qa-volund/main/page-4.png",
+      "sha256": "ab31aff867ba0a3d3ba9a9dca2625bbb943b6bb517af7e8106a00352ed511a39"
+    },
+    {
+      "path": "qa-volund/main/page-7.png",
+      "sha256": "b83e4c069b9d7986c6e316fb160ebab27226fdcfe16c2607fbf5a9dcce4f1a75"
+    },
+    {
+      "path": "qa-volund/main/page-5.png",
+      "sha256": "3b9ceb0b246be418bfd1689b9b889ab60899efe06aa6a7285890d432a2ba1339"
+    },
+    {
+      "path": "qa-volund/supplement/page-04.png",
+      "sha256": "7289cf548865027267bae3266c4bff48eb4826ef3626423ff2ad86fd95adcfe3"
+    },
+    {
+      "path": "qa-volund/supplement/page-02.png",
+      "sha256": "6607d922f9e06eafbc7e1464290d171f09cd728b9af423b65481dba57f76be4a"
+    },
+    {
+      "path": "qa-volund/supplement/page-09.png",
+      "sha256": "0cfc1263398ca3d4f9c8029a41e7a687b4013ad2e0bcb4ff5bc3ce4a9669bbbf"
+    },
+    {
+      "path": "qa-volund/supplement/page-07.png",
+      "sha256": "c9f037540ff8122d90aacbe7af45417cd809639ad63b10b39006a942d6a3dd0c"
+    },
+    {
+      "path": "qa-volund/supplement/page-06.png",
+      "sha256": "bb844f0ddcce0d5a3af4824bf0b32d4c67c68bf9d51a0e61894f343f7a059405"
+    },
+    {
+      "path": "qa-volund/supplement/page-05.png",
+      "sha256": "66feee309862895eb47e889bc1b4c127937edf825b89d5de254cc9b5fed8a751"
+    },
+    {
+      "path": "qa-volund/supplement/page-01.png",
+      "sha256": "bd5292d113edad28eef9e2eedd902cb7d2122c031d1b7b6da216f4d2ad250342"
+    },
+    {
+      "path": "qa-volund/supplement/page-08.png",
+      "sha256": "196e6ab544bd856c841e9fa04e12003bb021c35e42581c58bc27a8914b91e38b"
+    },
+    {
+      "path": "qa-volund/supplement/page-03.png",
+      "sha256": "be7a5289f70f79ad6001527be96e06002204face21f4175ade0d94337bb77cec"
+    },
+    {
+      "path": "qa-volund/supplement/page-10.png",
+      "sha256": "677cd5fee796da15c6eb21d8857334bb8d7106b04fd18af7ff9d39408aca809a"
+    }
+  ],
+  "bibliography_entries": 19,
+  "visual_review": "Manuscript worker visually inspected all seventeen final pages. Parent independently inspected all four changed-content pages and the earlier complete pass.",
+  "title": "Volund: An Empirical Study of Unattended Multiagent Program Optimization",
+  "repository_url": "https://github.com/GustavoWidman/volund",
+  "availability_wording": "Will be publicly available upon publication; no current-public-access claim",
+  "independent_review": "Prior contribution/citation/table audit passed; numerical content unchanged in naming and availability pass."
+}

@@ -1,0 +1,9 @@
+# Current v3 build verification
+
+The final main article is seven pages; the supplement is ten. Both compiled without warnings/errors using Typst 0.15.1, the existing charged-ieee 0.1.4 package cache and bundled fonts. The canonical source and all PDF/figure/render hashes are in `FINAL-BUILD-VERIFICATION.json`.
+
+All seventeen final pages were rendered with Poppler and personally inspected by the manuscript worker. The final render directory is `preview/final-v3-reviewed/`, with main pages at 120 dpi and supplement pages at 110 dpi. No clipping, overlap, missing glyph, or unreadable table was observed. Text-coordinate checks found zero spans outside either PDF's pages. Main results retain three 3.3-inch single-column figures with at least 8pt figure labels; the two result figures float only within columns. The final bibliography is balanced into two columns by an owned-source wrapper, preserving all text and citations without package modifications. Supplementary table headers repeat across page breaks.
+
+All 15 bibliography entries are cited; no unresolved reference key or empirical placeholder remains. Original final-report and freeze digests match their provided immutable identities. Copied assets match the figure worker's stable outputs. Mathematical subscripts can be smaller than body/figure labels; the 8pt minimum applies to actual placed figure labels, not equation script sizes.
+
+The independent results/source review and separately scoped five-probe post-hoc memory review passed. The root inspected every page of the prior complete pass and approved a changed-page pass; its final pagination recheck was requested with these stable paths. Publication/author approval remains separate. No upload, commit, push, submission, or publication was performed by the manuscript worker.
