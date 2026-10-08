@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "draft_task_inputs_not_protocol_freeze",
+  "copied_utc_date": "2026-10-01",
+  "purpose": "Original seed and public contract reused for independently initialized v2 campaigns; no old optimized candidate or outcome copied",
+  "files": [
+    {
+      "path": "contract/SPEC.md",
+      "source_repository_path": "experiments/unattended-optimization/contract/SPEC.md",
+      "source_sha256": "8aca8bf5f688c4c51f00ca2fe986671985b41dcf690d858f6f414183b615809b",
+      "sha256": "7ebc371c4be6850c35e3cf8b08c5994d0fb729cfb89ed4b7ec362ff8904d3d2c",
+      "modified_from_source": true,
+      "change_scope": "Program-boundary and workflow instructions adapted to v2 repeated delegated investigation; Exact behavior section and ABI unchanged"
+    },
+    {
+      "path": "contract/engine.h",
+      "source_repository_path": "experiments/unattended-optimization/contract/engine.h",
+      "source_sha256": "36db37be465b1c29414d661e69bcbccfb5f5442fbe289129024737e276e5d1e4",
+      "sha256": "36db37be465b1c29414d661e69bcbccfb5f5442fbe289129024737e276e5d1e4",
+      "modified_from_source": false
+    },
+    {
+      "path": "contract/BINARY_FORMAT.md",
+      "source_repository_path": "experiments/unattended-optimization/contract/BINARY_FORMAT.md",
+      "source_sha256": "40f308ca136cd80a9033f8b72fbee92509f37c3d0c90bc1c6f33f513c3904db2",
+      "sha256": "40f308ca136cd80a9033f8b72fbee92509f37c3d0c90bc1c6f33f513c3904db2",
+      "modified_from_source": false
+    },
+    {
+      "path": "seed/engine.cpp",
+      "source_repository_path": "experiments/unattended-optimization/seed/engine.cpp",
+      "source_sha256": "d32e6ec47c628378248720b38e3b6c1d63c9da867f72adb92bf836213e894414",
+      "sha256": "d32e6ec47c628378248720b38e3b6c1d63c9da867f72adb92bf836213e894414",
+      "modified_from_source": false
+    }
+  ]
+}

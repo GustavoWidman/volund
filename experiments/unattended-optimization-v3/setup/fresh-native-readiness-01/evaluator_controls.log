@@ -1,0 +1,16 @@
+{"setup_operation": "seed-build", "status": "pass"}
+{"setup_operation": "seed-correctness-public", "status": "pass"}
+{"setup_operation": "seed-correctness-transfer", "status": "pass"}
+{"setup_operation": "seed-correctness-shift", "status": "pass"}
+{"setup_operation": "seed-memory-all-public-profiles", "status": "pass"}
+{"setup_operation": "seed-profile-v2-profile-small-build", "status": "pass"}
+{"setup_operation": "seed-profile-v2-profile-sparse-narrow", "status": "pass"}
+{"setup_operation": "seed-profile-v2-profile-dense-wide", "status": "pass"}
+{"setup_operation": "seed-profile-v2-profile-global-mixed", "status": "pass"}
+{"setup_operation": "seed-profile-v2-profile-skewed", "status": "pass"}
+{"setup_operation": "seed-profile-v2-profile-high-cardinality", "status": "pass"}
+{"setup_operation": "wrong-result-build", "status": "pass"}
+{"setup_operation": "wrong-result-final-correctness", "status": "candidate_failure"}
+{"setup_operation": "public-aa-10-blocks", "status": "pass"}
+{"setup_operation": "final-transfer-aa-30-blocks", "status": "pass"}
+{"stage": "setup_controls_not_campaign_results", "status": "pass", "checks": {"seed_correctness_public": true, "seed_correctness_transfer": true, "seed_correctness_shift": true, "all_memory_profiles": true, "all_callgrind_profiles": true, "compiled_wrong_result_rejected": true, "aa_operational_improvement_rejected": true, "thirty_block_final_route_completed": true}}

@@ -1,0 +1,18 @@
+{
+  "campaign_operations": 357,
+  "checkpoints": 8,
+  "compared_fields": [
+    "workflows",
+    "comparisons",
+    "final",
+    "usage"
+  ],
+  "comparisons": 52,
+  "final_operations": 22,
+  "full_numeric_report_sha256": "1d3bf010dd5678eeb2844ec75e15dd91c035d0ad3d28e4763f2795c815f58c0e",
+  "lean_numeric_report_sha256": "b71fa3e1538b731ec1ad78317e2bafd6cc481e24abd4ca7c874297ff6033e408",
+  "new_native_or_model_execution": false,
+  "scientific_outputs_sha256": "9cb07ff2d59d8d5b32903130fc5ee21c315951049146a41b604f357bf26a714f",
+  "status": "full_and_lean_scientific_outputs_identical",
+  "verification_coverage_intentionally_differs": true
+}

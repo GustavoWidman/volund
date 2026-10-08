@@ -1,0 +1,38 @@
+{
+  "stage": "source_preparation_with_focused_schema_checks",
+  "study_version": "unattended-optimization-v3",
+  "executed_unit_tests": true,
+  "rendered_figures": false,
+  "ran_benchmarks": false,
+  "modified_manuscript": false,
+  "sources": [
+    {
+      "file": "extract.py",
+      "sha256": "6f70bbfa40cb61d92fec661566337cc55bf78ba6464821234e8ebb119f15d3f7",
+      "syntax_parse": "pass"
+    },
+    {
+      "file": "plot.py",
+      "sha256": "57458592fa652789fe96138986066508d5b3103743710a409a66f69eccbe78ce",
+      "syntax_parse": "pass"
+    },
+    {
+      "file": "test_figures.py",
+      "sha256": "ce040c2b7c3d917131603d2bd9429648595c2489c293117f1d36dc19f7329730",
+      "syntax_parse": "pass"
+    }
+  ],
+  "focused_unit_tests_passed": 12,
+  "complete_unit_suite_executed": false,
+  "read_sealed_campaign_evidence": true,
+  "measured_result_extraction": false,
+  "read_heldout": false,
+  "checkpoint_verification": "checkpoint-schema-verification.json",
+  "fixture": {
+    "path": "fixtures/host-export-checkpoint.json",
+    "sha256": "f191933156982ed16d6e905fcf0f634f0de82187971f55d65454831e61f4b9d6",
+    "kind": "synthetic focused raw Host.export writer shape; no measured outcomes"
+  },
+  "relocation": "Exact pinned freeze root translated lexically to local allowlisted paths; evidence bytes unchanged",
+  "execution_trust_verification": "execution-trust-verification.json"
+}

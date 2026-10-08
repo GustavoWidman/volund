@@ -1,0 +1,20 @@
+{
+  "reviewed_utc": "2026-10-02T01:07:59.280658+00:00",
+  "scope": "Original v3 evidence manuscript source audit plus separately identified post-hoc memory addendum and final pagination source refresh; no native execution by reviewer; final PDF hashes checked without visual approval.",
+  "verdict": "No material numerical or scientific-source blocker found, subject to separately identified review limits.",
+  "files": {
+    "docs/ai-development-workflow/main.typ": "47ab700ca76e1061401820169c9dc244bdb106c12c4bc00c45dece35117f92fb",
+    "docs/ai-development-workflow/extended-methods.typ": "faec4867b0a87b140e6dd4e240a00b7706241a633242409d08073dc53cc5bcce",
+    "docs/ai-development-workflow/refs.bib": "e37e62eb93ab277116e6b44a7236668b6e976c0ad3e1824db76318700a73ef9c",
+    "experiments/unattended-optimization-v3/analysis/final-audit/audit_process.py": "ef3fe3064adaadc7533ba1d21eca0787f79772604f74de62c80b9fa8876bc36c",
+    "experiments/unattended-optimization-v3/analysis/final-audit/process-audit.json": "58fb7ee2355f19e2be6f3729e3e99f619c61f2b5bb5f78877b2e107d308b84bc",
+    "experiments/unattended-optimization-v3/analysis/final-audit/INDEPENDENT-RESULTS-REVIEW.md": "01b656399ac127948698c45ebc0e3645ec22e0a8719049d43738ce4f2ca59381",
+    "experiments/unattended-optimization-v3/analysis/final-audit/POSTHOC-MEMORY-REVIEW.md": "2c16ab35a35f2dcb587f14df3c53c2484b52e444c172471d0bf3e5f25813a79e",
+    "experiments/unattended-optimization-v3/analysis/final-audit/posthoc-memory-audit.json": "6e36dabf6f9410791c6378373b68d7d61c2adb5770aedc5c648afb8e256ffa7d"
+  },
+  "final_pdf_hashes_verified_only": {
+    "docs/ai-development-workflow/ai-development-workflow-draft.pdf": "f4ead58f7f9b3446f4cc03ba1ffb8c7b1780a5cd24a2244283d83987c875cec7",
+    "docs/ai-development-workflow/ai-development-workflow-supplement.pdf": "54ee7a98648deddbaedf7cb5b4602031c02966e9a2c5c2fac3bf01a35a92f65d"
+  },
+  "final_rendered_visual_review_owner": "root"
+}

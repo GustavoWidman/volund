@@ -1,0 +1,67 @@
+{
+  "provenance": "Actual rejected field values transcribed from retained ordinary owner journal entries. Full original dynamic-call payloads were not exported; tests reconstruct surrounding valid fields using synthetic IDs/evidence.",
+  "evidence_path": "setup/failed-preflights/attempt-02/setup/live-preflight/authority/state.json",
+  "cases": [
+    {
+      "journal": "journal-18",
+      "tool": "study_owner_claim_review",
+      "field": "assessment",
+      "rejected_values": [
+        "supported",
+        "endorse",
+        "agree",
+        "accept",
+        "confirmed",
+        "verified",
+        "consistent",
+        "substantiated",
+        "corroborated",
+        "supported_as_reported",
+        "supported_with_limits",
+        "evidence_supports",
+        "confirmed_supported",
+        "valid",
+        "approve",
+        "accept_report",
+        "confirm",
+        "verified_supported",
+        "sound",
+        "validated",
+        "accurate",
+        "supported_claim",
+        "supported_report",
+        "supported_with_limitations",
+        "agrees",
+        "accepts",
+        "accepted",
+        "confirmed_by_evidence",
+        "uphold",
+        "upheld",
+        "endorse_report",
+        "agree_with_report",
+        "accept_supported",
+        "supported_bounded",
+        "evidence_supported",
+        "supports",
+        "support"
+      ]
+    },
+    {
+      "journal": "journal-1",
+      "tool": "study_owner_queue",
+      "field": "status",
+      "rejected_values": [
+        "open"
+      ]
+    },
+    {
+      "journal": "journal-10",
+      "tool": "study_dev_bench",
+      "field": "reference_id",
+      "rejected_values": [
+        "6fe54596257042d7aace4b900f698a50"
+      ]
+    }
+  ],
+  "test_dependency": "Self-contained copied field values; tests never read live or archived setup evidence."
+}

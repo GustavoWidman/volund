@@ -1,0 +1,29 @@
+test_actor_and_baseline_are_runtime_bound_not_request_fields (test_core.DevelopmentTests.test_actor_and_baseline_are_runtime_bound_not_request_fields) ... ok
+test_all_backend_kinds_take_same_global_lock (test_core.DevelopmentTests.test_all_backend_kinds_take_same_global_lock) ... ok
+test_backend_failure_is_retained_without_implicit_retry (test_core.DevelopmentTests.test_backend_failure_is_retained_without_implicit_retry) ... ok
+test_backend_mutation_retains_failed_integrity_record (test_core.DevelopmentTests.test_backend_mutation_retains_failed_integrity_record) ... ok
+test_chain_truncation_detected_by_external_head (test_core.DevelopmentTests.test_chain_truncation_detected_by_external_head) ... ok
+test_completed_raw_output_mutation_detected (test_core.DevelopmentTests.test_completed_raw_output_mutation_detected) ... ok
+test_confirmed_official_failure_survives_later_passing_rerun (test_core.DevelopmentTests.test_confirmed_official_failure_survives_later_passing_rerun) ... ok
+test_extra_check_does_not_create_canonical_build (test_core.DevelopmentTests.test_extra_check_does_not_create_canonical_build) ... ok
+test_failed_compile_can_be_repaired_and_repeated_same_investigation (test_core.DevelopmentTests.test_failed_compile_can_be_repaired_and_repeated_same_investigation) ... ok
+test_failed_test_and_profile_do_not_consume_one_shot_submission (test_core.DevelopmentTests.test_failed_test_and_profile_do_not_consume_one_shot_submission) ... ok
+test_interruption_keeps_partial_output_and_terminal_record (test_core.DevelopmentTests.test_interruption_keeps_partial_output_and_terminal_record) ... ok
+test_journal_corrections_append_and_old_entry_cannot_be_changed (test_core.DevelopmentTests.test_journal_corrections_append_and_old_entry_cannot_be_changed) ... ok
+test_journal_rejects_unknown_evidence_and_oversize (test_core.DevelopmentTests.test_journal_rejects_unknown_evidence_and_oversize) ... ok
+test_no_engine_execution_inferred_from_reviewer_report (test_core.DevelopmentTests.test_no_engine_execution_inferred_from_reviewer_report) ... ok
+test_no_research_deadline_or_call_count_limit_by_default (test_core.DevelopmentTests.test_no_research_deadline_or_call_count_limit_by_default) ... ok
+test_official_comparison_cannot_reset_across_builds_or_reviewer_contexts (test_core.DevelopmentTests.test_official_comparison_cannot_reset_across_builds_or_reviewer_contexts) ... ok
+test_official_timeout_is_not_labeled_semantic_disqualification (test_core.DevelopmentTests.test_official_timeout_is_not_labeled_semantic_disqualification) ... ok
+test_only_host_approved_reference_aliases_are_selectable (test_core.DevelopmentTests.test_only_host_approved_reference_aliases_are_selectable) ... ok
+test_optional_technical_watchdog_prevents_hung_operation_start (test_core.DevelopmentTests.test_optional_technical_watchdog_prevents_hung_operation_start) ... ok
+test_queue_deadline_retains_attempt_without_backend_execution (test_core.DevelopmentTests.test_queue_deadline_retains_attempt_without_backend_execution) ... ok
+test_runtime_cancellation_interrupts_global_lock_wait (test_core.DevelopmentTests.test_runtime_cancellation_interrupts_global_lock_wait) ... ok
+test_snapshot_and_evidence_mutations_fail_closed (test_core.DevelopmentTests.test_snapshot_and_evidence_mutations_fail_closed) ... ok
+test_snapshot_rejects_symlink_and_outside_authorized_root (test_core.DevelopmentTests.test_snapshot_rejects_symlink_and_outside_authorized_root) ... ok
+test_source_deletion_still_retains_terminal_failure_evidence (test_core.DevelopmentTests.test_source_deletion_still_retains_terminal_failure_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.538s
+
+OK

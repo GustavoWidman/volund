@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "draft_reuse_no_old_fixture_or_outcome_inputs",
+  "files": [
+    {
+      "source_repository_path": "experiments/unattended-optimization/harness/driver.cpp",
+      "original_sha256": "016c2859a3df178d623bb72cdc5c904c8abeb30265dccf926b61704ac46ce05a",
+      "v2_relative_path": "driver.cpp",
+      "adapted": false
+    },
+    {
+      "source_repository_path": "experiments/unattended-optimization/oracle/reference.py",
+      "original_sha256": "7fffeddc28db2cf0b373b43871d3f9fdc50a916f610a79368f22e8866019991e",
+      "v2_relative_path": "oracle/reference.py",
+      "adapted": false
+    },
+    {
+      "source_repository_path": "experiments/unattended-optimization/oracle/evaluate.py",
+      "original_sha256": "749b673fd172f8599d8e8cbffe1e674fd872c6f17a47a9d8482fbae48e715994",
+      "v2_relative_path": "oracle/evaluate.py",
+      "adapted": true
+    },
+    {
+      "source_repository_path": "experiments/unattended-optimization/oracle/cases.py",
+      "original_sha256": "1f0c71a5b8f3d9972e4f5d8aeeda347d29119dfcb69fdde4bb415d61d059fb18",
+      "v2_relative_path": "oracle/cases.py",
+      "adapted": true
+    }
+  ]
+}

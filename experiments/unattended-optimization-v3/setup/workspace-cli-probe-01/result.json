@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "model_turns_requested": 0,
+  "started_unix": 1790881793.2687557,
+  "checks": [
+    {
+      "name": "normal",
+      "pass": true,
+      "root_exit_code": 0,
+      "cleanup_complete": true,
+      "reason": "command_completed"
+    },
+    {
+      "name": "background",
+      "pass": true,
+      "root_exit_code": 0,
+      "cleanup_complete": true,
+      "reason": "background_descendants_cleaned"
+    },
+    {
+      "name": "outside_write",
+      "pass": true,
+      "root_exit_code": 1,
+      "cleanup_complete": true,
+      "reason": "command_completed"
+    },
+    {
+      "name": "network",
+      "pass": true,
+      "root_exit_code": 1,
+      "cleanup_complete": true,
+      "reason": "command_completed"
+    }
+  ],
+  "thread_start_metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "high",
+    "modelProvider": "openai",
+    "cwd": "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/setup/workspace-cli-probe-01/actor",
+    "thread": {
+      "id": "01a0f8df-8935-7ca1-812d-05e52f493083",
+      "cliVersion": "0.159.3"
+    },
+    "approvalPolicy": "never",
+    "sandbox": {
+      "type": "workspaceWrite",
+      "networkAccess": false,
+      "excludeTmpdirEnvVar": true,
+      "excludeSlashTmp": true,
+      "writableRoots": []
+    }
+  },
+  "requested_shell_tool_enabled": false,
+  "cleanup": {
+    "launched": true,
+    "stderr_bytes": 0,
+    "event_stream_drained": true,
+    "event_processing_complete": true,
+    "event_processing_errors": 0,
+    "late_rpc_responses_ignored": 0,
+    "tracked_processes": [
+      {
+        "pid": 109012,
+        "observed_ppid": 109011,
+        "start_time_ticks": 7864408,
+        "depth": 0,
+        "sigterm_sent": true,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109019,
+        "observed_ppid": 109012,
+        "start_time_ticks": 7864411,
+        "depth": 1,
+        "sigterm_sent": true,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109186,
+        "observed_ppid": 109019,
+        "start_time_ticks": 7864537,
+        "depth": 2,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109187,
+        "observed_ppid": 109186,
+        "start_time_ticks": 7864537,
+        "depth": 3,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109188,
+        "observed_ppid": 109186,
+        "start_time_ticks": 7864537,
+        "depth": 3,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109193,
+        "observed_ppid": 109186,
+        "start_time_ticks": 7864538,
+        "depth": 3,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109194,
+        "observed_ppid": 109193,
+        "start_time_ticks": 7864538,
+        "depth": 4,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109195,
+        "observed_ppid": 109194,
+        "start_time_ticks": 7864539,
+        "depth": 5,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109197,
+        "observed_ppid": 109195,
+        "start_time_ticks": 7864542,
+        "depth": 6,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109209,
+        "observed_ppid": 109019,
+        "start_time_ticks": 7864551,
+        "depth": 2,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109210,
+        "observed_ppid": 109209,
+        "start_time_ticks": 7864551,
+        "depth": 3,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109211,
+        "observed_ppid": 109209,
+        "start_time_ticks": 7864551,
+        "depth": 3,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109216,
+        "observed_ppid": 109209,
+        "start_time_ticks": 7864552,
+        "depth": 3,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109217,
+        "observed_ppid": 109216,
+        "start_time_ticks": 7864552,
+        "depth": 4,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 109218,
+        "observed_ppid": 109217,
+        "start_time_ticks": 7864553,
+        "depth": 5,
+        "sigterm_sent": false,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      }
+    ],
+    "tracking_scan_failures": 0,
+    "tracked_processes_exited": true,
+    "tracking_scope": "observed app-server descendants, including separate sessions; pidfd-bound identities",
+    "tracking_limit": "A process that reparents before it can be observed can escape tracking; no cgroup/subreaper containment claim",
+    "cleanup_caller_cancellation_observed": false
+  },
+  "finished_unix": 1790881794.8593159
+}

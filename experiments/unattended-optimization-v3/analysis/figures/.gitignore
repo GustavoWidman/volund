@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+# Generated vectors/rasters are reproduced by plot.py; the manuscript carries
+# its publication vectors separately. Exact input evidence is in release/.
+measured-assets-*/
+measured-data-*/figure-data.json
+measured-data-*/raw_pairs.csv
+measured-data-*/usage_curves.csv
+measured-data-*/usage_observations.csv

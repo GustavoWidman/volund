@@ -1,4 +1,4 @@
-# volund
+# Volund
 
 An empirical study of unattended multiagent program optimization.
 
@@ -23,12 +23,18 @@ No open-source license or public release is granted by this repository.
 
 `experiments/unattended-optimization-v3/` preserves source-relative paths needed by
 frozen protocols, harness/runtime, source tests, task contract/seed, analysis and
-figure generation. `release/v3-lean-evidence.tar.gz` stores the immutable numerical
-and source evidence rather than scattering 61,087 files through Git. Its manifest
-records every one of 21,571 full-only omitted files, hashes, sizes and reasons.
-`docs/ai-development-workflow/` contains the revised paper, supplement, bibliography,
-fonts, figures and audit mapping. `audit/` records this import and checks actually
-performed. `scripts/` provides safe offline verification entry points.
+figure generation. Selected small tables and scientific audit records are browsable.
+`docs/ai-development-workflow/` contains the paper, supplement, bibliography,
+fonts, figures and audit mapping. `audit/` records this import and performed checks.
+`scripts/` provides safe offline verification entry points.
+
+Bulk raw evidence is deliberately excluded from Git. A separate immutable lean
+archive contains 61,087 evidence files; its manifest also declares 21,571 full-only
+omissions. No release or external archive deposit is published yet. See
+[audit/evidence-availability.json](audit/evidence-availability.json) for exact pins.
+Full numerical replay requires that separately supplied archive. Source-only tests
+and repository integrity checks work from this checkout alone. Public archive
+hosting and final publication packaging remain pending.
 
 ## Interpretation limits
 

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.reproduction/
+.DS_Store
+.env
+.env.*
+
+# Bulk evidence is retained separately, not uploaded to Git.
+/experiments/unattended-optimization-v3/release/v3-lean-evidence.tar.gz

@@ -1,0 +1,37 @@
+{
+  "auth_content_inspected": false,
+  "auth_directory_exists": true,
+  "environment_preserved": true,
+  "model_inference_run": false,
+  "native_executables": [
+    "/usr/bin/x86_64-linux-gnu-g++-14",
+    "/workspace/scratch/eeae3ae186b3/profiling-tools/root/usr/bin/valgrind",
+    "/workspace/scratch/eeae3ae186b3/profiling-tools/root/usr/bin/valgrind.bin",
+    "/workspace/scratch/eeae3ae186b3/profiling-tools/root/usr/bin/callgrind_annotate",
+    "/workspace/scratch/eeae3ae186b3/profiling-tools/root/usr/libexec/valgrind/callgrind-amd64-linux",
+    "/workspace/scratch/eeae3ae186b3/profiling-tools/root/usr/libexec/valgrind/memcheck-amd64-linux"
+  ],
+  "official_artifacts": {
+    "/workspace/scratch/eeae3ae186b3/build-tools/codex-stable/node_modules/@openai/codex-linux-x64/package.json": "c15a303b61125351f1436bfc7531b4768d8f77096071cd39ba483a26ee37eb60",
+    "/workspace/scratch/eeae3ae186b3/build-tools/codex-stable/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex": "8bf204b36a2f6dd0dab73aa2f639892e67ef9ac8befccb4a05b1496ebf25c479",
+    "/workspace/scratch/eeae3ae186b3/build-tools/codex-stable/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex-code-mode-host": "fe64bd08c7844ca1fca91d8cb825e62012a03a05ae8040c635bbb61e5be0b4c5",
+    "/workspace/scratch/eeae3ae186b3/build-tools/codex-stable/node_modules/@openai/codex/bin/codex.js": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70",
+    "/workspace/scratch/eeae3ae186b3/build-tools/codex-stable/node_modules/@openai/codex/package.json": "4eef557f0e6bc0584b2b696438d475fd346035cb84eb81506419c83b6a085b61"
+  },
+  "root": "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3",
+  "status": "pass",
+  "versions": {
+    "callgrind_annotate": "callgrind_annotate-3.24.0",
+    "compiler": "g++-14 (Debian 14.2.0-19) 14.2.0",
+    "official_cli": "codex-cli 0.159.3",
+    "official_native": "codex-cli 0.159.3",
+    "valgrind": "valgrind-3.24.0"
+  },
+  "wrapper_import_and_help_from_unrelated_cwd": true,
+  "writable_deployment_directories": [
+    "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/state",
+    "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/setup",
+    "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/campaigns",
+    "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/assessment"
+  ]
+}

@@ -1,0 +1,7 @@
+test_build_repair_canonical_correctness_and_custom_check (__main__.NativeSmoke.test_build_repair_canonical_correctness_and_custom_check) ... RETAINED_NATIVE_SMOKE=/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/tests/development/native-smoke-1790885235608585351
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 22.962s
+
+OK

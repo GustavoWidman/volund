@@ -1,0 +1,26 @@
+{
+  "provenance": {
+    "source": "setup/thread-start-diagnostic-01/diagnostic.json",
+    "captured": "2026-10-01",
+    "kind": "actual owner-launched no-inference response, allowlisted projection",
+    "path_replacement": "cwd replaced with ${WORKSPACE} for portable replay; remaining response metadata unchanged"
+  },
+  "response": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "high",
+    "modelProvider": "openai",
+    "cwd": "${WORKSPACE}",
+    "thread": {
+      "id": "01a0f774-0a61-7b41-b4fb-3e3c55418161",
+      "cliVersion": "0.159.3"
+    },
+    "approvalPolicy": "never",
+    "sandbox": {
+      "type": "workspaceWrite",
+      "networkAccess": false,
+      "excludeTmpdirEnvVar": true,
+      "excludeSlashTmp": true,
+      "writableRoots": []
+    }
+  }
+}

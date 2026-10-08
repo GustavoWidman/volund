@@ -1,0 +1,1 @@
+{"cleanup_and_transport_allowance_seconds":90,"command_watchdog_seconds":300,"response_timeout_seconds":390,"timeout_action":"quarantine resources; never retry an unattested command"}

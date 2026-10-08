@@ -1,0 +1,26 @@
+{
+  "scope": "Bounded authoritative event, source, result and observable workspace-request audit; no private reasoning, credential/auth/session files and no new native execution.",
+  "inputs": {
+    "state/freeze.json": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+    "state/launch/status.json": "87988e5bf12868df3e3f1773cb1cc6314daf3d71f78cf60bb6ce0daa449fb14d",
+    "assessment/final/report.json": "4c0da852efa41ae3440c09a9faf2e6de0797ac1036ebbbdfc052b4f658f66227"
+  },
+  "findings": [],
+  "frozen_relative_files_checked": 68,
+  "changed_frozen_relative_files": [],
+  "final_operations": {
+    "build": 4,
+    "test": 8,
+    "memcheck": 4,
+    "bench": 6
+  },
+  "final_started_utc": "2026-10-02T00:22:48.054055+00:00",
+  "final_finished_utc": "2026-10-02T00:37:16.156200+00:00",
+  "observed_subtotal_sum_usd": [
+    "17.07544846",
+    "18.230435610"
+  ]
+}
+campaign-1 {'agents': 7, 'turns': 20, 'hypotheses': {'contradicted': 2, 'supported': 3}, 'reviews': {'claim': 6, 'nomination': 2}, 'native_operations': {'build': 14, 'profile': 61, 'bench': 16, 'test': 14, 'memcheck': 12}, 'native_by_role': {'implementation': {'build': 6, 'profile': 20, 'bench': 5, 'memcheck': 5, 'test': 6}, 'measurement': {'profile': 6, 'bench': 2, 'test': 1, 'memcheck': 1}, 'owner': {'build': 1, 'bench': 1, 'test': 1}, 'reviewer': {'profile': 35, 'bench': 8, 'test': 6, 'memcheck': 6, 'build': 7}}, 'native_outer_seconds': 708.9572418480675, 'workspace_tools': {'study_workspace_exec': 5, 'study_workspace_search': 20, 'study_workspace_read': 177, 'study_workspace_list': 44, 'study_workspace_write': 7}, 'workspace_status': {'ok': 249, 'command_failed': 1, 'request_error': 3}, 'scope_pattern_matches': [], 'benchmark_attempt_numbers': {1: 16}, 'short_scored_batches': 22, 'owner_to_source_seal_seconds': 4833.987113952637, 'host_wall_including_closing_cleanup_seconds': 5087.958800674009, 'last_usage_seconds_after_source_seal': 261.8609962463379}
+campaign-2 {'agents': 8, 'turns': 21, 'hypotheses': {'inconclusive': 1, 'supported': 3}, 'reviews': {'claim': 4, 'nomination': 3}, 'native_operations': {'build': 12, 'memcheck': 12, 'profile': 72, 'bench': 16, 'test': 13}, 'native_by_role': {'implementation': {'memcheck': 4, 'bench': 4, 'profile': 24, 'build': 4, 'test': 4}, 'measurement': {'profile': 6, 'bench': 2, 'test': 1, 'memcheck': 1}, 'owner': {'build': 1, 'bench': 2, 'test': 1}, 'reviewer': {'build': 7, 'profile': 42, 'bench': 8, 'test': 7, 'memcheck': 7}}, 'native_outer_seconds': 718.4627951330331, 'workspace_tools': {'study_workspace_read': 259, 'study_workspace_write': 13, 'study_workspace_search': 45, 'study_workspace_list': 58, 'study_workspace_exec': 10}, 'workspace_status': {'ok': 380, 'request_error': 4, 'command_failed': 1}, 'scope_pattern_matches': [], 'benchmark_attempt_numbers': {1: 16}, 'short_scored_batches': 14, 'owner_to_source_seal_seconds': 4422.256377220154, 'host_wall_including_closing_cleanup_seconds': 4454.923770705995, 'last_usage_seconds_after_source_seal': 40.76380515098572}
+campaign-3 {'agents': 6, 'turns': 27, 'hypotheses': {'contradicted': 1, 'supported': 3}, 'reviews': {'claim': 4, 'nomination': 3}, 'native_operations': {'profile': 64, 'build': 12, 'bench': 14, 'memcheck': 12, 'test': 13}, 'native_by_role': {'implementation': {'profile': 24, 'bench': 4, 'memcheck': 4, 'build': 4, 'test': 4}, 'measurement': {'profile': 6, 'test': 1, 'memcheck': 1, 'bench': 1}, 'owner': {'test': 1, 'bench': 2, 'build': 1}, 'reviewer': {'profile': 34, 'build': 7, 'bench': 7, 'test': 7, 'memcheck': 7}}, 'native_outer_seconds': 701.3527041789202, 'workspace_tools': {'study_workspace_read': 182, 'study_workspace_exec': 35, 'study_workspace_search': 11, 'study_workspace_list': 60, 'study_workspace_write': 15}, 'workspace_status': {'ok': 291, 'command_failed': 7, 'request_error': 5}, 'scope_pattern_matches': [], 'benchmark_attempt_numbers': {1: 14}, 'short_scored_batches': 51, 'owner_to_source_seal_seconds': 5079.240645647049, 'host_wall_including_closing_cleanup_seconds': 5205.289368359008, 'last_usage_seconds_after_source_seal': 134.00750184059143}

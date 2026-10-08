@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "model_turns_requested": 0,
+  "started_unix": 1790883369.4697716,
+  "checks": [
+    {
+      "name": "existing_auth_mode",
+      "pass": true
+    },
+    {
+      "name": "sandbox_workspace_write_tool",
+      "pass": true
+    },
+    {
+      "name": "bounded_read_during_measurement_lane",
+      "pass": true
+    },
+    {
+      "name": "compile_queues_behind_measurement",
+      "pass": true
+    },
+    {
+      "name": "queued_compile_runs_after_lane_release",
+      "pass": true
+    },
+    {
+      "name": "ordinary_failure_repairable",
+      "pass": true
+    },
+    {
+      "name": "followup_after_command_failure",
+      "pass": true
+    },
+    {
+      "name": "cancellation_target_really_started",
+      "pass": true
+    },
+    {
+      "name": "cancellation_cleanup_before_lane_release",
+      "pass": true
+    }
+  ],
+  "actor_ids_are_setup_placeholders_not_model_threads": true,
+  "tested_source_sha256": {
+    "runtime/workspace.py": "f8db399def7a01636bd3b07afb97e04f5c4f957372921e83b226e9cef67b1d5e",
+    "runtime/command_supervisor.py": "bec669771737ad941ab566554fc8084ea0b7de8d28f488e9e29c07d5ef58eff3",
+    "runtime/transport.py": "d6d0f1ad0d7896056ad1edf54531629910e53e24e13cfe1cc43afce6478fea60",
+    "owner/measurement.py": "a2aedc6ed67c84ee72d0303bfd1badd19a224e1cd74fda09400c028f4b66beea",
+    "runtime/contracts.py": "79ee3830b2fb3410dbc3c0f2cb259b89a6e321946a17584279ee63423518cdf3"
+  },
+  "router_cleanup": {
+    "drained": true,
+    "quarantine": null
+  },
+  "rpc_cleanup": {
+    "launched": true,
+    "stderr_bytes": 0,
+    "event_stream_drained": true,
+    "event_processing_complete": true,
+    "event_processing_errors": 0,
+    "late_rpc_responses_ignored": 0,
+    "tracked_processes": [
+      {
+        "pid": 113565,
+        "observed_ppid": 113564,
+        "start_time_ticks": 8022028,
+        "depth": 0,
+        "sigterm_sent": true,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      },
+      {
+        "pid": 113572,
+        "observed_ppid": 113565,
+        "start_time_ticks": 8022032,
+        "depth": 1,
+        "sigterm_sent": true,
+        "sigkill_sent": false,
+        "signal_denied": false,
+        "exit_observed": true
+      }
+    ],
+    "tracking_scan_failures": 0,
+    "tracked_processes_exited": true,
+    "tracking_scope": "observed app-server descendants, including separate sessions; pidfd-bound identities",
+    "tracking_limit": "A process that reparents before it can be observed can escape tracking; no cgroup/subreaper containment claim",
+    "cleanup_caller_cancellation_observed": false
+  },
+  "coordinator": {
+    "active": null,
+    "queued": [],
+    "completed_leases": 6,
+    "quarantine": null
+  },
+  "finished_unix": 1790883370.5883286
+}

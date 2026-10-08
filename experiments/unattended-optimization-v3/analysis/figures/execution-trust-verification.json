@@ -1,0 +1,16 @@
+{
+  "scope": "analysis-only static and focused synthetic execution-trust checks",
+  "focused_tests_passed": 12,
+  "test_runtime_seconds": 0.021,
+  "exact_freeze_authenticated_before_code": true,
+  "frozen_pricing_bytes_checked_before_compile": true,
+  "all_symlink_components_rejected": true,
+  "evidence_root_optional_helpers_executed": false,
+  "trusted_helper_sha256": "0feb711675481377a2e994fe84b2c955bc44b93aa37979aa1199722ec1301da9",
+  "strict_json": "duplicate keys, nonfinite constants, and float overflow refused",
+  "source_sha256": "6f70bbfa40cb61d92fec661566337cc55bf78ba6464821234e8ebb119f15d3f7",
+  "complete_unit_suite_executed": false,
+  "rendered_figures": false,
+  "read_heldout": false,
+  "ran_benchmarks": false
+}

@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+
+# Runtime evidence is retained locally and packaged separately; never add auth.
+campaigns/
+state/
+assessment/
+tests/development/native-smoke-*/
+
+# Generated data and binaries are reproducible from the committed definitions.
+setup/*
+!setup/host-preparation.json
+!setup/final-evaluator-config-transfer.json
+!setup/final-evaluator-config-shift.json
+!setup/verification/
+
+*.so
+*.input.bin
+*.expected.bin

@@ -1,0 +1,506 @@
+{
+  "profile": [
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.12,
+      "direct_crosscheck": {
+        "mode": "all"
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 1000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-profile-small-build",
+      "query_count": 16,
+      "query_width_fraction": [
+        1e-06,
+        0.05
+      ],
+      "seed": 2026100201,
+      "shape": "small_build",
+      "stream_cardinality": 64,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.05,
+      "direct_crosscheck": {
+        "mode": "all"
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 12000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-profile-sparse-narrow",
+      "narrow_width_max": 1500,
+      "query_count": 256,
+      "seed": 2026100202,
+      "shape": "sparse_narrow",
+      "stream_cardinality": 4096,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.15,
+      "direct_crosscheck": {
+        "mode": "all"
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 16000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-profile-dense-wide",
+      "query_count": 64,
+      "query_width_fraction": [
+        0.2,
+        1.0
+      ],
+      "seed": 2026100203,
+      "shape": "dense_wide",
+      "stream_cardinality": 16,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.65,
+      "direct_crosscheck": {
+        "mode": "all"
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 12000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-profile-global-mixed",
+      "query_count": 192,
+      "query_width_fraction": [
+        0.0001,
+        1.0
+      ],
+      "seed": 2026100204,
+      "shape": "global_mixed",
+      "stream_cardinality": 128,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.1,
+      "direct_crosscheck": {
+        "mode": "all"
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 16000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.95,
+      "hot_query_fraction": 0.85,
+      "id": "v2-profile-skewed",
+      "query_count": 128,
+      "query_width_fraction": [
+        0.001,
+        0.75
+      ],
+      "seed": 2026100205,
+      "shape": "skewed",
+      "stream_cardinality": 512,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.05,
+      "direct_crosscheck": {
+        "mode": "all"
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 12000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-profile-high-cardinality",
+      "query_count": 256,
+      "query_width_fraction": [
+        0.001,
+        0.5
+      ],
+      "seed": 2026100206,
+      "shape": "high_cardinality",
+      "stream_cardinality": 180000,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    }
+  ],
+  "schema_version": 1,
+  "seed_namespace": "v2-final-20261001",
+  "shift": [
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.12,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          12,
+          24,
+          47
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 2400,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-shift-small_build",
+      "query_count": 48,
+      "query_width_fraction": [
+        1e-06,
+        0.05
+      ],
+      "seed": 2026102001,
+      "shape": "small_build",
+      "stream_cardinality": 61,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 1000000
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.05,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          550,
+          1100,
+          2199
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 280000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-shift-sparse_narrow",
+      "narrow_width_max": 4000,
+      "query_count": 2200,
+      "seed": 2026102002,
+      "shape": "sparse_narrow",
+      "stream_cardinality": 512,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 4000000
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.15,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          180,
+          360,
+          719
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 350000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-shift-dense_wide",
+      "query_count": 720,
+      "query_width_fraction": [
+        0.2,
+        1.0
+      ],
+      "seed": 2026102003,
+      "shape": "dense_wide",
+      "stream_cardinality": 24,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 1000000
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.65,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          450,
+          900,
+          1799
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 200000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-shift-global_mixed",
+      "query_count": 1800,
+      "query_width_fraction": [
+        0.0001,
+        1.0
+      ],
+      "seed": 2026102004,
+      "shape": "global_mixed",
+      "stream_cardinality": 128,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 281474976710655
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.1,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          350,
+          700,
+          1399
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 380000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.97,
+      "hot_query_fraction": 0.8,
+      "id": "v2-shift-skewed",
+      "query_count": 1400,
+      "query_width_fraction": [
+        0.001,
+        0.75
+      ],
+      "seed": 2026102005,
+      "shape": "skewed",
+      "stream_cardinality": 1024,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 8000000
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.05,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          600,
+          1200,
+          2399
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 320000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-shift-high_cardinality",
+      "query_count": 2400,
+      "query_width_fraction": [
+        0.001,
+        0.5
+      ],
+      "seed": 2026102006,
+      "shape": "high_cardinality",
+      "stream_cardinality": 90000,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 281474976710655
+    }
+  ],
+  "status": "owner_only_final_fixture_definition_draft_until_protocol_freeze",
+  "transfer": [
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.12,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          11,
+          15
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 1000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-transfer-small_build",
+      "query_count": 16,
+      "query_width_fraction": [
+        1e-06,
+        0.05
+      ],
+      "seed": 2026101001,
+      "shape": "small_build",
+      "stream_cardinality": 64,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.05,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          11,
+          15
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 160000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-transfer-sparse_narrow",
+      "narrow_width_max": 1500,
+      "query_count": 1800,
+      "seed": 2026101002,
+      "shape": "sparse_narrow",
+      "stream_cardinality": 4096,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.15,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          11,
+          15
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 220000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-transfer-dense_wide",
+      "query_count": 500,
+      "query_width_fraction": [
+        0.2,
+        1.0
+      ],
+      "seed": 2026101003,
+      "shape": "dense_wide",
+      "stream_cardinality": 16,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.65,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          11,
+          15
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 125000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-transfer-global_mixed",
+      "query_count": 1400,
+      "query_width_fraction": [
+        0.0001,
+        1.0
+      ],
+      "seed": 2026101004,
+      "shape": "global_mixed",
+      "stream_cardinality": 128,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.1,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          11,
+          15
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 250000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.95,
+      "hot_query_fraction": 0.85,
+      "id": "v2-transfer-skewed",
+      "query_count": 1000,
+      "query_width_fraction": [
+        0.001,
+        0.75
+      ],
+      "seed": 2026101005,
+      "shape": "skewed",
+      "stream_cardinality": 512,
+      "timestamp_distribution": "clustered",
+      "timestamp_max": 999999
+    },
+    {
+      "absent_query_fraction": 0.05,
+      "all_stream_query_fraction": 0.05,
+      "direct_crosscheck": {
+        "mode": "sampled",
+        "query_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          11,
+          15
+        ]
+      },
+      "empty_query_fraction": 0.02,
+      "event_count": 180000,
+      "force_first_global_query": true,
+      "hot_event_fraction": 0.0,
+      "hot_query_fraction": 0.0,
+      "id": "v2-transfer-high_cardinality",
+      "query_count": 1800,
+      "query_width_fraction": [
+        0.001,
+        0.5
+      ],
+      "seed": 2026101006,
+      "shape": "high_cardinality",
+      "stream_cardinality": 180000,
+      "timestamp_distribution": "uniform",
+      "timestamp_max": 999999
+    }
+  ]
+}

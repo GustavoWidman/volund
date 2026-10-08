@@ -1,0 +1,16 @@
+campaign,role,lower_usd,upper_usd,lower_usd_decimal,upper_usd_decimal,missing_usage_threads,observed_accounting_complete,actual_billed_cost,rates_as_of,hypothetical_tier,whole_model_work_verified,interrupted_usage_tail_unknown,remote_compaction_observed,frozen_broad_lower_usd,frozen_broad_upper_usd
+campaign-1,lead,2.7033964,2.8492789,2.7033964,2.8492789,0,True,,2026-10-01,Standard,False,False,False,2.7033964,5.3611078
+campaign-1,measurement,0.02487838,0.02821183,0.02487838,0.028211830,0,True,,2026-10-01,Standard,False,False,False,0.02487838,0.05387441
+campaign-1,investigation,0.04385814,0.04841649,0.04385814,0.048416490,0,True,,2026-10-01,Standard,False,False,False,0.04385814,0.08818573
+campaign-1,implementation,0.23926686,0.25464436,0.23926686,0.254644360,0,True,,2026-10-01,Standard,False,False,True,0.23926686,0.47744197
+campaign-1,reviewer,2.4798452,2.7237277,2.4798452,2.7237277,0,True,,2026-10-01,Standard,False,False,True,2.4798452,5.2284754
+campaign-2,lead,2.7778832,2.9011407,2.7778832,2.9011407,0,True,,2026-10-01,Standard,False,False,False,2.7778832,5.5842964
+campaign-2,measurement,0.02555148,0.027790855,0.02555148,0.027790855,0,True,,2026-10-01,Standard,False,False,False,0.02555148,0.05043096
+campaign-2,investigation,0.07163604,0.078294665,0.07163604,0.078294665,0,True,,2026-10-01,Standard,False,False,False,0.07163604,0.14251608
+campaign-2,implementation,0.15851036,0.16599666,0.15851036,0.165996660,0,True,,2026-10-01,Standard,False,False,False,0.15851036,0.30775682
+campaign-2,reviewer,2.6209672,2.8135282,2.6209672,2.8135282,0,True,,2026-10-01,Standard,False,False,False,2.6209672,5.4309364
+campaign-3,lead,2.8288848,2.9784553,2.8288848,2.9784553,0,True,,2026-10-01,Standard,False,False,False,2.8288848,5.6516956
+campaign-3,measurement,0.01438972,0.01580672,0.01438972,0.015806720,0,True,,2026-10-01,Standard,False,False,False,0.01438972,0.02899594
+campaign-3,investigation,0.03731528,0.04055048,0.03731528,0.040550480,0,True,,2026-10-01,Standard,False,False,False,0.03731528,0.07586796
+campaign-3,implementation,0.2267022,0.24015305,0.22670220,0.240153050,0,True,,2026-10-01,Standard,False,False,True,0.2267022,0.4444871
+campaign-3,reviewer,2.8223632,3.0644397,2.8223632,3.0644397,0,True,,2026-10-01,Standard,False,False,True,2.8223632,5.9068044

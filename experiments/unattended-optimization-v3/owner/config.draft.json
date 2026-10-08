@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "status": "draft_requires_real_preflight_and_readiness",
+  "campaign_count": 3,
+  "development_blocks": 10,
+  "final_blocks": 30,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026100302,
+  "minimum_portfolio": 1.03,
+  "minimum_lower": 1.0,
+  "family_floor": 0.9090909090909091,
+  "official_selection": "first_complete_valid_comparison_per_nomination",
+  "campaign_wall_cap": null,
+  "reviewer_wall_cap": null,
+  "token_cap": null,
+  "infrastructure_automatic_retries": 0,
+  "readiness_poll_seconds": 2.0,
+  "interpretation": "Operational noise/practicality gates; no campaign-wide significance claim"
+}

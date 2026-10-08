@@ -1,0 +1,18 @@
+{
+  "candidate_execution": false,
+  "counts": {
+    "profile": 6,
+    "shift": 6,
+    "transfer": 6
+  },
+  "final_definitions_sha256": "e23a0eac159e531b020f6562be6a6ff7a88e40b8cd178eb31961e6d40642bb2f",
+  "fixture_manifest_sha256": "166e44f61f5a67482de191da88bc88dbd5ee91eca93d2492b84e41f895878197",
+  "generator_sha256": "1b416042a47accb29da35f4997413ba3a3a9789d824b6ee8bf7e63879558c0a2",
+  "limitations": [
+    "Shared generator and predicate implementations require setup controls",
+    "Role-based embargo is not proof of adversarial filesystem isolation"
+  ],
+  "prepare_sha256": "a9c706934eca0fb8dea85e0aed03c3624f83e256710e5db751de026054c5dbc7",
+  "public_definitions_sha256": "5891b86ac036919e185c805a2cc2e8d3ce58f74058064d2839e35cda41e59445",
+  "status": "generated_setup_inputs_not_candidate_assessment"
+}

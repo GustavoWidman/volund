@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "data_sha256": "f1b08952ce7dbbae2aa8c4d9533e48074a23e94e3ed455411e556048b028c903",
+  "trajectory_measured_ratios": {
+    "campaign-1": [
+      1.7062020379782543,
+      2.291220656303371
+    ],
+    "campaign-2": [
+      1.28419494234079,
+      2.1526987417506755,
+      4.550808835460334
+    ],
+    "campaign-3": [
+      1.27747402217971,
+      2.233782941653175,
+      5.596247461186156
+    ]
+  },
+  "exact_checkpoint_token_coordinates": "all null, no interpolation",
+  "heldout": [
+    {
+      "campaign": "campaign-1",
+      "stratum": "transfer",
+      "ratio": 2.2398998349368395,
+      "one_sided90_lower": 2.221657790304839,
+      "measured": true
+    },
+    {
+      "campaign": "campaign-1",
+      "stratum": "shift",
+      "ratio": 2.235982846716021,
+      "one_sided90_lower": 2.2140958808031876,
+      "measured": true
+    },
+    {
+      "campaign": "campaign-2",
+      "stratum": "transfer",
+      "ratio": 4.547376725615697,
+      "one_sided90_lower": 4.5068981808298965,
+      "measured": true
+    },
+    {
+      "campaign": "campaign-2",
+      "stratum": "shift",
+      "ratio": 5.185988617904819,
+      "one_sided90_lower": 5.113856487289324,
+      "measured": true
+    },
+    {
+      "campaign": "campaign-3",
+      "stratum": "transfer",
+      "ratio": 5.444520114230915,
+      "one_sided90_lower": 5.389701921077788,
+      "measured": true
+    },
+    {
+      "campaign": "campaign-3",
+      "stratum": "shift",
+      "ratio": 5.29448133316452,
+      "one_sided90_lower": 5.235481028720141,
+      "measured": true
+    }
+  ],
+  "C1_shift_sparse_ratio": 0.9113552309891593,
+  "table_row_counts": {
+    "campaigns": 3,
+    "trajectories": 11,
+    "families": 312,
+    "raw_pairs": 3840,
+    "operations": 357,
+    "process_events": 166,
+    "nominations": 8,
+    "hypotheses": 13,
+    "threads": 21,
+    "usage_observations": 1372,
+    "usage_curves": 1372,
+    "heldout": 6,
+    "cost_bounds": 15,
+    "final_attempts": 22
+  },
+  "extraction_input_changes": false,
+  "raw_measurement_changes": false,
+  "benchmark_or_model_calls": false
+}

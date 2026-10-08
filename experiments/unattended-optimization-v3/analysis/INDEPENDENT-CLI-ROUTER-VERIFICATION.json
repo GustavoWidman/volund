@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "scope": "Independent inspection of actual no-inference CLI-router setup evidence; not a measured campaign or model setup verdict",
+  "verified_unix": 1790883501.9326613,
+  "source_report": "setup/workspace-router-probe-02/result.json",
+  "source_report_sha256": "fad9d16b8b0281a997a22429418b27e0db2994e1d23275332207e568a61e69d5",
+  "tested_source_sha256": {
+    "runtime/workspace.py": "f8db399def7a01636bd3b07afb97e04f5c4f957372921e83b226e9cef67b1d5e",
+    "runtime/command_supervisor.py": "bec669771737ad941ab566554fc8084ea0b7de8d28f488e9e29c07d5ef58eff3",
+    "runtime/transport.py": "d6d0f1ad0d7896056ad1edf54531629910e53e24e13cfe1cc43afce6478fea60",
+    "owner/measurement.py": "a2aedc6ed67c84ee72d0303bfd1badd19a224e1cd74fda09400c028f4b66beea",
+    "runtime/contracts.py": "79ee3830b2fb3410dbc3c0f2cb259b89a6e321946a17584279ee63423518cdf3"
+  },
+  "checks": {
+    "probe_passed": true,
+    "all_nine_probe_checks_passed": true,
+    "no_model_turns": true,
+    "source_hashes_match": true,
+    "router_drained": true,
+    "no_quarantine": true,
+    "lane_empty": true,
+    "transport_and_processes_clean": true,
+    "all_six_operations_verified": true,
+    "started_cancellation_retained": true
+  },
+  "operations": [
+    {
+      "operation_id": "workspace-9496a46e12544b7da650366ad2979c20",
+      "tool": "study_workspace_exec",
+      "status": "ok",
+      "request_sha256": "3af6dc63e32d1923e1d1bb63b1ab79aefe8550dcebc9307f3cf845267062acd4",
+      "result_sha256": "9f12ffbd2ee4bc4a2e01257c46dcd92c29bc991f803e96356463cb34b222c925",
+      "verified": true,
+      "reason": "command_completed",
+      "root_exit_code": 0,
+      "reaped_count": 1,
+      "output_hashes_verified": true
+    },
+    {
+      "operation_id": "workspace-b50ec4efae19426fa022170deb03d092",
+      "tool": "study_workspace_exec",
+      "status": "command_failed",
+      "request_sha256": "069c99b249c2995f9da1384cc37b65cf654d2069285c532f28cebc1767e721a1",
+      "result_sha256": "62a79992fe8f38b06ff7e0f3cb8207180958ba32dc3029cb6ede63bb3d65a32a",
+      "verified": true,
+      "reason": "command_completed",
+      "root_exit_code": 9,
+      "reaped_count": 1,
+      "output_hashes_verified": true
+    },
+    {
+      "operation_id": "workspace-c6da7794643c475295e83a3acd0c045d",
+      "tool": "study_workspace_write",
+      "status": "ok",
+      "request_sha256": "b96c0855e828ff9d298406fd890fbc70dd2e96b31aa6d1f3004838dd6512dc00",
+      "result_sha256": "870724ac356adcaa69f17d4a8dc86622ccea968660648733dd76367aef7c89b4",
+      "verified": true
+    },
+    {
+      "operation_id": "workspace-d4fe22cc1d5048ef939e62a2381f5a05",
+      "tool": "study_workspace_exec",
+      "status": "ok",
+      "request_sha256": "99a5dcf313b485e1502ac267396328d6737fd004c42e08340256697b32496afd",
+      "result_sha256": "ece4aac45ed14e1b049af6807548c46be7e53750fa5f39fe356e85ee7ca6ca49",
+      "verified": true,
+      "reason": "command_completed",
+      "root_exit_code": 0,
+      "reaped_count": 1,
+      "output_hashes_verified": true
+    },
+    {
+      "operation_id": "workspace-e1e6644fa224440f8ca4b7c14c35654d",
+      "tool": "study_workspace_read",
+      "status": "ok",
+      "request_sha256": "3c093f68e7793d5784bcf2eb5169d0939eebca5cdacbe7a9d33992a63f67c90f",
+      "result_sha256": "1e6fc1387e8560cfabdd405f9cdb8593bcda7c454d3fa13e8071faa474e71d26",
+      "verified": true
+    },
+    {
+      "operation_id": "workspace-f894b408de7741d2bc1a2cab846ef494",
+      "tool": "study_workspace_exec",
+      "status": "cancelled",
+      "request_sha256": "7cf0ec9cc37bc52380fd3b5253ee9990ebff812ec5e35c5c89c6bbb7fe8f157c",
+      "result_sha256": "fc92c2e0b34b8997de6cd2bba7f496d10b123c8b8537ea4c3b62d1866d07eb1b",
+      "verified": true,
+      "reason": "interrupted",
+      "root_exit_code": -15,
+      "reaped_count": 2,
+      "output_hashes_verified": true
+    }
+  ]
+}

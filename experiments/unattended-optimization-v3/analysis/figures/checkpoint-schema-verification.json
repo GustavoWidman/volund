@@ -1,0 +1,32 @@
+{
+  "scope": "bounded sealed C1 identity and original-path verification; no performance or held-out extraction",
+  "freeze_sha256": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+  "original_root": "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3",
+  "terminal_sha256": "5cfb3a5d8d48e7df6df3f8bfde037760e5689e23b0b9d7b13699208e4d1d5520",
+  "state_sha256": "89d1965aedb257551866c1067dd3bd4e5d7627262580eb5331fff4a2c3e788b1",
+  "checks": [
+    {
+      "checkpoint": 1,
+      "checkpoint_sha256": "4e06357b57cee7f3fe9648a2e74e2c3fe4a7056cde8c92902d66c5abe0f4e8f1",
+      "runtime_source_absent": true,
+      "campaign_id_absent": true,
+      "usage_coordinate_complete": false,
+      "checkpoint_identity_status": "anchored_artifact_and_terminal_host_agents_verified",
+      "checkpoint_agent_count": 6,
+      "checkpoint_thread_identity_pending": 0
+    },
+    {
+      "checkpoint": 2,
+      "checkpoint_sha256": "fb751d130f77ae18501d84f6b0b453f7720caee7d69d6a9cb83f444429f3be48",
+      "runtime_source_absent": true,
+      "campaign_id_absent": true,
+      "usage_coordinate_complete": false,
+      "checkpoint_identity_status": "anchored_artifact_and_terminal_host_agents_verified",
+      "checkpoint_agent_count": 7,
+      "checkpoint_thread_identity_pending": 0
+    }
+  ],
+  "focused_tests_passed": 6,
+  "rendered_figures": false,
+  "read_heldout": false
+}

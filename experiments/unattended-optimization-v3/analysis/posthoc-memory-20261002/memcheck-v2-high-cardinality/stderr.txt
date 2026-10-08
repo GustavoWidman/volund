@@ -1,0 +1,14 @@
+==7== Memcheck, a memory error detector
+==7== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==7== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==7== Command: /workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/setup/native-validation-01/driver --library /workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/assessment/final/campaign-3/build/candidate.so --input /workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/setup/native-validation-01/public-fixtures/v2-high-cardinality.input.bin --expected /workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3/setup/native-validation-01/public-fixtures/v2-high-cardinality.expected.bin --mode verify --min-seconds 0.05 --max-repetitions 65536 --warmups 1
+==7== 
+==7== 
+==7== HEAP SUMMARY:
+==7==     in use at exit: 0 bytes in 0 blocks
+==7==   total heap usage: 3,245 allocs, 3,245 frees, 20,661,454 bytes allocated
+==7== 
+==7== All heap blocks were freed -- no leaks are possible
+==7== 
+==7== For lists of detected and suppressed errors, rerun with: -s
+==7== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

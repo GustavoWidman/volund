@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "source": "setup/live-preflight/scratch/reviewer/agent-4/report.json",
+    "captured": "2026-10-01",
+    "kind": "ordinary compact final report, no private reasoning or raw session data"
+  },
+  "report": {
+    "summary": "Independent SETUP nomination review-1 rejected unchanged seed without promotion. Authoritative hypothesis review-2 endorsed the bounded supported instrumentation disposition using actual official rerun evidence. Ready for closure review.",
+    "artifacts": [
+      "review-1",
+      "review-plan-e2c07f8a55554366907b5dc85b022581",
+      "build 04939d1c5cf943a094620315c1e754a5",
+      "test 43904735810b404bac7349e091ec4b76",
+      "profile a828cc5820b34d28af60889129616abc",
+      "complete-suite memcheck 268c5f12a6a54eefb92e19dfb0747c6b",
+      "first designated official bench d3dbdfdc24f14090882d761e8ed61b9b",
+      "baseline infra_error dd2fa58a3f7446b6b95cf6b6aa088030",
+      "repair build 024aacde26ef43f6aab767f397d5da2a; repair test dc2275c5ba40407e90f085a9ec504b46; repair profile 93dd008e77bc447cb58393542deeca92",
+      "hypothesis review-plan-42c78c3afd9a47d09113565771ed8ca1",
+      "hypothesis source/profile/bench inspections inspection-12, inspection-14, inspection-13",
+      "hypothesis official build 971f054b62f14d3fa68295dd15357f2d",
+      "hypothesis official profile 3f939c45b2c6477ba17ab000ac4f2d21",
+      "hypothesis official verification benchmark 14a37f8d0678496e967a40fb5d159c09",
+      "claim review-2 assessment endorsed"
+    ],
+    "checks": [
+      "Copied contract read; immutable candidate and parent hash both affa5519e8824d3a22eb1f31a6187b8fc3fcb4bc0dba72fa10ddd07145d7935b; engine.cpp file hash d32e6ec47c628378248720b38e3b6c1d63c9da867f72adb92bf836213e894414.",
+      "Official canonical build passed with inspected fixed flags; tests 89/89.",
+      "Public v2-profile-global-mixed profile inspected: 8,050,253 Ir. Instruction counts only.",
+      "COMPLETE Memcheck omitted fixture_id and passed all six fixtures; inspected zero-error and no remaining heap-block diagnostics.",
+      "First designated official benchmark passed against bound parent build 6fe54596257042d7aace4b900f698a50; 10 paired blocks, six families; no observed command overlap; integrity checks pass.",
+      "Aggregate baseline/candidate speedup 1.0004058272667948; candidate/reference reciprocal ratio 0.9995943373621647, within [0.95,1.05]. Equal-family geometric mean of median paired log ratios.",
+      "review_evidence verified all official operations. review-1 recommendation reject, changed_source=false, promoted=false.",
+      "Baseline infra_error retained and unusable for performance inference.",
+      "Repaired exploratory build/test/profile independently inspected; restored seed passed tests 89/89 and recorded 8,050,253 Ir.",
+      "Separate hypothesis-plan official canonical build passed; profile rerun 8,050,253 Ir, inspected.",
+      "Separate hypothesis-plan official verification benchmark passed, 10 blocks / six families, no observed command overlap; baseline/candidate speedup 0.983746986644913; candidate/reference ratio 1.0165215381350423. Original designated first ratio 0.9995943373621647 is unchanged and not replaced.",
+      "No ordinary command execution during either official benchmark. Distinct hypothesis-plan reruns retained solely as verification.",
+      "Owner status confirms hypothesis-1 disposition supported, review_id review-2; nomination-1 rejected; no promotions; incumbent remains original seed build 6fe54596257042d7aace4b900f698a50."
+    ],
+    "limitations": [
+      "Correctable claim assessment-label failures preserved in journal-13 and journal-18. Accepted value endorsed recorded authoritative review-2; API issue resolved without reading runtime internals.",
+      "Under-target high-cardinality batches retained and flagged; no benchmark repeats performed. External host load and missed command events not ruled out.",
+      "Correctable invalid reference selector request before benchmark returned reference is not approved by runtime; corrected to inherited, no comparison had executed.",
+      "Intentional failure 13f2bdf7469141d4b02234753ed9a518 inspection requires closure grant: evidence source differs from review plan.",
+      "Finite correctness/memory probes and nonhermetic build integrity checks have stated limits. Remain available for closure review."
+    ]
+  }
+}

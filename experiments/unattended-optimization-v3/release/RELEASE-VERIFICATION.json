@@ -1,0 +1,163 @@
+{
+  "canonical_final_report_sha256": "4c0da852efa41ae3440c09a9faf2e6de0797ac1036ebbbdfc052b4f658f66227",
+  "complete_allowed_inventory_sha256": "7398101410c730075d9555fbeee99858bd16c9ba7332e03ccb7f98f69c724fca",
+  "date_utc": "2026-10-02",
+  "frozen_execution_sha256": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+  "independent_review": {
+    "guard_addendum": "reviewer/resolved-origin-guard-review.json",
+    "report": "reviewer/INDEPENDENT-RELEASE-REVIEW.md",
+    "sha256": "b44843ba9b70d2920ea600078b8ebd683c1683253ba28f98a7da4ec53a060dce"
+  },
+  "inventory_review": {
+    "command_receipts_in_lean": 11874,
+    "external_dependency_metadata_only": 8,
+    "formal_readiness_revision_files": 3,
+    "full_inventory_sha256": "7398101410c730075d9555fbeee99858bd16c9ba7332e03ccb7f98f69c724fca",
+    "full_manifest_sha256": "f8b5013ee087ac80e35d669c0155bac468cc05a40ff20f2a175838c90ae1ef0f",
+    "lean_manifest_sha256": "2a8127785f5d5e2f2c42e8d1cf8061da344b174db7014907145bccc902f290aa",
+    "measurement_receipts_in_lean": 10080,
+    "ordinary_report_references_status": {
+      "unresolved_or_excluded_not_dereferenced": 437
+    },
+    "ordinary_runtime_streams_full_only": 25,
+    "paired_json_files_in_lean": 64,
+    "profile_annotation_files_in_lean": 832,
+    "raw_comparison_json_files_in_lean": 64,
+    "synthetic_portability_fixture_retained": true
+  },
+  "limitations": [
+    "External compiler/profiler/interpreter/runtime dependencies are metadata-only, not shipped or machine-hermetic",
+    "Lean omitted bytes remain hash commitments; verification does not claim those absent bytes were rehashed",
+    "Observed cumulative counters and cached/reasoning subset arithmetic do not establish provider billing completeness",
+    "Cache-write verification, missing/failed request costs, remote compaction and actual billing tier remain unknown",
+    "Bootstrap uncertainty is descriptive for adaptively selected comparisons",
+    "Finite secret/private-payload detectors and a typed ordinary runtime schema do not mathematically prove prose privacy",
+    "Hashes establish byte identity, not historical custody or independently reproducible wall-clock performance"
+  ],
+  "new_native_or_model_execution": false,
+  "no_stage_commit_upload_or_push": true,
+  "portability": {
+    "claim": "Bundled code replay succeeded at a new path under a Python file-open guard forbidding resolved original-study paths; this is not OS isolation or a hermetic machine image",
+    "full": {
+      "archive_manifest_sha256": "f8b5013ee087ac80e35d669c0155bac468cc05a40ff20f2a175838c90ae1ef0f",
+      "bundle": "/workspace/scratch/eeae3ae186b3/v3-reproduction-work/full-bundle",
+      "file_open_guard": {
+        "file_opens_observed": 276679,
+        "original_path_accesses_refused": 0
+      },
+      "native_or_model_execution": false,
+      "numeric_report_sha256": "1d3bf010dd5678eeb2844ec75e15dd91c035d0ad3d28e4763f2795c815f58c0e",
+      "original_bytes_rewritten": false,
+      "original_study_root": "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3",
+      "status": "portable_replay_passed"
+    },
+    "lean": {
+      "archive_manifest_sha256": "2a8127785f5d5e2f2c42e8d1cf8061da344b174db7014907145bccc902f290aa",
+      "bundle": "/workspace/scratch/eeae3ae186b3/v3-reproduction-work/lean-bundle",
+      "file_open_guard": {
+        "file_opens_observed": 223977,
+        "original_path_accesses_refused": 0
+      },
+      "native_or_model_execution": false,
+      "numeric_report_sha256": "b71fa3e1538b731ec1ad78317e2bafd6cc481e24abd4ca7c874297ff6033e408",
+      "original_bytes_rewritten": false,
+      "original_study_root": "/workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v3",
+      "status": "portable_replay_passed"
+    }
+  },
+  "schema_version": 1,
+  "scientific_equality": {
+    "campaign_operations": 357,
+    "checkpoints": 8,
+    "compared_fields": [
+      "workflows",
+      "comparisons",
+      "final",
+      "usage"
+    ],
+    "comparisons": 52,
+    "final_operations": 22,
+    "full_numeric_report_sha256": "1d3bf010dd5678eeb2844ec75e15dd91c035d0ad3d28e4763f2795c815f58c0e",
+    "lean_numeric_report_sha256": "b71fa3e1538b731ec1ad78317e2bafd6cc481e24abd4ca7c874297ff6033e408",
+    "new_native_or_model_execution": false,
+    "scientific_outputs_sha256": "9cb07ff2d59d8d5b32903130fc5ee21c315951049146a41b604f357bf26a714f",
+    "status": "full_and_lean_scientific_outputs_identical",
+    "verification_coverage_intentionally_differs": true
+  },
+  "scope_exclusions": [
+    "No old campaign data imported; inherited v2- fixture filenames are frozen V3 inputs",
+    "Post-hoc large-array memory diagnostics after this inventory are separate supplemental artifacts",
+    "Canonical manuscript and nested rendered figure outputs are separate derived deliverables"
+  ],
+  "size_budget": {
+    "actual_git_transport_bytes": 22327392,
+    "actual_lean_unpacked_file_bytes": 353883442,
+    "git_transport_budget_passed": true,
+    "git_transport_ceiling_bytes": 25000000,
+    "manifest_and_receipt_overhead_bytes": 21003130,
+    "note": "Planning ceiling counts selected evidence. Exact manifest/receipt overhead is additional and explicitly reported; no evidence silently dropped.",
+    "selected_lean_evidence_bytes": 332880312,
+    "selected_lean_evidence_ceiling_bytes": 350000000
+  },
+  "status": "full_and_lean_verified_replayed_and_compressed",
+  "test_suite": {
+    "log_sha256": "0cb8b9a7d41ef80eba3da7a039a8f72a353f60b6067d7eb1486eb9cad96e025c",
+    "synthetic_tests_passed": 18
+  },
+  "transports": {
+    "full": {
+      "archive_manifest_sha256": "f8b5013ee087ac80e35d669c0155bac468cc05a40ff20f2a175838c90ae1ef0f",
+      "compressed_bytes": 69265218,
+      "gzip_mtime": 0,
+      "link_or_special_members": 0,
+      "members": 82660,
+      "path": "/workspace/scratch/eeae3ae186b3/v3-reproduction-work/v3-full-evidence.tar.gz",
+      "sha256": "2561ed87f5fa3988b3817e9e939fed49b2d37f097a0bfeec5c34a94ab8962e87",
+      "status": "compressed_transport_all_members_verified",
+      "tar_mtime": 0,
+      "tar_ownership": "zeroed",
+      "uncompressed_file_bytes": 455275286,
+      "uncompressed_tar_bytes": 592322560
+    },
+    "lean": {
+      "archive_manifest_sha256": "2a8127785f5d5e2f2c42e8d1cf8061da344b174db7014907145bccc902f290aa",
+      "compressed_bytes": 22327392,
+      "gzip_mtime": 0,
+      "link_or_special_members": 0,
+      "members": 61089,
+      "path": "/workspace/scratch/eeae3ae186b3/v3-reproduction-work/v3-lean-evidence.tar.gz",
+      "sha256": "3b53371632c8010336be846232f0a73090baa8700fb6ab5ade9fa15ddfef5dae",
+      "status": "compressed_transport_all_members_verified",
+      "tar_mtime": 0,
+      "tar_ownership": "zeroed",
+      "uncompressed_file_bytes": 353883442,
+      "uncompressed_tar_bytes": 455925760
+    }
+  },
+  "verification": {
+    "full": {
+      "assessment_status": "complete",
+      "file_count": 82658,
+      "freeze_sha256": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+      "kind": "v3-preserved-evidence-archive",
+      "manifest_sha256": "f8b5013ee087ac80e35d669c0155bac468cc05a40ff20f2a175838c90ae1ef0f",
+      "native_environment_reproduced": false,
+      "omitted_bytes_verified": null,
+      "omitted_file_count": 0,
+      "scientific_result_release": true,
+      "status": "verified_present_bytes"
+    },
+    "lean": {
+      "assessment_status": "complete",
+      "file_count": 61087,
+      "freeze_sha256": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+      "kind": "v3-source-and-essential-data",
+      "manifest_sha256": "2a8127785f5d5e2f2c42e8d1cf8061da344b174db7014907145bccc902f290aa",
+      "native_environment_reproduced": false,
+      "omitted_bytes_verified": false,
+      "omitted_file_count": 21571,
+      "scientific_result_release": true,
+      "status": "verified_present_bytes"
+    }
+  }
+}

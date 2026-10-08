@@ -1,0 +1,1 @@
+{"elapsed_seconds":0.096014261000000004,"seconds_per_call":0.096014261000000004,"repetitions":1,"sample_target_met":true,"peak_rss_kib":89844,"verified_calls":1,"callgrind_headers":true,"sink":250000}

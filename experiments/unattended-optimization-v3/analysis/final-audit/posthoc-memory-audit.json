@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "probe": "v2-global-mixed",
+      "events": 125000,
+      "queries": 1400,
+      "global_needed": true,
+      "largest_requested_stream": 1039,
+      "large_arrays": [
+        [
+          "global",
+          125000,
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "projection_byte_identity": null
+    },
+    {
+      "probe": "v2-skewed",
+      "events": 250000,
+      "queries": 1000,
+      "global_needed": true,
+      "largest_requested_stream": 237591,
+      "large_arrays": [
+        [
+          "global",
+          250000,
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "projection_byte_identity": null
+    },
+    {
+      "probe": "v2-high-cardinality",
+      "events": 180000,
+      "queries": 1800,
+      "global_needed": true,
+      "largest_requested_stream": 8,
+      "large_arrays": [
+        [
+          "global",
+          180000,
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "projection_byte_identity": null
+    },
+    {
+      "probe": "v2-skewed-stream-only",
+      "events": 250000,
+      "queries": 888,
+      "global_needed": false,
+      "largest_requested_stream": 237591,
+      "large_arrays": [
+        [
+          0,
+          237591,
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "projection_byte_identity": true
+    },
+    {
+      "probe": "v2-skewed-global-only",
+      "events": 250000,
+      "queries": 112,
+      "global_needed": true,
+      "largest_requested_stream": 0,
+      "large_arrays": [
+        [
+          "global",
+          250000,
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "projection_byte_identity": true
+    }
+  ],
+  "protected_files_checked": 477,
+  "protected_file_mismatches": [],
+  "input_identities": {
+    "plan.json": "e29addba84964e0b80be0bb321a517641d61b809c9cb006fcf6281d8b8c2194e",
+    "results.json": "a358e4e8a149e12cecc69bcda85496f19be68daa48056921d5685455b1a7f3a4",
+    "protected-files.json": "e6a3f0151d85d5ae84708f15312db4b5144c9d4b762e5f9ab566b4b3ceee82e4",
+    "integrity-before.json": "2122d30166ef36765e7b5cae14ec99e033b22bbca055127520d60088fffaf455",
+    "integrity-after.json": "2122d30166ef36765e7b5cae14ec99e033b22bbca055127520d60088fffaf455",
+    "run_diagnostic.py": "ac3eb407b5a9296930d1275192837979e755adc52042d4327fbbac322796153d"
+  }
+}

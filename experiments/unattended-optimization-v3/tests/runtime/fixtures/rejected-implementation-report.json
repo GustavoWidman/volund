@@ -1,0 +1,28 @@
+{
+  "provenance": {
+    "source": "setup/live-preflight/scratch/implementation/agent-3/report.json",
+    "captured": "2026-10-01",
+    "kind": "ordinary compact final report, no private reasoning or raw session data"
+  },
+  "report": {
+    "summary": "Live preflight completed. Intentional failure evidence is preserved. The repaired source matches the seed byte-for-byte; no further investigation was run.",
+    "artifacts": [
+      "Injected snapshot source hash: 54a435fe487a9c37e506f530ba1ffa196213b0cd1bed6141ef6d06a094e409e9. Failure build operation/evidence ID: 13f2bdf7469141d4b02234753ed9a518. Diagnostic: /workspace/scratch/eeae3ae186b3/interno-study/experiments/unattended-optimization-v2/setup/live-preflight/development/operations/13f2bdf7469141d4b02234753ed9a518/compile/stderr.txt",
+      "Repaired snapshot source hash: affa5519e8824d3a22eb1f31a6187b8fc3fcb4bc0dba72fa10ddd07145d7935b (same as seed).",
+      "Repaired build operation/evidence ID: 024aacde26ef43f6aab767f397d5da2a.",
+      "Repaired test operation/evidence ID: dc2275c5ba40407e90f085a9ec504b46.",
+      "Profile operation/evidence ID: 93dd008e77bc447cb58393542deeca92; fixture: v2-profile-global-mixed.",
+      "Factual journal entry: journal-3."
+    ],
+    "checks": [
+      "Failure build emitted exactly: engine.cpp:61:2: error: #error V2_PREFLIGHT_REPAIR.",
+      "Removed only the injected line. Restored engine.cpp was 2788 bytes with SHA-256 d32e6ec47c628378248720b38e3b6c1d63c9da867f72adb92bf836213e894414, matching the checked-out file hash.",
+      "Repaired canonical fixed-flag build passed.",
+      "Repaired correctness test passed 89/89 cases.",
+      "Requested public fixture profile passed."
+    ],
+    "limitations": [
+      "Profile reports instruction counts; its instrumented duration is not a performance measurement. No benchmark was run."
+    ]
+  }
+}

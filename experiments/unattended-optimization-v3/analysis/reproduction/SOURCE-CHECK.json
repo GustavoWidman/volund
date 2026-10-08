@@ -1,0 +1,76 @@
+{
+  "analysis_only_fixes": [
+    "External public node_modules dependency paths remain metadata-only while all copied node_modules trees and authentication/session paths remain excluded",
+    "Preserve formal setup/readiness-revisions alongside other setup evidence"
+  ],
+  "canonical_final_report_sha256": "4c0da852efa41ae3440c09a9faf2e6de0797ac1036ebbbdfc052b4f658f66227",
+  "checked_utc_date": "2026-10-02",
+  "dependency_limit": "Python standard-library analysis; external native tool pins are metadata, not a hermetic machine image",
+  "files": {
+    "evidence.py": {
+      "ast_parse": "pass",
+      "bytes": 38647,
+      "sha256": "88b61d22d2cfad8624a7dd39797c79f3902aeacca2ab184a102577275ba8ed1a"
+    },
+    "native_replay.py": {
+      "ast_parse": "pass",
+      "bytes": 11816,
+      "sha256": "4e3068fbba20f9d6ec68b25315efb6fd4a0a3e79ac2b6bf9171e0e91b224e68f"
+    },
+    "remap_native_config.py": {
+      "ast_parse": "pass",
+      "bytes": 7475,
+      "sha256": "4e943bb2efbc64445f566d18ae0db47bfd533a88bd95ceb9b1470dbce9c08c91"
+    },
+    "replay_numeric.py": {
+      "ast_parse": "pass",
+      "bytes": 56123,
+      "sha256": "3b1dc800935b5cedc611f46599eb819f41c92e64870d5712538d9fc6e71aa29c"
+    },
+    "test_hardening.py": {
+      "ast_parse": "pass",
+      "bytes": 13732,
+      "sha256": "34466bb39aae555f34b7291f3b978f34d3968ee00947a01f7ee610d39eac2797"
+    },
+    "test_reproduction.py": {
+      "ast_parse": "pass",
+      "bytes": 13923,
+      "sha256": "60378e8410b45ab7a02d949b3e4932139bb6a7e28699b68a5597e2dc5eb974a7"
+    }
+  },
+  "final_bundle_validation": "See separately delivered bundle verification, numeric replay, privacy review, size and hash reports",
+  "frozen_execution_sha256": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+  "initial_actual_data_audit": {
+    "campaign_operations": 357,
+    "checkpoint_ledgers": 8,
+    "development_comparisons": 46,
+    "final_comparisons": 6
+  },
+  "not_performed": [
+    "new native compilation/testing/benchmark/profile run",
+    "model calls or candidate/endpoint selection",
+    "upload, stage, commit or push"
+  ],
+  "primary_documentation": [
+    {
+      "scope": "SHA-256 byte identities",
+      "url": "https://docs.python.org/3.12/library/hashlib.html"
+    },
+    {
+      "scope": "seeded choices and version-aware reproducibility",
+      "url": "https://docs.python.org/3.12/library/random.html"
+    },
+    {
+      "scope": "regular-file archive transport",
+      "url": "https://docs.python.org/3.12/library/tarfile.html"
+    },
+    {
+      "scope": "compression transport metadata",
+      "url": "https://docs.python.org/3.12/library/gzip.html"
+    }
+  ],
+  "python_version": "3.12.14",
+  "schema_version": 2,
+  "status": "postmeasurement_source_and_initial_numeric_audit_passed",
+  "synthetic_tests_passed": 18
+}

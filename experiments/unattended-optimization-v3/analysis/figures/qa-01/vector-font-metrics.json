@@ -1,0 +1,471 @@
+{
+  "status": "pass",
+  "measured_data_sha256": "f1b08952ce7dbbae2aa8c4d9533e48074a23e94e3ed455411e556048b028c903",
+  "plot_source_sha256": "ead51becabfaa7d3029aaf0b8b9e9dd732b18593db333c1a0d35d354e578e9ee",
+  "manifest_sha256": "9371d4ef196d9d385f3a8d73fee7559ac454ae1612093dcbee254688b33c917a",
+  "figure_count": 17,
+  "placement_width_in": 3.3,
+  "minimum_font_pt": 8.0,
+  "independent_pdf_svg_png_checks": [
+    {
+      "figure": "v3-development",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 158.39999389648438,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 158.4,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        484
+      ],
+      "nonwhite_pixel_bbox": [
+        33,
+        28,
+        701,
+        455
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-endpoints",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 154.8000030517578,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.300000190734863,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 154.8,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        473
+      ],
+      "nonwhite_pixel_bbox": [
+        45,
+        15,
+        716,
+        427
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-families-shift",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.300000190734863
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        65,
+        39,
+        698,
+        554
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-families-transfer",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.300000190734863
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        65,
+        39,
+        698,
+        554
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-family-pairs-shift-c1",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        67,
+        39,
+        698,
+        508
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-family-pairs-shift-c2",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        67,
+        39,
+        698,
+        508
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-family-pairs-shift-c3",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        67,
+        39,
+        698,
+        508
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-family-pairs-transfer-c1",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        67,
+        39,
+        698,
+        508
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-family-pairs-transfer-c2",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        67,
+        39,
+        698,
+        508
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-family-pairs-transfer-c3",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 183.60000610351562,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 183.6,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        561
+      ],
+      "nonwhite_pixel_bbox": [
+        67,
+        39,
+        698,
+        508
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-role-cost-c1",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 140.39999389648438,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 140.4,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        429
+      ],
+      "nonwhite_pixel_bbox": [
+        22,
+        39,
+        698,
+        395
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-role-cost-c2",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 140.39999389648438,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 140.4,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        429
+      ],
+      "nonwhite_pixel_bbox": [
+        22,
+        39,
+        698,
+        395
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-role-cost-c3",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 140.39999389648438,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 140.4,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        429
+      ],
+      "nonwhite_pixel_bbox": [
+        22,
+        39,
+        698,
+        395
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-role-tokens-c1",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 151.1999969482422,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 151.2,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        462
+      ],
+      "nonwhite_pixel_bbox": [
+        22,
+        51,
+        698,
+        440
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-role-tokens-c2",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 151.1999969482422,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 151.2,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        462
+      ],
+      "nonwhite_pixel_bbox": [
+        22,
+        51,
+        698,
+        440
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-role-tokens-c3",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 151.1999969482422,
+      "pdf_min_font_pt": 8.0,
+      "pdf_font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 151.2,
+      "svg_min_font_pt": 8.0,
+      "png_pixels": [
+        726,
+        462
+      ],
+      "nonwhite_pixel_bbox": [
+        22,
+        51,
+        698,
+        440
+      ],
+      "all_manifest_sha256_match": true
+    },
+    {
+      "figure": "v3-workflow",
+      "pdf_width_pt": 237.60000610351562,
+      "pdf_height_pt": 129.60000610351562,
+      "pdf_min_font_pt": 8.5,
+      "pdf_font_sizes_pt": [
+        8.5
+      ],
+      "pdf_fonts": [
+        "DejaVuSans"
+      ],
+      "svg_width_pt": 237.6,
+      "svg_height_pt": 129.6,
+      "svg_min_font_pt": 8.5,
+      "png_pixels": [
+        726,
+        396
+      ],
+      "nonwhite_pixel_bbox": [
+        32,
+        29,
+        698,
+        361
+      ],
+      "all_manifest_sha256_match": true
+    }
+  ],
+  "visual_inspection": "All 17 actual PNG panels inspected. Main trajectory and shift matrix reinspected after final compacting and regression-outline changes. No clipping, overlapping labels, plot titles, or full-width panels. Caption and final-paper flow require manuscript PDF inspection."
+}

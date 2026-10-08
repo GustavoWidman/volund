@@ -1,0 +1,17 @@
+test_alternate_output_cannot_repeat_same_cohort (test_final.FinalTests.test_alternate_output_cannot_repeat_same_cohort) ... ok
+test_any_stratum_invalidates_whole_endpoint_before_timing (test_final.FinalTests.test_any_stratum_invalidates_whole_endpoint_before_timing) ... ok
+test_backend_failure_retains_terminal_report_and_operation (test_final.FinalTests.test_backend_failure_retains_terminal_report_and_operation) ... ok
+test_changed_fresh_binary_blocks_final_output (test_final.FinalTests.test_changed_fresh_binary_blocks_final_output) ... ok
+test_changed_source_or_binary_rejected (test_final.FinalTests.test_changed_source_or_binary_rejected) ... ok
+test_missing_seal_blocks_without_output (test_final.FinalTests.test_missing_seal_blocks_without_output) ... ok
+test_mutation_during_measurement_blocks_and_preserves_failure (test_final.FinalTests.test_mutation_during_measurement_blocks_and_preserves_failure) ... ok
+test_nested_archived_campaigns_cannot_satisfy_embargo (test_final.FinalTests.test_nested_archived_campaigns_cannot_satisfy_embargo) ... ok
+test_requires_all_campaigns_before_any_candidate_execution (test_final.FinalTests.test_requires_all_campaigns_before_any_candidate_execution) ... ok
+test_six_fresh_comparisons_preserve_incomplete_status (test_final.FinalTests.test_six_fresh_comparisons_preserve_incomplete_status) ... ok
+test_transfer_changes_only_seed_and_identifier (test_final.FinalTests.test_transfer_changes_only_seed_and_identifier) ... ok
+test_unequal_program_treatment_rejected (test_final.FinalTests.test_unequal_program_treatment_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.212s
+
+OK

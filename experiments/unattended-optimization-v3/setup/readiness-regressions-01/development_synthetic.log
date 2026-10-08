@@ -1,0 +1,23 @@
+test_arbitrary_host_check_not_exposed_to_any_participant_role (test_native_synthetic.SyntheticTests.test_arbitrary_host_check_not_exposed_to_any_participant_role) ... ok
+test_balanced_pairs_common_batch_frozen_before_scored_commands (test_native_synthetic.SyntheticTests.test_balanced_pairs_common_batch_frozen_before_scored_commands) ... ok
+test_dispatcher_does_not_accept_actor_or_role_overrides (test_native_synthetic.SyntheticTests.test_dispatcher_does_not_accept_actor_or_role_overrides) ... ok
+test_failed_scored_command_retains_prior_measurement_files (test_native_synthetic.SyntheticTests.test_failed_scored_command_retains_prior_measurement_files) ... ok
+test_genuine_scored_under_target_is_flagged_without_adaptive_rerun (test_native_synthetic.SyntheticTests.test_genuine_scored_under_target_is_flagged_without_adaptive_rerun) ... ok
+test_guard_page_contract_violation_is_confirmed_but_timeout_is_not (test_native_synthetic.SyntheticTests.test_guard_page_contract_violation_is_confirmed_but_timeout_is_not) ... ok
+test_joint_block_bootstrap_is_deterministic (test_native_synthetic.SyntheticTests.test_joint_block_bootstrap_is_deterministic) ... ok
+test_memcheck_covers_every_public_profile_family_not_only_smallest (test_native_synthetic.SyntheticTests.test_memcheck_covers_every_public_profile_family_not_only_smallest) ... ok
+test_memcheck_exit99_is_confirmed_error_not_timeout (test_native_synthetic.SyntheticTests.test_memcheck_exit99_is_confirmed_error_not_timeout) ... ok
+test_mutated_inherited_library_rejected (test_native_synthetic.SyntheticTests.test_mutated_inherited_library_rejected) ... ok
+test_mutated_public_fixture_rejected_before_native_call (test_native_synthetic.SyntheticTests.test_mutated_public_fixture_rejected_before_native_call) ... ok
+test_no_assessment_suite_exposed (test_native_synthetic.SyntheticTests.test_no_assessment_suite_exposed) ... ok
+test_oracle_status_counts_and_library_must_all_agree (test_native_synthetic.SyntheticTests.test_oracle_status_counts_and_library_must_all_agree) ... ok
+test_owner_selected_suites_do_not_relabel_assessment_as_development (test_native_synthetic.SyntheticTests.test_owner_selected_suites_do_not_relabel_assessment_as_development) ... ok
+test_partial_memcheck_never_claims_complete_coverage (test_native_synthetic.SyntheticTests.test_partial_memcheck_never_claims_complete_coverage) ... ok
+test_profile_on_unknown_public_fixture_is_ordinary_failure (test_native_synthetic.SyntheticTests.test_profile_on_unknown_public_fixture_is_ordinary_failure) ... ok
+test_profile_uses_diagnostic_limits_and_annotation_is_raw_artifact (test_native_synthetic.SyntheticTests.test_profile_uses_diagnostic_limits_and_annotation_is_raw_artifact) ... ok
+test_scored_sample_schema_and_frozen_count_are_checked (test_native_synthetic.SyntheticTests.test_scored_sample_schema_and_frozen_count_are_checked) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.221s
+
+OK

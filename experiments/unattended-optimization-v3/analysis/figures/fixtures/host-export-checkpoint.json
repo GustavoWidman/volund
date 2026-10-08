@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "delegation": "host-managed official ephemeral threads; not native collab ancestry",
+  "failure": null,
+  "sealed": false,
+  "campaign_wall_seconds": 5.0,
+  "started_unix_seconds": 1000.0,
+  "usage_time_provenance": "Notification observation time; not provider execution or billing time.",
+  "artifact_reference_roots": [
+    "/archive/campaigns/campaign-1/development",
+    "/archive/campaigns/campaign-1/authority",
+    "/archive/campaigns/campaign-1/workspace-operations"
+  ],
+  "reviewer_cumulative_seconds": 0.0,
+  "reviewer_time_includes_admission_queue_and_execution": true,
+  "agents": [
+    {
+      "agent_id": "agent-1",
+      "thread_id": "fixture-thread-1",
+      "parent_agent_id": null,
+      "role": "lead",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "state": "running",
+      "terminal_turn_statuses": {},
+      "token_usage": {
+        "total": {
+          "inputTokens": 100,
+          "cachedInputTokens": 50,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 20,
+          "reasoningOutputTokens": 10,
+          "totalTokens": 120
+        },
+        "updates": [
+          {
+            "observed_unix_seconds": 1004.0,
+            "elapsed_from_host_start_seconds": 4.0,
+            "time_provenance": "notification_observation",
+            "turn_id": "fixture-turn-1",
+            "total": {
+              "inputTokens": 100,
+              "cachedInputTokens": 50,
+              "cacheWriteInputTokens": 0,
+              "outputTokens": 20,
+              "reasoningOutputTokens": 10,
+              "totalTokens": 120
+            },
+            "last": {
+              "inputTokens": 100,
+              "cachedInputTokens": 50,
+              "cacheWriteInputTokens": 0,
+              "outputTokens": 20,
+              "reasoningOutputTokens": 10,
+              "totalTokens": 120
+            },
+            "delta": {
+              "inputTokens": 100,
+              "cachedInputTokens": 50,
+              "cacheWriteInputTokens": 0,
+              "outputTokens": 20,
+              "reasoningOutputTokens": 10,
+              "totalTokens": 120
+            },
+            "duplicate": false,
+            "classification": "cumulative_usage_change"
+          }
+        ],
+        "issues": [],
+        "turns_without_usage": [],
+        "observed_accounting_complete": false,
+        "cache_write_reporting_verified": false,
+        "duplicates": 0,
+        "provider_billing_completeness_verified": false,
+        "cache_write_provenance": "Protocol field defaults to zero; presence alone does not attest upstream reporting.",
+        "provider_service_tier": null,
+        "request_long_context_price_class": null,
+        "exact_priceable_partition": null,
+        "request_observations": [
+          {
+            "observed_unix_seconds": 1004.0,
+            "elapsed_from_host_start_seconds": 4.0,
+            "time_provenance": "notification_observation",
+            "turn_id": "fixture-turn-1",
+            "total": {
+              "inputTokens": 100,
+              "cachedInputTokens": 50,
+              "cacheWriteInputTokens": 0,
+              "outputTokens": 20,
+              "reasoningOutputTokens": 10,
+              "totalTokens": 120
+            },
+            "last": {
+              "inputTokens": 100,
+              "cachedInputTokens": 50,
+              "cacheWriteInputTokens": 0,
+              "outputTokens": 20,
+              "reasoningOutputTokens": 10,
+              "totalTokens": 120
+            },
+            "delta": {
+              "inputTokens": 100,
+              "cachedInputTokens": 50,
+              "cacheWriteInputTokens": 0,
+              "outputTokens": 20,
+              "reasoningOutputTokens": 10,
+              "totalTokens": 120
+            },
+            "duplicate": false,
+            "classification": "cumulative_usage_change",
+            "boundary_provenance": "Unique cumulative change; not a verified provider response ID"
+          }
+        ],
+        "provider_response_ids_available": false,
+        "unreported_failed_request_usage": null,
+        "sum_rule": "One final cumulative total per fresh thread across all turns; cached and reasoning are subsets, not additions."
+      }
+    }
+  ],
+  "per_role_tokens": {
+    "lead": {
+      "inputTokens": 100,
+      "cachedInputTokens": 50,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 20,
+      "reasoningOutputTokens": 10,
+      "totalTokens": 120
+    },
+    "reviewer": {
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningOutputTokens": 0,
+      "totalTokens": 0
+    },
+    "implementation": {
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningOutputTokens": 0,
+      "totalTokens": 0
+    },
+    "investigation": {
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningOutputTokens": 0,
+      "totalTokens": 0
+    },
+    "measurement": {
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningOutputTokens": 0,
+      "totalTokens": 0
+    }
+  },
+  "known_thread_totals": {
+    "inputTokens": 100,
+    "cachedInputTokens": 50,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 20,
+    "reasoningOutputTokens": 10,
+    "totalTokens": 120
+  },
+  "total_tokens": {
+    "inputTokens": 100,
+    "cachedInputTokens": 50,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 20,
+    "reasoningOutputTokens": 10,
+    "totalTokens": 120
+  },
+  "unregistered_activity_usage": null,
+  "shutdown": null,
+  "accounting_complete": false,
+  "raw_reasoning_retained": false,
+  "budgets": {
+    "campaign_wall": null,
+    "reviewer_wall": null,
+    "tokens": null
+  },
+  "completion_rule": "All admitted turns terminal; scientific workflow closure remains the owner controller responsibility."
+}

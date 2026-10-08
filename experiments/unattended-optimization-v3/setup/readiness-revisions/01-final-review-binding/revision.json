@@ -1,0 +1,17 @@
+{
+  "stage": "setup_only_no_freeze_or_measured_launch",
+  "reason": "Independent review artifact completed after readiness recording. Exact freeze gate rejected that stale review hash; all execution/native controls are unchanged. Rebind only the finalized review artifact.",
+  "recorded_unix": 1790885778.7124662,
+  "preserved": [
+    {
+      "original_path": "evaluation/readiness.json",
+      "sha256": "53a3c3a90dea8805ecb6e20ff10f466f21693aa5018138e2a7fe1fc1245afd11",
+      "preserved_path": "setup/readiness-revisions/01-final-review-binding/readiness.json"
+    },
+    {
+      "original_path": "setup/owner-readiness-v3.json",
+      "sha256": "28fd9ab0523193079fae828948ed4f0439f20ae873b2ace54775f2173f826391",
+      "preserved_path": "setup/readiness-revisions/01-final-review-binding/owner-readiness-v3.json"
+    }
+  ]
+}
