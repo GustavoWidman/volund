@@ -46,7 +46,7 @@ first-valid retry rules remain in the evidence. Observed model usage is incomple
 remote compaction, failed-request costs, cache-write reporting and actual billing
 remain unknown. No whole-run cost bound or actual-bill claim follows.
 
-The full archive is not included here; its hashes and retrieval/reassembly records
+The full archive is not included here; its hashes and exclusion records
 are preserved. Absent bytes cannot be reverified. Native dependencies are pinned
 metadata, not a hermetic environment. Offline arithmetic replay is not a fresh
 native benchmark, campaign replication or model rerun. No paid inference, campaign
