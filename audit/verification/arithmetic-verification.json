@@ -1,0 +1,265 @@
+{
+  "scope": "Arithmetic only; archived pair data, no native timing, inference or full source/receipt audit",
+  "comparisons": [
+    {
+      "path": "assessment/final/campaign-1/bench-shift",
+      "status": "pass",
+      "portfolio_speedup": 2.235982846716021
+    },
+    {
+      "path": "assessment/final/campaign-1/bench-transfer",
+      "status": "pass",
+      "portfolio_speedup": 2.2398998349368395
+    },
+    {
+      "path": "assessment/final/campaign-2/bench-shift",
+      "status": "pass",
+      "portfolio_speedup": 5.185988617904819
+    },
+    {
+      "path": "assessment/final/campaign-2/bench-transfer",
+      "status": "pass",
+      "portfolio_speedup": 4.547376725615697
+    },
+    {
+      "path": "assessment/final/campaign-3/bench-shift",
+      "status": "pass",
+      "portfolio_speedup": 5.29448133316452
+    },
+    {
+      "path": "assessment/final/campaign-3/bench-transfer",
+      "status": "pass",
+      "portfolio_speedup": 5.444520114230915
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/01d103d5632a4001bd6be55b0b8ab3c4",
+      "status": "pass",
+      "portfolio_speedup": 1.6919822625955436
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/430ccc1309654882b5e56805ebc41f43",
+      "status": "pass",
+      "portfolio_speedup": 1.0068987611743683
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/4eab0e65419a452793cb0ea69da33eb4",
+      "status": "pass",
+      "portfolio_speedup": 1.2808977979700185
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/4ff2b8e9ba5b44259628830146132eb5",
+      "status": "pass",
+      "portfolio_speedup": 0.7761812136587706
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/7c8b144ec90b4850902713239352e2d1",
+      "status": "pass",
+      "portfolio_speedup": 0.9864459657182985
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/7fa96d8a522d4cd48cac179cdbd2fd5b",
+      "status": "pass",
+      "portfolio_speedup": 1.7086851814863617
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/84624a7491284584bf9e115e80388671",
+      "status": "pass",
+      "portfolio_speedup": 1.7265634531269545
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/8b9f2f4cb0934e1ba6689f69be4799fb",
+      "status": "pass",
+      "portfolio_speedup": 1.339189808208365
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/93a3d66431d14ac094f5b8b612dbfe5d",
+      "status": "pass",
+      "portfolio_speedup": 1.3293841639688082
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/b2760fced10340d1a603cd7590bd0730",
+      "status": "pass",
+      "portfolio_speedup": 2.291220656303371
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/b9ad68f3ebce4877a1cd50d4a3232ef1",
+      "status": "pass",
+      "portfolio_speedup": 1.005218865267743
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/d5e1401fcdc944d09aee44a7d49d61f5",
+      "status": "pass",
+      "portfolio_speedup": 1.299679928096977
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/e37961a106c24c5ba12b33fcf57dd2b8",
+      "status": "pass",
+      "portfolio_speedup": 1.6757733665819412
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/e8ccc3b82f254f6b9053c2d4fcbc9335",
+      "status": "pass",
+      "portfolio_speedup": 0.7679185796335619
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/ea0b9f6b724a4ffdbedd996762454de0",
+      "status": "pass",
+      "portfolio_speedup": 1.7062020379782543
+    },
+    {
+      "path": "campaigns/campaign-1/development/operations/ead02dd35f894b46b6f035afb785bba4",
+      "status": "pass",
+      "portfolio_speedup": 1.351861379070377
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/01b29f5d6c77413cb097707d3b9e2064",
+      "status": "pass",
+      "portfolio_speedup": 2.069874156092411
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/0e2e89040a3e4d3c89daa4dbddd02981",
+      "status": "pass",
+      "portfolio_speedup": 1.28419494234079
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/221d8b786e68421b8bdd265a858462c3",
+      "status": "pass",
+      "portfolio_speedup": 1.0815681384927898
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/32c3163a31a94b42991c28aeca8e2993",
+      "status": "pass",
+      "portfolio_speedup": 4.550808835460334
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/41d2549374614bdd8ec33ae564e090a5",
+      "status": "pass",
+      "portfolio_speedup": 2.1526987417506755
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/45b854e5b24b4444ba90f33fad571ec9",
+      "status": "pass",
+      "portfolio_speedup": 1.2777199421114287
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/65cfe37ab3304e058085afd06582ab6c",
+      "status": "pass",
+      "portfolio_speedup": 1.0936516643342928
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/6c2a377972334bcc95540a9ce5dcf182",
+      "status": "pass",
+      "portfolio_speedup": 1.7016925628486752
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/7ddecbe8447c44c8839293188d121029",
+      "status": "pass",
+      "portfolio_speedup": 2.066514342061474
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/8084dd1df32c4ef1925b34007de47305",
+      "status": "pass",
+      "portfolio_speedup": 1.7013811594932227
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/8e7af32bdf6b442d841ebe74a739223e",
+      "status": "pass",
+      "portfolio_speedup": 1.6945137977533544
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/a42f80de943f46609f8ea37928c791a3",
+      "status": "pass",
+      "portfolio_speedup": 1.005282144935662
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/a74ad52d009d47d7a26ac285f290603c",
+      "status": "pass",
+      "portfolio_speedup": 1.2601395732339757
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/b4348160304f472c8336ed161a6c10a9",
+      "status": "pass",
+      "portfolio_speedup": 2.0508555146826635
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/e678119933f246f387a942cb6a8ec261",
+      "status": "pass",
+      "portfolio_speedup": 0.9956733416195218
+    },
+    {
+      "path": "campaigns/campaign-2/development/operations/e7aeb0ca6ae6494ea4c9dc338ec6d8d9",
+      "status": "pass",
+      "portfolio_speedup": 0.9966092061505394
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/1bac31f04e144427bd8fd74d44acb877",
+      "status": "pass",
+      "portfolio_speedup": 2.5137514871360964
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/2440d82e766046c1b11f37a46499f9a2",
+      "status": "pass",
+      "portfolio_speedup": 5.596247461186156
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/2ba3387c20e64b239b9e5004da86c477",
+      "status": "pass",
+      "portfolio_speedup": 1.27747402217971
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/2f3738081a414e448188d86130bdc9b3",
+      "status": "pass",
+      "portfolio_speedup": 1.0944444862155809
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/302efd9f1829400bb99ccd75e1cc418a",
+      "status": "pass",
+      "portfolio_speedup": 1.748904039809355
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/32c3ecab5b55422198b10f13335dcb08",
+      "status": "pass",
+      "portfolio_speedup": 2.4936453623388317
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/4c6e660e041640ce8b7686fa9589c767",
+      "status": "pass",
+      "portfolio_speedup": 0.9912856602050961
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/6d65565063264219b187efab39bc6352",
+      "status": "pass",
+      "portfolio_speedup": 1.7283031841785188
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/86ba913f920848edab62c8d7bb1997ef",
+      "status": "pass",
+      "portfolio_speedup": 1.2497322065471654
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/89ac1e740d75411987be1bb90d90a744",
+      "status": "pass",
+      "portfolio_speedup": 2.233782941653175
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/98f3993c0eb64a3783fddf3253ade350",
+      "status": "pass",
+      "portfolio_speedup": 1.7404973596290723
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/d47e8861c53f447c9ecc650b721ff08d",
+      "status": "pass",
+      "portfolio_speedup": 1.1116183764735166
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/ee87218c06b443ffa73db0b5df3a6860",
+      "status": "pass",
+      "portfolio_speedup": 2.510827683315865
+    },
+    {
+      "path": "campaigns/campaign-3/development/operations/f26b71dd157f491db824e8ad6c122e3c",
+      "status": "pass",
+      "portfolio_speedup": 1.0149019895740707
+    }
+  ]
+}

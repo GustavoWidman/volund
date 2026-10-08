@@ -1,0 +1,1 @@
+{"confidence":0.9,"interpretation":"descriptive uncertainty only; repeated exploratory selection is not confirmatory evidence of agent efficacy","one_sided_lower_bound":1.7199696257325765,"quantile":"linear interpolation at p*(B-1)","resamples":10000,"seed":2026100302,"unit":"complete temporal block across all families"}

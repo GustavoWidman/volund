@@ -1,0 +1,23 @@
+test_blocked_before_seed_build_is_explicit_not_run_evidence (test_hardening.NativeReceiptTests.test_blocked_before_seed_build_is_explicit_not_run_evidence) ... ok
+test_conflicting_redundant_files_are_not_hidden_by_fresh_hashes (test_hardening.NativeReceiptTests.test_conflicting_redundant_files_are_not_hidden_by_fresh_hashes) ... ok
+test_final_config_source_and_nonbuild_library_bindings (test_hardening.NativeReceiptTests.test_final_config_source_and_nonbuild_library_bindings) ... ok
+test_joint_temporal_block_resampling_preserves_anticorrelation (test_hardening.NativeReceiptTests.test_joint_temporal_block_resampling_preserves_anticorrelation) ... ok
+test_writer_shaped_consistency (test_hardening.NativeReceiptTests.test_writer_shaped_consistency) ... ok
+test_blocked_final_record_never_authorizes_native_replay (test_reproduction.PackagingTests.test_blocked_final_record_never_authorizes_native_replay) ... ok
+test_canonical_relocation_no_path_guessing (test_reproduction.PackagingTests.test_canonical_relocation_no_path_guessing) ... ok
+test_duplicate_json_and_budget_refused (test_reproduction.PackagingTests.test_duplicate_json_and_budget_refused) ... ok
+test_extra_file_private_stream_and_wrong_freeze_refused (test_reproduction.PackagingTests.test_extra_file_private_stream_and_wrong_freeze_refused) ... ok
+test_full_and_lean_have_shared_commitment_and_distinct_bytes (test_reproduction.PackagingTests.test_full_and_lean_have_shared_commitment_and_distinct_bytes) ... ok
+test_gate_refuses_before_final_read (test_reproduction.PackagingTests.test_gate_refuses_before_final_read) ... ok
+test_private_and_raw_subtrees_not_read (test_reproduction.PackagingTests.test_private_and_raw_subtrees_not_read) ... ok
+test_invalid_attempt_retained_and_first_valid_selected (test_reproduction.ReplayTests.test_invalid_attempt_retained_and_first_valid_selected) ... ok
+test_raw_pair_schedule_and_bootstrap (test_reproduction.ReplayTests.test_raw_pair_schedule_and_bootstrap) ... ok
+test_raw_temporal_order_and_arm_balance (test_reproduction.ReplayTests.test_raw_temporal_order_and_arm_balance) ... ok
+test_retry_cannot_change_inputs_or_follow_valid_observation (test_reproduction.ReplayTests.test_retry_cannot_change_inputs_or_follow_valid_observation) ... ok
+test_source_and_fixture_pins_cannot_be_rehashed (test_reproduction.ReplayTests.test_source_and_fixture_pins_cannot_be_rehashed) ... ok
+test_unknown_cache_writes_and_missing_usage_never_zero_filled (test_reproduction.ReplayTests.test_unknown_cache_writes_and_missing_usage_never_zero_filled) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.193s
+
+OK

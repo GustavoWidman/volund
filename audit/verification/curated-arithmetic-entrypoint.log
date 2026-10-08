@@ -1,0 +1,1 @@
+PASS: all 52 paired comparisons reproduce. Arithmetic only; no full source/build/attempt/command audit, inference or native timing.

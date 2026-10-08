@@ -26,13 +26,14 @@ frozen protocols, harness/runtime, source tests, task contract/seed, analysis an
 figure generation. Selected small tables and scientific audit records are browsable.
 `docs/ai-development-workflow/` contains the paper, supplement, bibliography,
 fonts, figures and audit mapping. `audit/` records this import and performed checks.
-`scripts/` provides safe offline verification entry points.
+`scripts/` provides safe offline verification entry points. `data/` contains the
+small, pinned raw-arithmetic subset and plot-ready data.
 
 Bulk raw evidence is deliberately excluded from Git. A separate immutable lean
 archive contains 61,087 evidence files; its manifest also declares 21,571 full-only
 omissions. No release or external archive deposit is published yet. See
 [audit/evidence-availability.json](audit/evidence-availability.json) for exact pins.
-Full numerical replay requires that separately supplied archive. Source-only tests
+Full numerical replay requires that separately supplied archive. Curated raw paired data for all 52 comparisons, plot rendering, source-only tests
 and repository integrity checks work from this checkout alone. Public archive
 hosting and final publication packaging remain pending.
 

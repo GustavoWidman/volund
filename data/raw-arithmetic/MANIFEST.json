@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "scope": "All 52 retained campaign/final paired comparisons and stored estimators; arithmetic-only subset, not source/build/attempt/command integrity audit. No new native timing or inference.",
+  "archive_sha256": "3b53371632c8010336be846232f0a73090baa8700fb6ab5ade9fa15ddfef5dae",
+  "original_manifest_sha256": "2a8127785f5d5e2f2c42e8d1cf8061da344b174db7014907145bccc902f290aa",
+  "files": {
+    "assessment/final/campaign-1/bench-shift/paired.json": {
+      "bytes": 11614,
+      "executable": false,
+      "sha256": "b021148dc7ea018fdca6da23d13f36db6b3ed7a9c4431d76b0185c5bc2f357b3"
+    },
+    "assessment/final/campaign-1/bench-shift/result.json": {
+      "bytes": 2523,
+      "executable": false,
+      "sha256": "16b547ecb375d3dc649ed923e3099b515bc93a8f4c2ce41fccb91d786d88d2c9"
+    },
+    "assessment/final/campaign-1/bench-shift/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "1074a22e0a502b1451f809cf0c192952723606fd9e0e6bdc55cbe18a24692ff4"
+    },
+    "assessment/final/campaign-1/bench-transfer/paired.json": {
+      "bytes": 12001,
+      "executable": false,
+      "sha256": "e9c3f6f599dc17e41279f61cd9975c0f8bdd847964aa71acb0f97947cb485476"
+    },
+    "assessment/final/campaign-1/bench-transfer/result.json": {
+      "bytes": 2553,
+      "executable": false,
+      "sha256": "f5b75f1c2a7dfab0fd52a2692b81d084255bf55247e7aafa044a7a4909023001"
+    },
+    "assessment/final/campaign-1/bench-transfer/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "69f2b377aa38de5f55c9f084aa451c5f0fb4c84d4a6de3eb8688f3f7bc7f05db"
+    },
+    "assessment/final/campaign-2/bench-shift/paired.json": {
+      "bytes": 11905,
+      "executable": false,
+      "sha256": "7747d2df158131a11689a5aaf5910e613ea55993de5291cfbf29b6bf46f00fec"
+    },
+    "assessment/final/campaign-2/bench-shift/result.json": {
+      "bytes": 2804,
+      "executable": false,
+      "sha256": "13274336cf1f90d5e34f3a0de161c41450c25261c7b1a97ad552006a10dc7702"
+    },
+    "assessment/final/campaign-2/bench-shift/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "f8d56c031b09deeda3afdcf595b64381f8d051616fd594e4b1ececd930be585a"
+    },
+    "assessment/final/campaign-2/bench-transfer/paired.json": {
+      "bytes": 11908,
+      "executable": false,
+      "sha256": "e731aa740cb24a41008a2fe2594d33c95b66788ec8d0bcc268a563f89566b5b0"
+    },
+    "assessment/final/campaign-2/bench-transfer/result.json": {
+      "bytes": 2552,
+      "executable": false,
+      "sha256": "9abe9b3fc1168d2d5d9793092ee5515c11bee2aed44a39cd1fb0a2025c05d904"
+    },
+    "assessment/final/campaign-2/bench-transfer/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "b6f3a6d1ff9c9de81333ab72e55b45bc3537f8ded824c280ab47dd0c8361a4ce"
+    },
+    "assessment/final/campaign-3/bench-shift/paired.json": {
+      "bytes": 11890,
+      "executable": false,
+      "sha256": "ef79671924b1110ff502fdf5833aaa33ec259add17edc730a4f6e5bfae71f538"
+    },
+    "assessment/final/campaign-3/bench-shift/result.json": {
+      "bytes": 2519,
+      "executable": false,
+      "sha256": "ab5880b59545d8eacf9a12910977eddef16477e931054a04e2710ce6655c6a78"
+    },
+    "assessment/final/campaign-3/bench-shift/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "d3f653bedab780eb7abba52b29dfaac7be009342caf534d503dc38f8f0ba89cc"
+    },
+    "assessment/final/campaign-3/bench-transfer/paired.json": {
+      "bytes": 11961,
+      "executable": false,
+      "sha256": "07c7f6bea1d5a3735f662c0d610c54e9f4f69efca3d5dced3aba8a8ef1dfd06c"
+    },
+    "assessment/final/campaign-3/bench-transfer/result.json": {
+      "bytes": 4906,
+      "executable": false,
+      "sha256": "94fc9c129601f5c1bcbe5b94a94b9c34e17976c4a41bb26947314c2d748b5ba3"
+    },
+    "assessment/final/campaign-3/bench-transfer/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "24512d8b46223fe91e7e1a8456d8ea2958a6b213e93028cfe964d1db3048611c"
+    },
+    "campaigns/campaign-1/development/operations/01d103d5632a4001bd6be55b0b8ab3c4/paired.json": {
+      "bytes": 4104,
+      "executable": false,
+      "sha256": "99b2f888d9b33be072d1d66b578c47c92bd784502abb99a5ff34eab4ca171f70"
+    },
+    "campaigns/campaign-1/development/operations/01d103d5632a4001bd6be55b0b8ab3c4/result.json": {
+      "bytes": 2809,
+      "executable": false,
+      "sha256": "4369d208343e918d5e6011b8bddf6737f793f79f72f7732b4b5d5b9426173f8d"
+    },
+    "campaigns/campaign-1/development/operations/01d103d5632a4001bd6be55b0b8ab3c4/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "9e2060be1419d0ea04692d586395eeb0877d0476d4edaba269378afcc2b829d6"
+    },
+    "campaigns/campaign-1/development/operations/430ccc1309654882b5e56805ebc41f43/paired.json": {
+      "bytes": 3851,
+      "executable": false,
+      "sha256": "7e6759d584ad0459a5641baf7067bbf5536ca71cd84217aeafb36594db71a874"
+    },
+    "campaigns/campaign-1/development/operations/430ccc1309654882b5e56805ebc41f43/result.json": {
+      "bytes": 2744,
+      "executable": false,
+      "sha256": "93ee424a021a0982909eb8ce2aca445ddc13f58434e08a1dc21edfd653a05509"
+    },
+    "campaigns/campaign-1/development/operations/430ccc1309654882b5e56805ebc41f43/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "156e0402dabd4898f6656269b650199c254519d67d935b37cb8938196b95101e"
+    },
+    "campaigns/campaign-1/development/operations/4eab0e65419a452793cb0ea69da33eb4/paired.json": {
+      "bytes": 4102,
+      "executable": false,
+      "sha256": "7e0df4916e9adf800f3f3bfeac85e871042028ac4d1208d050f6df4b8d3bb016"
+    },
+    "campaigns/campaign-1/development/operations/4eab0e65419a452793cb0ea69da33eb4/result.json": {
+      "bytes": 2755,
+      "executable": false,
+      "sha256": "ea594c5cac2bd4080209b67110d127f0f1572904fda62dcc7512e68a5cbaae57"
+    },
+    "campaigns/campaign-1/development/operations/4eab0e65419a452793cb0ea69da33eb4/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "b12887c142d56dc336255f49cea6e275fa6e3de4bce49118a585bc668c45e401"
+    },
+    "campaigns/campaign-1/development/operations/4ff2b8e9ba5b44259628830146132eb5/paired.json": {
+      "bytes": 3855,
+      "executable": false,
+      "sha256": "25c3bea6f8f7d1b249a050d9a261ad74a1edb37a4aafb6b096e47930046e56a4"
+    },
+    "campaigns/campaign-1/development/operations/4ff2b8e9ba5b44259628830146132eb5/result.json": {
+      "bytes": 2814,
+      "executable": false,
+      "sha256": "8da6b6c095860725fa973b8ad68bcf8f2984d4e81c1c4331acd35a006bce8b9b"
+    },
+    "campaigns/campaign-1/development/operations/4ff2b8e9ba5b44259628830146132eb5/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "e68932bd04cd42cda0f619a7a3915d06c2635885af121f648678f707a99cbc5e"
+    },
+    "campaigns/campaign-1/development/operations/7c8b144ec90b4850902713239352e2d1/paired.json": {
+      "bytes": 4036,
+      "executable": false,
+      "sha256": "869a1d6eb1d468e43c491d6d1768e583fd8ac8e13022040cd0cea1ca6d1bbb90"
+    },
+    "campaigns/campaign-1/development/operations/7c8b144ec90b4850902713239352e2d1/result.json": {
+      "bytes": 2813,
+      "executable": false,
+      "sha256": "e12c20c970b45908b5f1bdd87ad204bfb76e5b0438a998505dbd6a567941844e"
+    },
+    "campaigns/campaign-1/development/operations/7c8b144ec90b4850902713239352e2d1/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "53aa692bdc51afc99a08671e538802a812884aecb353586199ad13a85f510d6d"
+    },
+    "campaigns/campaign-1/development/operations/7fa96d8a522d4cd48cac179cdbd2fd5b/paired.json": {
+      "bytes": 4021,
+      "executable": false,
+      "sha256": "b1faca0068dddcc2a8e07f5aab98ff44773a7f95d1aa16619c1285d26576f216"
+    },
+    "campaigns/campaign-1/development/operations/7fa96d8a522d4cd48cac179cdbd2fd5b/result.json": {
+      "bytes": 2757,
+      "executable": false,
+      "sha256": "6013a626c8dae483f8e58b24dad1213bfacaf1f40baa354c83d7042ae8317bc6"
+    },
+    "campaigns/campaign-1/development/operations/7fa96d8a522d4cd48cac179cdbd2fd5b/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "fd6a5d4ab6787ce718535f8661e7fbbcfb86295af96d7a7c8a08cf98d183fc8f"
+    },
+    "campaigns/campaign-1/development/operations/84624a7491284584bf9e115e80388671/paired.json": {
+      "bytes": 4023,
+      "executable": false,
+      "sha256": "8da0a402ace28e7af90f5b96a4f673fa25cf4edafa32eb021c8ca0d7cc168d3f"
+    },
+    "campaigns/campaign-1/development/operations/84624a7491284584bf9e115e80388671/result.json": {
+      "bytes": 2756,
+      "executable": false,
+      "sha256": "6abfd91c18bb3365c7f8624bcc57ff2698e0e1cfaf06076c600e6451d5a779df"
+    },
+    "campaigns/campaign-1/development/operations/84624a7491284584bf9e115e80388671/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "7fbb12e58c6a342c621e15b51b7b91d34143c91f191229a50fe3cd410f92bf1f"
+    },
+    "campaigns/campaign-1/development/operations/8b9f2f4cb0934e1ba6689f69be4799fb/paired.json": {
+      "bytes": 4099,
+      "executable": false,
+      "sha256": "532e4f2e1a8e6a97708c3243f53eb80f1ea1c947632120b40733832eea5e1782"
+    },
+    "campaigns/campaign-1/development/operations/8b9f2f4cb0934e1ba6689f69be4799fb/result.json": {
+      "bytes": 2814,
+      "executable": false,
+      "sha256": "67537cf440586624940d6e808bca15acf7f447e32aafa3b02566ef8de0358f1e"
+    },
+    "campaigns/campaign-1/development/operations/8b9f2f4cb0934e1ba6689f69be4799fb/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "08064950ec600a054f1c85af2b489d77da4aa38c8042be7c0c719197c11b5b2c"
+    },
+    "campaigns/campaign-1/development/operations/93a3d66431d14ac094f5b8b612dbfe5d/paired.json": {
+      "bytes": 4089,
+      "executable": false,
+      "sha256": "b63cbe3062705a3e1bc059ca3c3820d601de481caa2a1ab9754f28acbafa7a64"
+    },
+    "campaigns/campaign-1/development/operations/93a3d66431d14ac094f5b8b612dbfe5d/result.json": {
+      "bytes": 2761,
+      "executable": false,
+      "sha256": "85f8b7cec86bd3b24f4609f0ea1dc5c6226bc732670796fb394a1bb08666c54b"
+    },
+    "campaigns/campaign-1/development/operations/93a3d66431d14ac094f5b8b612dbfe5d/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "04c8c26dff7041762b54aed09ed10ad388c704934d42856e7e578bd0139190f1"
+    },
+    "campaigns/campaign-1/development/operations/b2760fced10340d1a603cd7590bd0730/paired.json": {
+      "bytes": 4006,
+      "executable": false,
+      "sha256": "de85074c7b13f4d101802668507bac5e71039741c042404ccaf4861e86df6d5d"
+    },
+    "campaigns/campaign-1/development/operations/b2760fced10340d1a603cd7590bd0730/result.json": {
+      "bytes": 3048,
+      "executable": false,
+      "sha256": "03281a8e81322cfe690490b13de16fd9d14415ae2922a893e0ed15c6897bb106"
+    },
+    "campaigns/campaign-1/development/operations/b2760fced10340d1a603cd7590bd0730/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "b9fc608a7e12b3b7c51d090e7288be699f03a85f816575c0c1dd656f6d91cbdf"
+    },
+    "campaigns/campaign-1/development/operations/b9ad68f3ebce4877a1cd50d4a3232ef1/paired.json": {
+      "bytes": 3801,
+      "executable": false,
+      "sha256": "3812697b1fe1aadd56289572a3bff9d5a39ef89387d5cf878b78a463944dab46"
+    },
+    "campaigns/campaign-1/development/operations/b9ad68f3ebce4877a1cd50d4a3232ef1/result.json": {
+      "bytes": 2754,
+      "executable": false,
+      "sha256": "5a2e3ce76f3f86826f84ff46d47d4665958a8f75f572981d1d35402310c75c96"
+    },
+    "campaigns/campaign-1/development/operations/b9ad68f3ebce4877a1cd50d4a3232ef1/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "e13ea589525aab11687991521f9c02fa802d4505e37b9e9820dfef2ae3a8ec08"
+    },
+    "campaigns/campaign-1/development/operations/d5e1401fcdc944d09aee44a7d49d61f5/paired.json": {
+      "bytes": 4061,
+      "executable": false,
+      "sha256": "886a26bb769b20f03513bfc11f74fc2f2025daef910f5c2a17a6d9d7ad93b311"
+    },
+    "campaigns/campaign-1/development/operations/d5e1401fcdc944d09aee44a7d49d61f5/result.json": {
+      "bytes": 3239,
+      "executable": false,
+      "sha256": "e16c05983a6ce63fe538199b14aecdbb3dc936f9d93d0cac1ec439898f8beca3"
+    },
+    "campaigns/campaign-1/development/operations/d5e1401fcdc944d09aee44a7d49d61f5/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "25207a93d9a672425ee4c0f6183cd195e92c3cf153319dd27c821c38b942a13a"
+    },
+    "campaigns/campaign-1/development/operations/e37961a106c24c5ba12b33fcf57dd2b8/paired.json": {
+      "bytes": 4019,
+      "executable": false,
+      "sha256": "54dfc2e10fff39402d8cc45cba1653f79dbfdc11bad4fd9dea0f38b40732b7c2"
+    },
+    "campaigns/campaign-1/development/operations/e37961a106c24c5ba12b33fcf57dd2b8/result.json": {
+      "bytes": 3339,
+      "executable": false,
+      "sha256": "c58d9dd565dd503bff1644e70dce0e3764afa1f3208c1fc0877b6eca737b6545"
+    },
+    "campaigns/campaign-1/development/operations/e37961a106c24c5ba12b33fcf57dd2b8/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "460fd9ef013b0e7d5156807a965624f4dad5d67b23623b687ae2d60f52232c67"
+    },
+    "campaigns/campaign-1/development/operations/e8ccc3b82f254f6b9053c2d4fcbc9335/paired.json": {
+      "bytes": 3830,
+      "executable": false,
+      "sha256": "1c8afcdd120036ddec04fb6a6746e278f31f9d85277fd3071da86ccb3811bbb7"
+    },
+    "campaigns/campaign-1/development/operations/e8ccc3b82f254f6b9053c2d4fcbc9335/result.json": {
+      "bytes": 2757,
+      "executable": false,
+      "sha256": "01545ebf6d03a95e08e5520fc841e90b5230ceeec11f92c4e1154cb3c460fdf6"
+    },
+    "campaigns/campaign-1/development/operations/e8ccc3b82f254f6b9053c2d4fcbc9335/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "493a82a7752e73f64ed5b2f09ca8987ad57d9a20cf332c46ebd7d8630c624313"
+    },
+    "campaigns/campaign-1/development/operations/ea0b9f6b724a4ffdbedd996762454de0/paired.json": {
+      "bytes": 4035,
+      "executable": false,
+      "sha256": "e98540af026bdbd1083ec4424c308bb14e7981fb61479bbf598ff59e32a0ec1d"
+    },
+    "campaigns/campaign-1/development/operations/ea0b9f6b724a4ffdbedd996762454de0/result.json": {
+      "bytes": 3315,
+      "executable": false,
+      "sha256": "ebd5113e2288230cf9180f964af7e211727ef73138fe15983bcdb92945e2a37f"
+    },
+    "campaigns/campaign-1/development/operations/ea0b9f6b724a4ffdbedd996762454de0/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "7007208177fa8bac604ba28f6ca2c8705d7eef0a3e730f75f803379470fd40a8"
+    },
+    "campaigns/campaign-1/development/operations/ead02dd35f894b46b6f035afb785bba4/paired.json": {
+      "bytes": 4079,
+      "executable": false,
+      "sha256": "5fbcea4a40ca841f642ffd32459ce7852b8266d198f4ba2f46f7e792da8d96ff"
+    },
+    "campaigns/campaign-1/development/operations/ead02dd35f894b46b6f035afb785bba4/result.json": {
+      "bytes": 2813,
+      "executable": false,
+      "sha256": "6441358ac57a45c05b59d3b63cb9ebc1add477354baedf7d870638fc98011319"
+    },
+    "campaigns/campaign-1/development/operations/ead02dd35f894b46b6f035afb785bba4/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "6ce7fd24b4785b4d6e32bffac64500af0fa437aa13513087185c75b21db21bed"
+    },
+    "campaigns/campaign-2/development/operations/01b29f5d6c77413cb097707d3b9e2064/paired.json": {
+      "bytes": 4062,
+      "executable": false,
+      "sha256": "032779f8c628256e182223b3734a0f4185d46e79807a3923e57424b7377b1b22"
+    },
+    "campaigns/campaign-2/development/operations/01b29f5d6c77413cb097707d3b9e2064/result.json": {
+      "bytes": 2808,
+      "executable": false,
+      "sha256": "c4c720c0b8914ec47650a2b4fb7e171b5e0360adba94576ccb8321f468c4293a"
+    },
+    "campaigns/campaign-2/development/operations/01b29f5d6c77413cb097707d3b9e2064/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "77a2ae8b581b3652107ee4c0e1d91f35f089ffa3cf0f9dca3618afefb2c9bf64"
+    },
+    "campaigns/campaign-2/development/operations/0e2e89040a3e4d3c89daa4dbddd02981/paired.json": {
+      "bytes": 3866,
+      "executable": false,
+      "sha256": "6380264da4c1d5ba5971f9fb370110782a58d6b384e95b9ccb902c83d6e20c4f"
+    },
+    "campaigns/campaign-2/development/operations/0e2e89040a3e4d3c89daa4dbddd02981/result.json": {
+      "bytes": 3366,
+      "executable": false,
+      "sha256": "20e0dad81b79482366eecdd450e884afa5a428d7beea7651f865b88e15ab9a90"
+    },
+    "campaigns/campaign-2/development/operations/0e2e89040a3e4d3c89daa4dbddd02981/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "6a253efca553e01adc1bcac179f53de61df5698a271b70040c3102bde3c6baf4"
+    },
+    "campaigns/campaign-2/development/operations/221d8b786e68421b8bdd265a858462c3/paired.json": {
+      "bytes": 3818,
+      "executable": false,
+      "sha256": "b916d177bfcb426f16b918ba78e8036b127d5acacbcffdf67f736f11e87ba8c9"
+    },
+    "campaigns/campaign-2/development/operations/221d8b786e68421b8bdd265a858462c3/result.json": {
+      "bytes": 2756,
+      "executable": false,
+      "sha256": "b28375188ecfaccf96470fc1fdeff37d5bbf7ced4f23e4b3bbbd2fa032b189a3"
+    },
+    "campaigns/campaign-2/development/operations/221d8b786e68421b8bdd265a858462c3/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "579064fe61c1ecd518432fbe30fff066958ecd7ba4bab490f90420b4853ba233"
+    },
+    "campaigns/campaign-2/development/operations/32c3163a31a94b42991c28aeca8e2993/paired.json": {
+      "bytes": 4004,
+      "executable": false,
+      "sha256": "a3430aa5311d4d82aa3ca956402c4dba78b6b4416d8a3f0dc0929eb9761737a2"
+    },
+    "campaigns/campaign-2/development/operations/32c3163a31a94b42991c28aeca8e2993/result.json": {
+      "bytes": 2694,
+      "executable": false,
+      "sha256": "2e08a2e5a26157721ea4aef043f50ba8e99147e317573ff2d67af0cfc496f609"
+    },
+    "campaigns/campaign-2/development/operations/32c3163a31a94b42991c28aeca8e2993/descriptive-bootstrap.json": {
+      "bytes": 321,
+      "executable": false,
+      "sha256": "579a32cef1cbd636cb7ec09c7f7bc9b8fac8d1fb52c28f4dbe35e92babddf478"
+    },
+    "campaigns/campaign-2/development/operations/41d2549374614bdd8ec33ae564e090a5/paired.json": {
+      "bytes": 4054,
+      "executable": false,
+      "sha256": "b5b6758907e435657c3b2c7745b9c027f546511bad31a98f1d4070a1836343ec"
+    },
+    "campaigns/campaign-2/development/operations/41d2549374614bdd8ec33ae564e090a5/result.json": {
+      "bytes": 2695,
+      "executable": false,
+      "sha256": "c1893894cd216341d1d4c3a8bf0badf73986c0d5077ebc0b680286f06c282cff"
+    },
+    "campaigns/campaign-2/development/operations/41d2549374614bdd8ec33ae564e090a5/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "7c0b8014659c5ae06768fd72b9134466c2944481e2f61876c1b85181288d3a58"
+    },
+    "campaigns/campaign-2/development/operations/45b854e5b24b4444ba90f33fad571ec9/paired.json": {
+      "bytes": 3776,
+      "executable": false,
+      "sha256": "adcaec41c2afd577844997565d4c0c807c959fa2797ddc2cfbc09988293549f6"
+    },
+    "campaigns/campaign-2/development/operations/45b854e5b24b4444ba90f33fad571ec9/result.json": {
+      "bytes": 3500,
+      "executable": false,
+      "sha256": "48fed0abe45b9c5cb080ca816bb0b27f2860739385afa0adf6a44235118c55bc"
+    },
+    "campaigns/campaign-2/development/operations/45b854e5b24b4444ba90f33fad571ec9/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "9c0fd8e72d87c6db7494096d91bc37f21295bd230b28d7218ad625d60899aac1"
+    },
+    "campaigns/campaign-2/development/operations/65cfe37ab3304e058085afd06582ab6c/paired.json": {
+      "bytes": 3891,
+      "executable": false,
+      "sha256": "2ac1f8a02ca4ff459fd53fd91a9a832846126cbb6d2258cbd915bb7a63523856"
+    },
+    "campaigns/campaign-2/development/operations/65cfe37ab3304e058085afd06582ab6c/result.json": {
+      "bytes": 2813,
+      "executable": false,
+      "sha256": "0883dc444672bee5ae339d64739fe4b0b1fd1ff10e8be03d0c5db39ce88877e4"
+    },
+    "campaigns/campaign-2/development/operations/65cfe37ab3304e058085afd06582ab6c/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "44c1d0f4bdb90993f1f670302533f8b4b6c96aa546af2722ad3e5d83f947ea2e"
+    },
+    "campaigns/campaign-2/development/operations/6c2a377972334bcc95540a9ce5dcf182/paired.json": {
+      "bytes": 4074,
+      "executable": false,
+      "sha256": "c24bd56916cfc51ba486d8826924d28f35761474c81ab50fd6756f9f4e4b2ec4"
+    },
+    "campaigns/campaign-2/development/operations/6c2a377972334bcc95540a9ce5dcf182/result.json": {
+      "bytes": 2814,
+      "executable": false,
+      "sha256": "a078eef5522a02de6986f6cb2e4a162c8bda23028ffb2b0fb80abf1c41ca330a"
+    },
+    "campaigns/campaign-2/development/operations/6c2a377972334bcc95540a9ce5dcf182/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "fbece35f2258658089a71f5411fef48ad769aa0a84d6d94bcc650d7e3dfa1b52"
+    },
+    "campaigns/campaign-2/development/operations/7ddecbe8447c44c8839293188d121029/paired.json": {
+      "bytes": 4044,
+      "executable": false,
+      "sha256": "c1b3ec05abbb2b259ab747fdd948a8ad6d873870e74161d464dd35394be80a07"
+    },
+    "campaigns/campaign-2/development/operations/7ddecbe8447c44c8839293188d121029/result.json": {
+      "bytes": 2810,
+      "executable": false,
+      "sha256": "380ef8b90a27de8af9c2caf9fe6fbf917bd15d3983c01ba5a322bb868739fa0e"
+    },
+    "campaigns/campaign-2/development/operations/7ddecbe8447c44c8839293188d121029/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "56798b82da9e9bf9170a785119ddbb0a2dfeba47675de877e964d4ce80e0436c"
+    },
+    "campaigns/campaign-2/development/operations/8084dd1df32c4ef1925b34007de47305/paired.json": {
+      "bytes": 4051,
+      "executable": false,
+      "sha256": "8fdaff00097cc9769d656061f76f9b22ef0f2b316a3e70a525b56a294d576f03"
+    },
+    "campaigns/campaign-2/development/operations/8084dd1df32c4ef1925b34007de47305/result.json": {
+      "bytes": 2814,
+      "executable": false,
+      "sha256": "c0f2b7dea148f0e81ac3bed877c7a24bdfa1d76f2b381f01499b2428dff4ca9a"
+    },
+    "campaigns/campaign-2/development/operations/8084dd1df32c4ef1925b34007de47305/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "03c62393df7918ea4a5760eace4408492676305e23471c3f077da8935d9f7f76"
+    },
+    "campaigns/campaign-2/development/operations/8e7af32bdf6b442d841ebe74a739223e/paired.json": {
+      "bytes": 4029,
+      "executable": false,
+      "sha256": "37f936a60f47af900a9e0c0df6f674d5f1ba59265561f706dba67220c4b77f92"
+    },
+    "campaigns/campaign-2/development/operations/8e7af32bdf6b442d841ebe74a739223e/result.json": {
+      "bytes": 2755,
+      "executable": false,
+      "sha256": "496db1d2a9d33553507e83a53b05d550124e8c1458b8f925d1898739cede5185"
+    },
+    "campaigns/campaign-2/development/operations/8e7af32bdf6b442d841ebe74a739223e/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "b83c44d65e4130bc9b30942ee3bd03afd32cb822fcf4535d458ea410564e60c4"
+    },
+    "campaigns/campaign-2/development/operations/a42f80de943f46609f8ea37928c791a3/paired.json": {
+      "bytes": 3822,
+      "executable": false,
+      "sha256": "1914c69abadc5b4c7c4b08614171f4618b008c3253084a3c44380a115a374dcb"
+    },
+    "campaigns/campaign-2/development/operations/a42f80de943f46609f8ea37928c791a3/result.json": {
+      "bytes": 2813,
+      "executable": false,
+      "sha256": "39ff8a9f741ddb4e24aa8ab66acfe5c22dcf250b91de568d2e331d04959588bd"
+    },
+    "campaigns/campaign-2/development/operations/a42f80de943f46609f8ea37928c791a3/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "8defa69b8fe09f955a26319040249b997ce34b75c88e39125d3b586b8caccd6e"
+    },
+    "campaigns/campaign-2/development/operations/a74ad52d009d47d7a26ac285f290603c/paired.json": {
+      "bytes": 3865,
+      "executable": false,
+      "sha256": "9afb6e43c55902769286401ba737d8615448c9a227c26926d51f9da3b5ae0afd"
+    },
+    "campaigns/campaign-2/development/operations/a74ad52d009d47d7a26ac285f290603c/result.json": {
+      "bytes": 2757,
+      "executable": false,
+      "sha256": "e9b7ebadbee22fb210f02dcced48fccca355534b8233b7395be837f080804684"
+    },
+    "campaigns/campaign-2/development/operations/a74ad52d009d47d7a26ac285f290603c/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "433c75174f71ba65e59de445b01ea1ada982b93bdfb584e4f4bdcbab67fb34d1"
+    },
+    "campaigns/campaign-2/development/operations/b4348160304f472c8336ed161a6c10a9/paired.json": {
+      "bytes": 4018,
+      "executable": false,
+      "sha256": "fc5ae072f3fa7d2bbc62df421db63d23dfdcad08cdc4f7b0b8bb4ca2b5861047"
+    },
+    "campaigns/campaign-2/development/operations/b4348160304f472c8336ed161a6c10a9/result.json": {
+      "bytes": 2757,
+      "executable": false,
+      "sha256": "77dfa16ccf2341b867c8505197a40baabdc274a85c3212d3e4eeeae4631056f6"
+    },
+    "campaigns/campaign-2/development/operations/b4348160304f472c8336ed161a6c10a9/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "6da140e51a5d7e39bc49ae847cd950e84acacb0a449392b72851cb77abf63efb"
+    },
+    "campaigns/campaign-2/development/operations/e678119933f246f387a942cb6a8ec261/paired.json": {
+      "bytes": 3854,
+      "executable": false,
+      "sha256": "ea0b315af963828ad0fc135a6fd419f2522f95beea4742d20448f491bc264023"
+    },
+    "campaigns/campaign-2/development/operations/e678119933f246f387a942cb6a8ec261/result.json": {
+      "bytes": 2751,
+      "executable": false,
+      "sha256": "93b77270322672e87c374ff5d68af67fe0f4db22580aadfc88303e53c878d2b0"
+    },
+    "campaigns/campaign-2/development/operations/e678119933f246f387a942cb6a8ec261/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "e373920dcd46cfdbb7366c120fe45ccc5ee67ff00116173762e80afae32eee61"
+    },
+    "campaigns/campaign-2/development/operations/e7aeb0ca6ae6494ea4c9dc338ec6d8d9/paired.json": {
+      "bytes": 3827,
+      "executable": false,
+      "sha256": "e8ca85cd2a1b8a9fe02e2cd78d1b39b964559f29f754def783d08ab5697aeaa0"
+    },
+    "campaigns/campaign-2/development/operations/e7aeb0ca6ae6494ea4c9dc338ec6d8d9/result.json": {
+      "bytes": 2746,
+      "executable": false,
+      "sha256": "2443be201d6bdd031ae8c14fa28780edf2930fd5ebe74a677e5978026447d328"
+    },
+    "campaigns/campaign-2/development/operations/e7aeb0ca6ae6494ea4c9dc338ec6d8d9/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "5566ef89b1257b9e01a2b909a00becd479d40ef283010eeb5bbedd4c7b464d7f"
+    },
+    "campaigns/campaign-3/development/operations/1bac31f04e144427bd8fd74d44acb877/paired.json": {
+      "bytes": 4092,
+      "executable": false,
+      "sha256": "84d90e147a4012cee0462266cb975dcd636241c04e5a271cca4b2f820608c397"
+    },
+    "campaigns/campaign-3/development/operations/1bac31f04e144427bd8fd74d44acb877/result.json": {
+      "bytes": 3602,
+      "executable": false,
+      "sha256": "8411d8b50b6ad4e0c1eee39303d6dc50eda82365a7230d66a7f17f244d516290"
+    },
+    "campaigns/campaign-3/development/operations/1bac31f04e144427bd8fd74d44acb877/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "f2df7d7ac20c5d091c5860a3c93dd90666616d22278ab6346dae910c981825c6"
+    },
+    "campaigns/campaign-3/development/operations/2440d82e766046c1b11f37a46499f9a2/paired.json": {
+      "bytes": 4124,
+      "executable": false,
+      "sha256": "cfe3f745908bf584a7e338a62be2953f2cb390a502d7fe4007680fb9c6d3627c"
+    },
+    "campaigns/campaign-3/development/operations/2440d82e766046c1b11f37a46499f9a2/result.json": {
+      "bytes": 2696,
+      "executable": false,
+      "sha256": "23f3ad20f2793661d6f40ecd632c5819b83b7df664ab77e621d1bf7a5ed0f480"
+    },
+    "campaigns/campaign-3/development/operations/2440d82e766046c1b11f37a46499f9a2/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "f525e83211145a1bcb8463f0ba384f61821f965486b76cd67c597d90655f639c"
+    },
+    "campaigns/campaign-3/development/operations/2ba3387c20e64b239b9e5004da86c477/paired.json": {
+      "bytes": 3895,
+      "executable": false,
+      "sha256": "37996ba2577c1df2eb0f31fc50b01036b5553c7c9f24078de750848cbb47771d"
+    },
+    "campaigns/campaign-3/development/operations/2ba3387c20e64b239b9e5004da86c477/result.json": {
+      "bytes": 2809,
+      "executable": false,
+      "sha256": "d2f41574cdac294f1552e0d225a730f9f175ee7e64e451b18c7ea2c24033f87e"
+    },
+    "campaigns/campaign-3/development/operations/2ba3387c20e64b239b9e5004da86c477/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "debc22f148d97680be4dd8a885fa6ce3d4ba23d4e06168afe3fb5b78ff71900e"
+    },
+    "campaigns/campaign-3/development/operations/2f3738081a414e448188d86130bdc9b3/paired.json": {
+      "bytes": 3889,
+      "executable": false,
+      "sha256": "da524a7a55b8a1a8a9ad27cb3dacd135f71a92709896f47c2fe47adea068b2d5"
+    },
+    "campaigns/campaign-3/development/operations/2f3738081a414e448188d86130bdc9b3/result.json": {
+      "bytes": 2745,
+      "executable": false,
+      "sha256": "e2224da2c390333790a7f15f304989f21b5c5e217accc24361f6b524048a3564"
+    },
+    "campaigns/campaign-3/development/operations/2f3738081a414e448188d86130bdc9b3/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "1184ee8a1b7e6b3e9660bfbaab58dd1f518c11e1f52b2696ebd66ce10561e444"
+    },
+    "campaigns/campaign-3/development/operations/302efd9f1829400bb99ccd75e1cc418a/paired.json": {
+      "bytes": 4110,
+      "executable": false,
+      "sha256": "7fc96b9d1fc37e472c1c6eadec2fdeed05fc9fde3de9ed39adf6988c71cbb0c5"
+    },
+    "campaigns/campaign-3/development/operations/302efd9f1829400bb99ccd75e1cc418a/result.json": {
+      "bytes": 2811,
+      "executable": false,
+      "sha256": "375399fca24b6a98c122f19a4f8fa47480c19cf97aff72dd566264adacb46e7f"
+    },
+    "campaigns/campaign-3/development/operations/302efd9f1829400bb99ccd75e1cc418a/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "8684ae6f34c9701224630521fd71a93a6695c95560b84b55df40ae1beee5b01a"
+    },
+    "campaigns/campaign-3/development/operations/32c3ecab5b55422198b10f13335dcb08/paired.json": {
+      "bytes": 4064,
+      "executable": false,
+      "sha256": "1c487fc20522b3d13f2756e022195dc745126c9956c212e1a48930f1e21b7889"
+    },
+    "campaigns/campaign-3/development/operations/32c3ecab5b55422198b10f13335dcb08/result.json": {
+      "bytes": 4230,
+      "executable": false,
+      "sha256": "eb25f25e1c265d3e9b43451e800797cd8d148f954f8f7442641719a4a5ff8d13"
+    },
+    "campaigns/campaign-3/development/operations/32c3ecab5b55422198b10f13335dcb08/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "b1744e8e1884f2a737e5dd95a1feb548c0d7c146cbee19bba30ec9960d4e25be"
+    },
+    "campaigns/campaign-3/development/operations/4c6e660e041640ce8b7686fa9589c767/paired.json": {
+      "bytes": 3857,
+      "executable": false,
+      "sha256": "8256cddd872398eb449935417052b9eda3e469baf1c1abea6f5396cb06aaf2a7"
+    },
+    "campaigns/campaign-3/development/operations/4c6e660e041640ce8b7686fa9589c767/result.json": {
+      "bytes": 2747,
+      "executable": false,
+      "sha256": "5bb5b266c3f57a27c88e24929b883cd00a64f2d6db51782ca2bf11c98d30213a"
+    },
+    "campaigns/campaign-3/development/operations/4c6e660e041640ce8b7686fa9589c767/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "530062fdfc0de6b92f1e21109a1632e53ea6a7e2de4c0b2816c202e572664fa9"
+    },
+    "campaigns/campaign-3/development/operations/6d65565063264219b187efab39bc6352/paired.json": {
+      "bytes": 4071,
+      "executable": false,
+      "sha256": "55a4cff27e94b18aa6286a21591dd0c7463c4868d2d0d00598f1a8fcfefa101a"
+    },
+    "campaigns/campaign-3/development/operations/6d65565063264219b187efab39bc6352/result.json": {
+      "bytes": 3144,
+      "executable": false,
+      "sha256": "c3ede183866438d5c7aff8a413ddbc5c52d1539c28cc34c3365828380b2663be"
+    },
+    "campaigns/campaign-3/development/operations/6d65565063264219b187efab39bc6352/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "4f2709381d73ba67560b9469bc5eff507dec3c7b1d21db354cf402eea46e4398"
+    },
+    "campaigns/campaign-3/development/operations/86ba913f920848edab62c8d7bb1997ef/paired.json": {
+      "bytes": 3845,
+      "executable": false,
+      "sha256": "0e804ab714c05a7b5bea1d3178b2891810f1f63d5e07ecacf275244203df586a"
+    },
+    "campaigns/campaign-3/development/operations/86ba913f920848edab62c8d7bb1997ef/result.json": {
+      "bytes": 2747,
+      "executable": false,
+      "sha256": "479e95830a2ce6890a50c16be7cf0f4c2744d855bb4da1376a269f4299eaec13"
+    },
+    "campaigns/campaign-3/development/operations/86ba913f920848edab62c8d7bb1997ef/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "6b6f8c9e405d89c7d95682b4c9d24d2afe95f763578d441149595c7427ba6721"
+    },
+    "campaigns/campaign-3/development/operations/89ac1e740d75411987be1bb90d90a744/paired.json": {
+      "bytes": 4067,
+      "executable": false,
+      "sha256": "0e20c2a1fa5240f8d78b5426950e695c04867f2bd4d7ee952e0ae3cf36899a99"
+    },
+    "campaigns/campaign-3/development/operations/89ac1e740d75411987be1bb90d90a744/result.json": {
+      "bytes": 2694,
+      "executable": false,
+      "sha256": "021fb28597135a7fd3d531f5ed39eea55995338d84e44abe18095d7e192b186f"
+    },
+    "campaigns/campaign-3/development/operations/89ac1e740d75411987be1bb90d90a744/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "523cbc27395961304882e971fa9cf991a5f809cf47559eafd018e623d8bd2659"
+    },
+    "campaigns/campaign-3/development/operations/98f3993c0eb64a3783fddf3253ade350/paired.json": {
+      "bytes": 4046,
+      "executable": false,
+      "sha256": "d4ec447fc722fb69b6852bf55c412931f9ef865d26d89bdba03797a9f371d822"
+    },
+    "campaigns/campaign-3/development/operations/98f3993c0eb64a3783fddf3253ade350/result.json": {
+      "bytes": 2757,
+      "executable": false,
+      "sha256": "c82f1d603a4ccd77ebba85c7bd839baf10f93528803a1434d31edcf19a9d3f5e"
+    },
+    "campaigns/campaign-3/development/operations/98f3993c0eb64a3783fddf3253ade350/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "4186e77130745ca8e03295191577d1c570a521e369ce17bfb1834045bc69675a"
+    },
+    "campaigns/campaign-3/development/operations/d47e8861c53f447c9ecc650b721ff08d/paired.json": {
+      "bytes": 3803,
+      "executable": false,
+      "sha256": "7b8eda351f887bfca3dd2e3e76a947b06a39398652f17f74367057c747854558"
+    },
+    "campaigns/campaign-3/development/operations/d47e8861c53f447c9ecc650b721ff08d/result.json": {
+      "bytes": 3003,
+      "executable": false,
+      "sha256": "2515719b751108a760a01e481373dd67575ae6c30c970fad65e36aba33933cbb"
+    },
+    "campaigns/campaign-3/development/operations/d47e8861c53f447c9ecc650b721ff08d/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "40681bcfaed4b085a999edbc549ebb322deb6bf9d6d58fe3361f70e67dff24d0"
+    },
+    "campaigns/campaign-3/development/operations/ee87218c06b443ffa73db0b5df3a6860/paired.json": {
+      "bytes": 4146,
+      "executable": false,
+      "sha256": "ff5c3a39e9556e716dec120b05291e272bfe3cf72acda37600f6bdc8228549b1"
+    },
+    "campaigns/campaign-3/development/operations/ee87218c06b443ffa73db0b5df3a6860/result.json": {
+      "bytes": 3454,
+      "executable": false,
+      "sha256": "6f336a200d1adc54c6c3ed2d33abeeea31fda75cd3459bc820d19ce42538fdfd"
+    },
+    "campaigns/campaign-3/development/operations/ee87218c06b443ffa73db0b5df3a6860/descriptive-bootstrap.json": {
+      "bytes": 322,
+      "executable": false,
+      "sha256": "37e4bfa9192700be10de5b5575dac59509985dce8dbd871d39f53f192a7ae130"
+    },
+    "campaigns/campaign-3/development/operations/f26b71dd157f491db824e8ad6c122e3c/paired.json": {
+      "bytes": 3862,
+      "executable": false,
+      "sha256": "304e4cd974abf54541d48e24e2aaf69ef1ee3998b4c9dce2bf8d520d0f7c4b13"
+    },
+    "campaigns/campaign-3/development/operations/f26b71dd157f491db824e8ad6c122e3c/result.json": {
+      "bytes": 3917,
+      "executable": false,
+      "sha256": "c1a9a0dd24685f3f49a5f58340475f3e0c5668aca09139c5f493f0a9bbae089c"
+    },
+    "campaigns/campaign-3/development/operations/f26b71dd157f491db824e8ad6c122e3c/descriptive-bootstrap.json": {
+      "bytes": 323,
+      "executable": false,
+      "sha256": "59fbeda259e94f4f529e9262b3a225f59ccc73dbbbef4dfe1451d5d3b20994be"
+    }
+  }
+}

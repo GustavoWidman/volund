@@ -1,0 +1,76 @@
+{
+  "full_extracted_bundle_sha256": "664da2b74f53eed07fa65f9dbeec0d77d73744131316837ff56a0c4996185665",
+  "curated_plot_data_sha256": "8a1ca8be34d2bf7dee2c1c5bd30ad4ac41c0848dcd036a21d3ca147ee54ab974",
+  "all_11_existing_table_csvs_byte_identical": true,
+  "plots": [
+    {
+      "file": "v3-development.png",
+      "identical": true
+    },
+    {
+      "file": "v3-endpoints.png",
+      "identical": true
+    },
+    {
+      "file": "v3-families-shift.png",
+      "identical": true
+    },
+    {
+      "file": "v3-families-transfer.png",
+      "identical": true
+    },
+    {
+      "file": "v3-family-pairs-shift-c1.png",
+      "identical": true
+    },
+    {
+      "file": "v3-family-pairs-shift-c2.png",
+      "identical": true
+    },
+    {
+      "file": "v3-family-pairs-shift-c3.png",
+      "identical": true
+    },
+    {
+      "file": "v3-family-pairs-transfer-c1.png",
+      "identical": true
+    },
+    {
+      "file": "v3-family-pairs-transfer-c2.png",
+      "identical": true
+    },
+    {
+      "file": "v3-family-pairs-transfer-c3.png",
+      "identical": true
+    },
+    {
+      "file": "v3-role-cost-c1.png",
+      "identical": true
+    },
+    {
+      "file": "v3-role-cost-c2.png",
+      "identical": true
+    },
+    {
+      "file": "v3-role-cost-c3.png",
+      "identical": true
+    },
+    {
+      "file": "v3-role-tokens-c1.png",
+      "identical": true
+    },
+    {
+      "file": "v3-role-tokens-c2.png",
+      "identical": true
+    },
+    {
+      "file": "v3-role-tokens-c3.png",
+      "identical": true
+    },
+    {
+      "file": "v3-workflow.png",
+      "identical": true
+    }
+  ],
+  "scope": "PNG rendered pixels/files identical between full authenticated extraction and curated plot data. Does not validate original publication PDF page layout."
+}

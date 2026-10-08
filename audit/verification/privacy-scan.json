@@ -1,0 +1,5 @@
+{
+  "scanned": "Loose text/source records in repository; archives separately verified with original strict manifest verifier",
+  "findings": [],
+  "limits": "Finite pattern scan cannot establish arbitrary prose safety. No credentials or model-private stream directories imported."
+}

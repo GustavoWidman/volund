@@ -1,0 +1,12 @@
+{
+  "status": "verified_present_bytes",
+  "kind": "v3-source-and-essential-data",
+  "file_count": 61087,
+  "omitted_file_count": 21571,
+  "omitted_bytes_verified": false,
+  "scientific_result_release": true,
+  "assessment_status": "complete",
+  "freeze_sha256": "a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178",
+  "manifest_sha256": "2a8127785f5d5e2f2c42e8d1cf8061da344b174db7014907145bccc902f290aa",
+  "native_environment_reproduced": false
+}

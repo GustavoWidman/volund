@@ -40,3 +40,22 @@ See `docs/ai-development-workflow/REPRODUCE.md` for historical build receipts.
 Replace machine-local tool/cache paths only; never rewrite archived evidence.
 The main paper is 7 pages; the supplement 10 pages. Existing bundled fonts retain
 their original license notice; that notice does not license the study itself.
+
+## Lightweight arithmetic and plotting from this checkout
+
+Run `python3 -B scripts/reproduce_arithmetic.py` to verify the 156 raw input pins
+and reproduce all 52 portfolio/family/bootstrap calculations using Python only.
+This is arithmetic verification, not full source/build/attempt provenance audit.
+
+### Plotting
+
+The committed data subset can render all 17 figures without the external archive.
+It retains plotting rows unchanged and records curation/coverage limits. Install
+Matplotlib and NumPy in your own environment, then choose a NEW output directory:
+
+```sh
+python3 -B experiments/unattended-optimization-v3/analysis/figures/plot.py --data data/plot-data.json --out experiments/unattended-optimization-v3/analysis/figures/local-render
+```
+
+This re-renders recorded data; it does not verify all original command/source
+receipts, regenerate raw measurements, or run a new campaign.
