@@ -1,0 +1,107 @@
+{
+  "base_commit": "4114e6cf6108d80920e0c46ad50c90c5ff6e8d37",
+  "historical_tree_url": "https://github.com/GustavoWidman/volund/tree/4114e6cf6108d80920e0c46ad50c90c5ff6e8d37",
+  "scope": "Repository organization and current documentation only. Scientific source, measurements, raw arithmetic, manuscript source/PDF/figure bytes and original scientific pins preserved. Historical receipts retain original paths and status.",
+  "removed_from_current_tree": [
+    {
+      "path": "archive/manuscript-before-revision/README.md",
+      "git_blob": "95cded7d52aff065ca90e2963a097ff4832e843d",
+      "sha256": "5a943e0c0148cd5d334cdac9a1929be264f005cd95b71f67851444d5509eb1b8",
+      "bytes": 358,
+      "git_mode": "100644"
+    },
+    {
+      "path": "archive/manuscript-before-revision/ai-development-workflow-draft.pdf",
+      "git_blob": "fc82b02fdb904250981f0e63a67be31393c85bbb",
+      "sha256": "f4ead58f7f9b3446f4cc03ba1ffb8c7b1780a5cd24a2244283d83987c875cec7",
+      "bytes": 197441,
+      "git_mode": "100644"
+    },
+    {
+      "path": "archive/manuscript-before-revision/ai-development-workflow-supplement.pdf",
+      "git_blob": "3b7846e877fa98960f7b5b00bad4fa49b8961958",
+      "sha256": "54ee7a98648deddbaedf7cb5b4602031c02966e9a2c5c2fac3bf01a35a92f65d",
+      "bytes": 251745,
+      "git_mode": "100644"
+    },
+    {
+      "path": "archive/manuscript-before-revision/extended-methods.typ",
+      "git_blob": "6898eab9922bcd036fd9ed9ff3ffc41afd266d2d",
+      "sha256": "faec4867b0a87b140e6dd4e240a00b7706241a633242409d08073dc53cc5bcce",
+      "bytes": 41539,
+      "git_mode": "100644"
+    },
+    {
+      "path": "archive/manuscript-before-revision/main.typ",
+      "git_blob": "c84ec10706d7f6a94d68d7cbc5e72544638827ea",
+      "sha256": "47ab700ca76e1061401820169c9dc244bdb106c12c4bc00c45dece35117f92fb",
+      "bytes": 34847,
+      "git_mode": "100644"
+    },
+    {
+      "path": "archive/manuscript-before-revision/refs.bib",
+      "git_blob": "b8e8f45d72c79e9b54b4ad4980108cea9c308eae",
+      "sha256": "e37e62eb93ab277116e6b44a7236668b6e976c0ad3e1824db76318700a73ef9c",
+      "bytes": 7047,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/ai-development-workflow/REPRODUCE.md",
+      "git_blob": "e6a4991a7c5747efbf4d61c37c6ecc0b3f5572ef",
+      "sha256": "031ad6f277d099e433bb89e74ae5572b3e3a2c66b5a9fd91057d979ed47b7247",
+      "bytes": 2095,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/ai-development-workflow/REVISION-NOTES-2026-10-08.md",
+      "git_blob": "b1ac8129ec6083c7608db01888d12cf14b89d320",
+      "sha256": "190edea82e8c5a5b107590102f92444f88476ae40e03c45a31a442a8d72bd599",
+      "bytes": 6319,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/ai-development-workflow/SOURCE-AUDIT.md",
+      "git_blob": "0c53f803b2789d67da841d0c8232c9bea3422bce",
+      "sha256": "4f0bb9517e2addd27a48339b1222fd6928f85a661277ce1b5c5959f0418ded2d",
+      "bytes": 795,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/ai-development-workflow/EVIDENCE-COVERAGE.md",
+      "git_blob": "99794438e6e0e08ea7d24f135cac531992c2c1e4",
+      "sha256": "d996e54e8bfb00ceefc7c9d836de8bbc6e286084be0925ce23c8712b7e200141",
+      "bytes": 713,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/ai-development-workflow/EXPERIMENT-DETAILS.md",
+      "git_blob": "d5aa40567f33e09ba8660b7e523dc0d084ec1cc8",
+      "sha256": "e90cf914e82aefeb12ce7c01c462d0919a74f6752f35f7dc810469764522e5d3",
+      "bytes": 597,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/ai-development-workflow/BUILD-VERIFICATION.md",
+      "git_blob": "d0c5c1123cccfc60803a86758d70d739d22b2e83",
+      "sha256": "5cb0ebdf96fbc964f836a30308400aaed1d609a2190b1f78ced111cbd9c8561b",
+      "bytes": 3101,
+      "git_mode": "100644"
+    }
+  ],
+  "manuscript_move": {
+    "from": "docs/ai-development-workflow/",
+    "to": "paper/",
+    "pdf_names": {
+      "ai-development-workflow-draft.pdf": "volund.pdf",
+      "ai-development-workflow-supplement.pdf": "supplement.pdf"
+    }
+  },
+  "historical_receipts": [
+    "paper/FINAL-BUILD-VERIFICATION.json",
+    "paper/INDEPENDENT-METHODS-CITATION-REVIEW.md",
+    "audit/import-provenance.json",
+    "audit/verification/",
+    "experiments/unattended-optimization-v3/release/",
+    "experiments/unattended-optimization-v3/analysis/"
+  ]
+}

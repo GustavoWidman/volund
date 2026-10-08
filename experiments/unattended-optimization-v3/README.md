@@ -18,9 +18,9 @@ The cohort retained 13 reviewed hypotheses, eight promotions, 21 role agents and
 the dated Standard API-equivalent scenario. Unreported compaction work and other
 provider coverage limits prevent a whole-run cost bound or actual-bill claim.
 
-The [main manuscript](../../docs/ai-development-workflow/ai-development-workflow-draft.pdf)
-and [supplement](../../docs/ai-development-workflow/ai-development-workflow-supplement.pdf)
-retain these limits. [Release instructions](release/DELIVERY-README.md) describe
+The [main manuscript](../../paper/volund.pdf)
+and [supplement](../../paper/supplement.pdf)
+retain these limits. [Historical release receipt](release/DELIVERY-README.md) describes
 the verified 22.33 MB compressed source/numerical evidence package. A separate
 full archive preserves additional original bytes; it is not a Git payload.
 [Post-hoc memory diagnostics](analysis/posthoc-memory-20261002/README.md) add five
@@ -54,9 +54,9 @@ releasing its lease. Unknown cleanup quarantines resources instead of silently
 continuing. This is a non-hostile research workflow, not a proof of security
 against malicious same-UID code or an isolated physical host.
 
-## Launch
+## Historical launch (not a checkout reproduction command)
 
-Use `tools/start-study.sh --check` for a no-inference final-path check. The exact
+The original deployment used `tools/start-study.sh --check` for its final-path check; this partial checkout is not that complete deployment. For current offline commands, use [the root reproduction guide](../../REPRODUCE.md). The exact
 launcher is `tools/start-study.sh`; it runs a real unscored multiagent preflight,
 then waits without inference for reviewed readiness and a new freeze. Only then
 can it start the three authorized campaigns and the first final assessment.
@@ -69,7 +69,7 @@ It binds 68 source files and 151 runtime/setup artifacts. Fresh validation inclu
 20 real multiagent checks, 221 regression tests, native correctness/profile/memory
 and failure controls, and seven native scheduler/recovery bridge checks. These
 are setup observations, not optimization results. The terminal status is retained
-in `state/launch/status.json`. The final report SHA-256 is
+in archive-only `state/launch/status.json`, absent from this checkout. The final report SHA-256 is
 `4c0da852efa41ae3440c09a9faf2e6de0797ac1036ebbbdfc052b4f658f66227`.
 
 Reported token counters are retained by role, including failures and retries.

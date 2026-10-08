@@ -1,14 +1,14 @@
 # V3 evidence and single-column figures
 
-Actual v3 extraction and rendering completed after all three native campaigns
-and the final assessment were complete. `measured-data-01/` contains the
-authenticated measured bundle and CSV tables. `measured-assets-01/` contains 17
-single-column figures in SVG, PDF, and PNG, their captions, and a digest manifest.
-All 29 focused figure tests pass. Every actual PNG has been visually inspected;
-independent PDF/SVG font and geometry checks are recorded in
-`qa-01/vector-font-metrics.json`. Final manuscript page placement remains the
-manuscript owner's separate check. No benchmark or model call was made, and no
-frozen source or measured input was changed.
+The checkout retains 11 original CSV tables in `measured-data-01/` and all 17
+paper PDF assets in repository-root `paper/figures/`. The full original
+`figure-data.json`, `raw_pairs.csv` and `measured-assets-01/` are historical derived
+outputs not included here and not assumed to be in the lean archive. Four selected
+QA receipts are retained in `qa-01/`: tests, visual QA, numeric verification and
+font/geometry metrics. Repository-root `data/plot-data.json` provides curated plotting rows;
+`data/raw-arithmetic/` provides 156 byte-pinned inputs for 52 comparisons.
+Use the [root reproduction guide](../../../../REPRODUCE.md) for current commands,
+requirements and availability limits. No benchmark or model call is involved.
 
 `extract.py` adapts the earlier generic extraction code. `plot.py` adapts the
 accepted single-column visual system in the separate v3 design-preview source.
@@ -60,23 +60,17 @@ measured outputs. There is no synthetic rendering switch or old-data default.
   executed. Cost intervals are hypothetical Standard API-equivalent subtotals,
   never complete-run bounds or actual charges
 
-`figure-data.json` and each CSV retain evidence hashes. `operations.csv`,
+In the separately retained full extraction, `figure-data.json` and each CSV retain evidence hashes. `operations.csv`,
 `process_events.csv`, and `final_attempts.csv` preserve failures and retries.
-`raw_pairs.csv` retains every selected temporal pair; `families.csv` retains the
+The historical full extraction’s `raw_pairs.csv` retains every selected temporal pair; `families.csv` retains the
 frozen median-log family estimator. Read the bundle's notes and accounting
 coverage fields before interpreting any totals.
 
 ## Reproduction
 
-These commands were run from the v3 experiment root after release. Reproduction
-must choose new, empty output directories rather than overwrite the completed
-bundles:
-
-```sh
-python -B -m unittest discover -s analysis/figures -p 'test_*.py' -v
-python -B analysis/figures/extract.py --out analysis/figures/measured-data-01
-python -B analysis/figures/plot.py --data analysis/figures/measured-data-01/figure-data.json --out analysis/figures/measured-assets-01
-```
+Current checkout-only tests and plot regeneration, plus optional archive extraction,
+are documented once in the [root reproduction guide](../../../../REPRODUCE.md).
+Never use the already populated `measured-data-01/` as an output directory.
 
 The focused tests use temporary synthetic inputs only to test boundaries and
 arithmetic; they do not produce measured outputs or render any plots. Extraction
@@ -149,7 +143,7 @@ raw paired-block panels may be supplementary. Every figure, including every
 supplement, remains one column wide. Do not combine the assets into a page-wide
 dashboard or shrink them below their authored width.
 
-`captions.txt` supplies concise captions; move long caveats into nearby methods
+Generated `captions.txt` supplies concise captions; move long caveats into nearby methods
 prose. Preserve normal two-column text flow. No manuscript source is changed by
 these scripts. Explain any † incomplete campaign marker, * accounting gap,
 identity diamond, or × missing measurement at its first appearance.
@@ -159,5 +153,4 @@ bounding box. It records source/data digests, dimensions, font sizes, captions,
 Matplotlib version, and each output digest. Those checks do not replace visual QA:
 inspect every SVG/PNG and the compiled manuscript pages at final 3.3-inch size.
 Verify long family/role labels, extreme result ranges, missing values, legend
-placement, and caption/prose flow before sharing actual figures. Actual figure
-visual QA is complete; final manuscript page QA is separate.
+placement, and caption/prose flow before sharing actual figures. Historical actual-figure visual QA was completed; a new render requires its own QA.

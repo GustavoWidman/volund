@@ -1,5 +1,7 @@
 # V3 reproducibility and evidence packaging
 
+For current checkout commands, use [the root reproduction guide](../../../../REPRODUCE.md). This document describes the optional separately supplied archive and its historical scientific verification contract; placeholder commands below require that archive.
+
 These owner-side tools are outside the immutable execution freeze. All historical
 native measurement finished on 2026-10-02. The source-only regression suite and
 an initial actual-data numerical audit passed after that release; final bundle
@@ -109,9 +111,9 @@ Finite secret/private-payload scans cannot prove arbitrary prose safe; review th
 concrete report before distribution. Ordinary report references are inert; all
 unresolved/excluded references stay recorded without being opened.
 
-`analysis/manuscript-draft` is preserved historical preparation. The current paper
-is separately maintained under `docs/ai-development-workflow` in the working
-repository. Nested figure outputs and generated manuscript files are separate
+`analysis/manuscript-draft` refers to historical preparation in the separately
+retained evidence; it is absent from this checkout. The current paper is
+maintained in repository-root `paper/`. Nested figure outputs and generated manuscript files are separate
 derived deliverables, outside the evidence inventory.
 
 These tools use the Python standard library. The release records the actual

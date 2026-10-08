@@ -8,3 +8,7 @@ __pycache__/
 
 # Bulk evidence is retained separately, not uploaded to Git.
 /experiments/unattended-optimization-v3/release/v3-lean-evidence.tar.gz
+
+# Local offline rendering outputs.
+/experiments/unattended-optimization-v3/analysis/figures/local-*/
+/experiments/unattended-optimization-v3/analysis/figures/.mpl-cache/

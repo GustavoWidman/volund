@@ -1,0 +1,42 @@
+{
+  "base_commit": "4114e6cf6108d80920e0c46ad50c90c5ff6e8d37",
+  "scope": "Directory and documentation cleanup; no empirical change, native timing, inference, endpoint selection or public release.",
+  "passed": {
+    "frozen_source_hashes": 68,
+    "original_runtime_setup_binding_count": 151,
+    "retained_in_root_runtime_setup_hashes_checked": 81,
+    "raw_arithmetic_input_hashes": 156,
+    "raw_arithmetic_manifest_unchanged": true,
+    "paired_comparisons": 52,
+    "reproduction_tests": 18,
+    "figure_tests": 29,
+    "rendered_figures": 17,
+    "retained_original_csvs": 11,
+    "independent_reader_facing_review": "passed after corrected derived-output and retained-QA availability wording",
+    "current_relative_links_and_documented_checkout_commands": "passed",
+    "manuscript": {
+      "volund": {
+        "pages": 7,
+        "all_text_and_rendered_pixels_match_original": true,
+        "outside_page_text_spans": 0,
+        "original_pdf_sha256": "9d6ac35eab12bd7bf2fc99df1cb9cb4993057ab2524333f456ad036d7f8549aa"
+      },
+      "supplement": {
+        "pages": 10,
+        "all_text_and_rendered_pixels_match_original": true,
+        "outside_page_text_spans": 0,
+        "original_pdf_sha256": "07d3def6ecab91c92b7b66e59afcbcc01c057f59d30ec1a132f9d0400ee8b9c7"
+      }
+    },
+    "visual_review": "All 17 page renders inspected; no clipping, overlap, broken layout or missing glyphs observed."
+  },
+  "warnings": [
+    "Matplotlib render completed with Fontconfig cache-directory warnings; all17 outputs and manifest were produced.",
+    "Rebuilt PDF bytes differ due to build metadata; text and pixels match. Original PDFs remain byte-identical and Library update is unnecessary."
+  ],
+  "not_run": [
+    "Complete archive provenance replay and archive extraction: separately retained archive unavailable in this cleanup workspace. Historical receipts remain historical.",
+    "Native benchmark/model/campaign reruns and broader frozen runtime test suites."
+  ],
+  "failed": []
+}

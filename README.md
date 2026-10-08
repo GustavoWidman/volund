@@ -1,56 +1,58 @@
 # Volund
 
-An empirical study of unattended multiagent program optimization.
+An empirical study of unattended multiagent program optimization: three completed
+campaigns on one synthetic C++20 event range-statistics task. The primary transfer
+portfolio speedups are 2.240×, 4.547× and 5.445× over the original seed.
 
-The evidence and reproduction materials will be made publicly available upon
-publication at https://github.com/GustavoWidman/volund. The repository is temporarily
-private for validation; this statement does not claim current public access.
-
-Study-only research repository. Imported from canonical source commit
-`23cfd8448d819c8e9a245e9afef5869791abc484` on 2026-10-08 with a new, honest Git history.
-No open-source license or public release is granted by this repository.
+Code and supporting evidence will be made publicly available upon publication at
+https://github.com/GustavoWidman/volund. This repository is currently private for
+validation; no public archive deposit, publication or open-source license is
+implied.
 
 ## Start here
 
-- [Main paper](docs/ai-development-workflow/ai-development-workflow-draft.pdf) and [supplement](docs/ai-development-workflow/ai-development-workflow-supplement.pdf)
+- [Main paper](paper/volund.pdf) and [supplement](paper/supplement.pdf)
 - [Reproduce and verify](REPRODUCE.md)
-- [Claim/source ledger](docs/ai-development-workflow/SOURCE-LEDGER.md)
+- [Claim/source index](paper/SOURCE-LEDGER.md)
 - [Scientific protocol](experiments/unattended-optimization-v3/protocol/PROTOCOL.md)
-- [Import provenance and exclusions](audit/import-provenance.json)
-- [Evidence release](experiments/unattended-optimization-v3/release/DELIVERY-README.md)
+- [Evidence availability and exact pins](audit/evidence-availability.json)
+- [Import provenance](audit/import-provenance.json) and [cleanup provenance](audit/cleanup-provenance.json)
 
-## Organization
+## Organization and reproduction
 
-`experiments/unattended-optimization-v3/` preserves source-relative paths needed by
-frozen protocols, harness/runtime, source tests, task contract/seed, analysis and
-figure generation. Selected small tables and scientific audit records are browsable.
-`docs/ai-development-workflow/` contains the paper, supplement, bibliography,
-fonts, figures and audit mapping. `audit/` records this import and performed checks.
-`scripts/` provides safe offline verification entry points. `data/` contains the
-small, pinned raw-arithmetic subset and plot-ready data.
+- `paper/`: manuscript sources, PDFs, bibliography, fonts, figures and source index
+- `experiments/unattended-optimization-v3/`: frozen source-relative protocols,
+  controller/runtime, tests, analysis, selected tables and scientific review records
+- `data/`: 156 pinned raw-arithmetic inputs for all 52 comparisons and curated plot data
+- `scripts/`: offline verification and arithmetic entry points
+- `audit/`: provenance, availability, current-tree manifest and verification receipts
 
-Bulk raw evidence is deliberately excluded from Git. A separate immutable lean
-archive contains 61,087 evidence files; its manifest also declares 21,571 full-only
-omissions. No release or external archive deposit is published yet. See
-[audit/evidence-availability.json](audit/evidence-availability.json) for exact pins.
-Full numerical replay requires that separately supplied archive. Curated raw paired data for all 52 comparisons, plot rendering, source-only tests
-and repository integrity checks work from this checkout alone. Public archive
-hosting and final publication packaging remain pending.
+This checkout supports all 52 paired arithmetic comparisons, 17-figure regeneration,
+18 reproduction tests, 29 figure tests and manuscript builds. Full source/build,
+attempt and command provenance verification requires the separately retained
+immutable lean archive: 61,087 evidence files plus a declaration of 21,571 full-only
+omissions. Absent bytes cannot be reverified here. See [REPRODUCE.md](REPRODUCE.md)
+for exact commands, dependencies and distinctions.
 
 ## Interpretation limits
 
-Three adaptive campaigns on one synthetic task give descriptive endpoint results,
-not evidence of general superiority or confirmatory campaign-wide effects. The C1
-shifted sparse family regressed (0.911× speedup). Failures, invalid attempts and
-first-valid retry rules remain in the evidence. Observed model usage is incomplete:
-remote compaction, failed-request costs, cache-write reporting and actual billing
-remain unknown. No whole-run cost bound or actual-bill claim follows.
+Three adaptive campaigns on one synthetic task provide descriptive endpoint
+results, not evidence of general superiority or confirmatory campaign-wide effects.
+There is no matched comparator. C1's shifted sparse family regressed (0.911×
+speedup). Failures, invalid attempts and first-valid retry rules remain part of
+the scientific record. Observed model usage is incomplete: remote compaction,
+failed-request costs, cache-write reporting and actual billing remain unknown;
+no whole-run cost bound or actual-bill claim follows.
 
-The full archive is not included here; its hashes and exclusion records
-are preserved. Absent bytes cannot be reverified. Native dependencies are pinned
-metadata, not a hermetic environment. Offline arithmetic replay is not a fresh
-native benchmark, campaign replication or model rerun. No paid inference, campaign
-rerun or endpoint reselection was performed during this import.
+Native dependencies are pinned metadata, not a hermetic environment. Offline
+arithmetic and plot replay do not constitute new native measurements or campaign
+replication. The directory cleanup changed no frozen execution source, measured
+evidence, manuscript source or PDF content.
 
-Original files are identified in the import manifest. The revised paper is a
-2026-10-08 derivative, not a silently replaced historical experiment record.
+## Historical records
+
+[Cleanup provenance](audit/cleanup-provenance.json) links the pre-cleanup commit and
+hashes of the earlier manuscript and superseded notes removed from the current
+tree. Original scientific reviews, failed-attempt/post-hoc records, frozen runtime
+documents and release/build receipts retain their historical scope, wording and
+paths. Use [REPRODUCE.md](REPRODUCE.md) for current checkout instructions.
