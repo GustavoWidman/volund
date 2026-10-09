@@ -1,6 +1,6 @@
 # Current v3 integration status
 
-Current index, updated 2026-10-08. The manuscript reports completed v3 evidence. The [original staged ledger and correction history](https://github.com/GustavoWidman/volund/blob/4114e6cf6108d80920e0c46ad50c90c5ff6e8d37/docs/ai-development-workflow/SOURCE-LEDGER.md) remain in Git history. Historical pending-result wording describes the earlier source-only stage.
+Current index, updated 2026-10-09. The manuscript reports completed v3 evidence. The [original staged ledger and correction history](https://github.com/GustavoWidman/volund/blob/4114e6cf6108d80920e0c46ad50c90c5ff6e8d37/docs/ai-development-workflow/SOURCE-LEDGER.md) remain in Git history. Historical pending-result wording describes the earlier source-only stage.
 
 The current deliverables are `main.typ`, `extended-methods.typ`, the 19-entry `refs.bib`, and `volund.pdf` / `supplement.pdf`. No frozen experiment file or measured evidence was edited; no new optimization campaign, candidate change, model call, performance comparison, or canonical assessment was run for manuscript integration. Five separately authorized fixed-endpoint post-hoc Memcheck probes are outside the original campaign and assessment evidence; all passed with finite stated coverage. Earlier manuscript files were preserved outside the current source directory before replacement. Only v3 outcomes appear in the current paper.
 
@@ -44,3 +44,9 @@ The main paper includes three 3.3-inch figures. Detailed timings, per-role count
 ## Bibliography and review provenance
 
 All 19 entries in `refs.bib` are cited by the main article. The [independent methods/citation review](INDEPENDENT-METHODS-CITATION-REVIEW.md) retains its original staged scope. The four later primary-source citations and metadata correction are recorded in the [historical revision notes](https://github.com/GustavoWidman/volund/blob/4114e6cf6108d80920e0c46ad50c90c5ff6e8d37/docs/ai-development-workflow/REVISION-NOTES-2026-10-08.md). The historical build receipt `FINAL-BUILD-VERIFICATION.json` records the old PDF names and old ledger hash; it is not a current-tree manifest. Current repository hashes are in `audit/repository-manifest.json` (repository-relative).
+
+## Editorial tightening on 2026-10-09
+
+The main article combines Discussion, Threats to Validity, and Conclusion into one section; availability and AI disclosure are unnumbered end matter. Methods summarize implementation details already retained in the unchanged supplement. Numerical results, tables, figure assets, and frozen scientific evidence are unchanged. The historical build receipt above predates this editorial revision.
+
+The PIE bibliography author field follows the ten-author list on page 1 of the [published conference PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/ce65173b994cf7c925c71b482ee14a8d-Paper-Conference.pdf), also present in [arXiv v5](https://arxiv.org/abs/2302.07867v5). The conference landing-page metadata additionally lists Yiming Yang; that extra name was removed from the bibliography to match the paper itself.

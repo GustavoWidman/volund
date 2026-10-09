@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "5b01d158187e34bf6933950e41afa0382496ec93",
+  "scope": "Editorial tightening and bibliography metadata correction only; no new measurements, model calls, endpoint selection, publication or permissions change.",
+  "sha256": {
+    "paper/main.typ": "ed370f7552323873955d18710aba47d58923d590bdd7e2c7f955f7679e59fd30",
+    "paper/volund.pdf": "69132dd10a061183e8517421bc91ceaba81101a8d93a042fd8f4582bd229c3ed",
+    "paper/refs.bib": "32065556ec41211d91cacfed9b28cc64f5bdfe5d1d0095afdb508c84a87155a5",
+    "paper/extended-methods.typ": "df8dcfd726c936dfa562d928828b61ebc3ccc09831bdc996182d72f98e083e88",
+    "paper/supplement.pdf": "07d3def6ecab91c92b7b66e59afcbcc01c057f59d30ec1a132f9d0400ee8b9c7"
+  },
+  "passed": {
+    "main_pages": 6,
+    "supplement_pages": 10,
+    "outside_page_text_spans": 0,
+    "final_visual_review": "Passed after URL and bibliography page-break fixes.",
+    "independent_content_review": "Passed; numerical evidence and stated limitations preserved.",
+    "supplement_source_and_pdf_unchanged": true,
+    "figure_assets_unchanged": true,
+    "raw_arithmetic_input_pins": 156,
+    "paired_comparisons": 52,
+    "reproduction_tests": 18,
+    "figure_tests": 29
+  },
+  "historical_receipts": "Earlier build and cleanup receipts retain their original scope and hashes; audit/repository-manifest.json describes the current tree.",
+  "not_run": [
+    "Native benchmarks, model/campaign reruns and broader frozen runtime suites.",
+    "Complete archive provenance replay: separately retained archive unavailable in this workspace."
+  ]
+}

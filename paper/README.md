@@ -2,7 +2,7 @@
 
 An Empirical Study of Unattended Multiagent Program Optimization
 
-- [Main paper](volund.pdf): seven pages; source [main.typ](main.typ)
+- [Main paper](volund.pdf): six pages; source [main.typ](main.typ)
 - [Supplement](supplement.pdf): ten pages; source [extended-methods.typ](extended-methods.typ)
 - [Claim/source index](SOURCE-LEDGER.md), [19-reference bibliography](refs.bib), and [independent methods/citation review](INDEPENDENT-METHODS-CITATION-REVIEW.md)
 - [Build, arithmetic, plots, and evidence reproduction](../REPRODUCE.md)
@@ -16,8 +16,9 @@ results do not establish general superiority or a whole-run cost bound.
 
 The repository is private during validation. The PDFs promise public supporting
 code and evidence upon publication; no public archive deposit or completed
-submission is implied. The exact manuscript, bibliography, figure, font and PDF
-bytes are unchanged by this directory cleanup.
+submission is implied. The directory cleanup preserved the original manuscript and evidence. The
+2026-10-09 editorial revision subsequently tightened the main article; its
+measurements, figure assets, supplement source, and supplement PDF are unchanged.
 
 `FINAL-BUILD-VERIFICATION.json` is the original historical build receipt, including
 old filenames and then-current source hashes. It is retained unchanged for

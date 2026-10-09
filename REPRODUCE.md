@@ -62,7 +62,7 @@ pdftoppm -r 120 -png .reproduction/paper/volund.pdf .reproduction/paper/volund-p
 pdftoppm -r 110 -png .reproduction/paper/supplement.pdf .reproduction/paper/supplement-page
 ```
 
-Expected: seven main-paper pages and ten supplement pages. Inspect all rendered
+Expected: six main-paper pages and ten supplement pages. Inspect all rendered
 pages for clipping, overlap, broken references and readable figures. The checked-in
 PDFs are `paper/volund.pdf` and `paper/supplement.pdf`. The bundled GUST font license
 licenses the fonts only, not the study. [Claim/source index](paper/SOURCE-LEDGER.md)

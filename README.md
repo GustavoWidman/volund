@@ -46,8 +46,9 @@ no whole-run cost bound or actual-bill claim follows.
 
 Native dependencies are pinned metadata, not a hermetic environment. Offline
 arithmetic and plot replay do not constitute new native measurements or campaign
-replication. The directory cleanup changed no frozen execution source, measured
-evidence, manuscript source or PDF content.
+replication. The manuscript-only revision tightened the six-page main paper and
+corrected bibliography metadata; frozen execution source and measured evidence
+are unchanged. See the [current manuscript verification](audit/manuscript-verification.json).
 
 ## Historical records
 
