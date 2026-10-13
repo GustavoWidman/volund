@@ -173,12 +173,15 @@ S / C / I: supported / contradicted / inconclusive. Review records cover claims 
   caption: [Campaign process outcomes],
 ) <tab-process>
 
+#block(breakable: false)[
 All thirteen hypotheses had source-bound independent reviewer build, profile, and benchmark evidence. Nine closed as supported, three as contradicted, and one as inconclusive (@tab-process). Across the campaigns, 357 official operations included 46 benchmarks, all on first attempts. Eight nominations were promoted; none was left pending or rejected. Rejected exploratory approaches were distinct from formal nominations.
+]
+
 The direct seed-relative development checkpoints were 1.706 and 2.291 for C1; 1.284, 2.153, and 4.551 for C2; and 1.277, 2.234, and 5.596 for C3 (@fig-development). Each point uses its own seed comparison. The curves summarize selected development checkpoints, with no performance assigned between observations and no multiplication of parent-relative effects.
 
 #figure(
   image("figures/v3-development.pdf", width: 3.3in),
-  placement: auto,
+  placement: none,
   caption: [Direct seed-relative development observations at comparison completion, measured from campaign-owner start. The hollow diamond at zero is unmeasured source identity. Lower stems are nominal one-sided 90% bounds for individual comparisons, not a simultaneous band.],
 ) <fig-development>
 

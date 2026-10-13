@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-09",
-  "base_commit": "5b01d158187e34bf6933950e41afa0382496ec93",
-  "scope": "Editorial tightening and bibliography metadata correction only; no new measurements, model calls, endpoint selection, publication or permissions change.",
+  "date": "2026-10-13",
+  "base_commit": "d9884a5c4a4d005a40725cddb3460a282c47a2df",
+  "scope": "Typesetting-only correction: Figure 3 is nonfloating and the preceding short campaign-results paragraph stays together. Scientific text, numbers, bibliography, figure assets and supplement are unchanged.",
   "sha256": {
-    "paper/main.typ": "ed370f7552323873955d18710aba47d58923d590bdd7e2c7f955f7679e59fd30",
-    "paper/volund.pdf": "69132dd10a061183e8517421bc91ceaba81101a8d93a042fd8f4582bd229c3ed",
+    "paper/main.typ": "a29e3c7bd62611cee820f5e1dc871e155eec0b9af75b88107143633734dab027",
+    "paper/volund.pdf": "625a54bcda68f8f5492d5b18a3ad8cace509eb43a292634b76e26a5139fedf62",
     "paper/refs.bib": "32065556ec41211d91cacfed9b28cc64f5bdfe5d1d0095afdb508c84a87155a5",
     "paper/extended-methods.typ": "df8dcfd726c936dfa562d928828b61ebc3ccc09831bdc996182d72f98e083e88",
     "paper/supplement.pdf": "07d3def6ecab91c92b7b66e59afcbcc01c057f59d30ec1a132f9d0400ee8b9c7"
@@ -13,18 +13,32 @@
     "main_pages": 6,
     "supplement_pages": 10,
     "outside_page_text_spans": 0,
-    "final_visual_review": "Passed after URL and bibliography page-break fixes.",
-    "independent_content_review": "Passed; numerical evidence and stated limitations preserved.",
-    "supplement_source_and_pdf_unchanged": true,
-    "figure_assets_unchanged": true,
-    "raw_arithmetic_input_pins": 156,
-    "paired_comparisons": 52,
-    "reproduction_tests": 18,
-    "figure_tests": 29
+    "source_diff": "Only the paragraph keep-together wrapper, paragraph spacing and Figure 3 placement changed.",
+    "final_visual_review": "All six pages passed parent review, including Figure 3 and its surrounding paragraph flow.",
+    "unchanged_scientific_text_numbers_assets_and_supplement": true,
+    "repository_inventory_and_hashes": "Verified against current manifest and remote baseline."
+  },
+  "prior_content_and_evidence_verification": {
+    "date": "2026-10-09",
+    "commit": "d9884a5c4a4d005a40725cddb3460a282c47a2df",
+    "results": {
+      "main_pages": 6,
+      "supplement_pages": 10,
+      "outside_page_text_spans": 0,
+      "final_visual_review": "Passed after URL and bibliography page-break fixes.",
+      "independent_content_review": "Passed; numerical evidence and stated limitations preserved.",
+      "supplement_source_and_pdf_unchanged": true,
+      "figure_assets_unchanged": true,
+      "raw_arithmetic_input_pins": 156,
+      "paired_comparisons": 52,
+      "reproduction_tests": 18,
+      "figure_tests": 29
+    },
+    "scope": "Historical checks from the previous editorial revision; not rerun for this typesetting-only correction."
   },
   "historical_receipts": "Earlier build and cleanup receipts retain their original scope and hashes; audit/repository-manifest.json describes the current tree.",
   "not_run": [
-    "Native benchmarks, model/campaign reruns and broader frozen runtime suites.",
+    "Arithmetic, reproduction, figure and native/model tests were not rerun for this typesetting-only fix.",
     "Complete archive provenance replay: separately retained archive unavailable in this workspace."
   ]
 }
