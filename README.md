@@ -4,10 +4,23 @@ An empirical study of unattended multiagent program optimization: three complete
 campaigns on one synthetic C++20 event range-statistics task. The primary transfer
 portfolio speedups are 2.240×, 4.547× and 5.445× over the original seed.
 
-Code and supporting evidence will be made publicly available upon publication at
-https://github.com/GustavoWidman/volund. This repository is currently private for
-validation; no public archive deposit, publication or open-source license is
-implied.
+This paper is publicly available on [SSRN](https://doi.org/10.2139/ssrn.7610439).
+It was posted on 15 October 2026. This public repository contains the manuscript,
+code and selected supporting evidence described below. The separate evidence
+archive has not been publicly deposited; not all raw logs or provenance records
+are in this checkout.
+
+## Citation and paper license
+
+Gustavo Wagon Widman and Laiza Ribeiro Silva (2026). *Volund: An Empirical Study of
+Unattended Multiagent Program Optimization*. SSRN.
+https://doi.org/10.2139/ssrn.7610439
+
+Machine-readable citation metadata is in [CITATION.cff](CITATION.cff).
+The paper on SSRN is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+That paper license does not assign a license to the repository's code or data;
+no repository-wide code or data license is declared here. Existing third-party
+licenses, such as the bundled font license, retain their own scope.
 
 ## Start here
 

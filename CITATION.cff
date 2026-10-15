@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use Volund or its supporting materials, please cite the paper below."
+type: software
+title: "Volund: Study code and supporting materials"
+authors:
+  - family-names: Widman
+    given-names: "Gustavo Wagon"
+  - family-names: Silva
+    given-names: "Laiza Ribeiro"
+repository-code: "https://github.com/GustavoWidman/volund"
+url: "https://github.com/GustavoWidman/volund"
+preferred-citation:
+  type: article
+  title: "Volund: An Empirical Study of Unattended Multiagent Program Optimization"
+  authors:
+    - family-names: Widman
+      given-names: "Gustavo Wagon"
+    - family-names: Silva
+      given-names: "Laiza Ribeiro"
+  doi: "10.2139/ssrn.7610439"
+  url: "https://doi.org/10.2139/ssrn.7610439"
+  year: 2026
+  date-published: "2026-10-15"
+  status: preprint
+  publisher:
+    name: SSRN
+  license: CC-BY-4.0
+  notes: "The CC BY 4.0 license applies to the paper on SSRN, not to this repository's code or data."

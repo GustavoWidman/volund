@@ -1,11 +1,12 @@
 {
   "sha256": {
     ".gitignore": "759397298a09b48aa3c486203b6fcd23a4823efe04744dbb22f9cf2bbf1144db",
-    "README.md": "d2961e793ea54d449c3918507a73e753f07d0f602cd1c5ba6be29204ba6506ae",
+    "CITATION.cff": "ddc99dfc28610204f8e707f00f7250bcefcce3b19424198a14a597915bd61685",
+    "README.md": "8dc3a6904dbe0830496a55a760a9dffa2ad76dcfbcfc0e067661dfee334b93ef",
     "REPRODUCE.md": "c472052849701c82d5de5a8e504509d49e898fb1ad83e6fdcc95860bfb51718e",
     "audit/cleanup-provenance.json": "5ffdf5011a9e8f3f12a98f8f17e80899f785e09125a60fb1ba03202f0df36530",
     "audit/cleanup-verification.json": "ae34284889de797dfba727b84d447c761bf37828b48ffde24ad33305357d6905",
-    "audit/evidence-availability.json": "02f439d620a752a609131d97fb745cc31b45998a6d802011becb324142492e97",
+    "audit/evidence-availability.json": "4794474833323c6b964553b856a126fdcd95b71de2a43d9bdb00b3a7d60b2288",
     "audit/import-provenance.json": "b48b4e47c20e77bb72a2a96c272d503d5fd688e34d8a3e448352b6564c41c3c1",
     "audit/manuscript-verification.json": "d1c8f0d7da0ce6538502f11c0c0e94d6f94bdca369d060d92a112b36f871be6d",
     "audit/verification/README.md": "d68af1bec4535851475ca8d5b5f1bc07c69eca98e49343f5865b5149ded9d1e5",
@@ -440,8 +441,8 @@
     "paper/.gitignore": "08f97607d2a8d07f5579fe1362b14c1a98ba2c756c7f6623cd26a3c88376db79",
     "paper/FINAL-BUILD-VERIFICATION.json": "e46060dbe24008a123c00772586eb909dceeb812ed33e4825bd7ee1dccfcbe13",
     "paper/INDEPENDENT-METHODS-CITATION-REVIEW.md": "4ce4103d2b5e98202eeac076af9d73aec5d86456ccbe25cb511f881fba8b0f29",
-    "paper/README.md": "be4327693d3d933d1f4cb63f109beca7604bb5379eaf5a0f56c7a300e18c39c7",
-    "paper/SOURCE-LEDGER.md": "b9a82932b7ef5165450fd93451075e63691181f48b32d00b9a6b680d8575ddd3",
+    "paper/README.md": "dd36fb225351ed5f74eee1fee81e8d3b90630bfa1024686cc36c88a5a8526cbc",
+    "paper/SOURCE-LEDGER.md": "1e332f09a39c04b13852469b6ab1a5fce2857d04dd0bff0e4da3966fd1287226",
     "paper/extended-methods.typ": "df8dcfd726c936dfa562d928828b61ebc3ccc09831bdc996182d72f98e083e88",
     "paper/figures/v3-development.pdf": "b8f22447810172ad39945b8aa2b854d07efe000a8d5284b6b2d2af6fbcaaa2ed",
     "paper/figures/v3-endpoints.pdf": "b4fd3c2f289d072ee7613b78874d86c7a42156dee36250139bbdeb113b0ee4b3",
@@ -481,6 +482,7 @@
   },
   "git_modes": {
     ".gitignore": "100644",
+    "CITATION.cff": "100644",
     "README.md": "100644",
     "REPRODUCE.md": "100644",
     "audit/cleanup-provenance.json": "100644",

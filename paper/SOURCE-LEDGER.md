@@ -1,6 +1,6 @@
 # Current v3 integration status
 
-Current index, updated 2026-10-09. The manuscript reports completed v3 evidence. The [original staged ledger and correction history](https://github.com/GustavoWidman/volund/blob/4114e6cf6108d80920e0c46ad50c90c5ff6e8d37/docs/ai-development-workflow/SOURCE-LEDGER.md) remain in Git history. Historical pending-result wording describes the earlier source-only stage.
+Current index, updated 2026-10-15. The manuscript reports completed v3 evidence. The [original staged ledger and correction history](https://github.com/GustavoWidman/volund/blob/4114e6cf6108d80920e0c46ad50c90c5ff6e8d37/docs/ai-development-workflow/SOURCE-LEDGER.md) remain in Git history. Historical pending-result wording describes the earlier source-only stage.
 
 The current deliverables are `main.typ`, `extended-methods.typ`, the 19-entry `refs.bib`, and `volund.pdf` / `supplement.pdf`. No frozen experiment file or measured evidence was edited; no new optimization campaign, candidate change, model call, performance comparison, or canonical assessment was run for manuscript integration. Five separately authorized fixed-endpoint post-hoc Memcheck probes are outside the original campaign and assessment evidence; all passed with finite stated coverage. Earlier manuscript files were preserved outside the current source directory before replacement. Only v3 outcomes appear in the current paper.
 
@@ -39,7 +39,7 @@ The checkout contains all 156 raw-arithmetic inputs for 52 comparisons in `data/
 Exact final report SHA-256: `4c0da852efa41ae3440c09a9faf2e6de0797ac1036ebbbdfc052b4f658f66227`.
 Exact freeze SHA-256: `a28a9e9984aa03a1a28c950bfd846e0d179202f719a43982a27c72a69c934178`.
 
-The main paper includes three 3.3-inch figures. Detailed timings, per-role counters, frozen/narrow cost scenarios, clock definitions, native resource coverage, supplemental execution limits and reproducibility bindings are in the supplement. The publication name is **Volund**; the repository path is lowercase `volund`. The paper promises public code/evidence upon publication, not present public access. This private repository cleanup does not establish publication or submission.
+The main paper includes three 3.3-inch figures. Detailed timings, per-role counters, frozen/narrow cost scenarios, clock definitions, native resource coverage, supplemental execution limits and reproducibility bindings are in the supplement. The publication name is **Volund**; the repository path is lowercase `volund`. This paper is publicly available on [SSRN](https://doi.org/10.2139/ssrn.7610439). It was posted on 15 October 2026. The repository is public, but the separate evidence archive is not publicly deposited. The submitted PDFs and manuscript sources retain their submission-stage availability wording; see [current publication and availability details](README.md). This documentation update does not change the manuscript or frozen scientific evidence.
 
 ## Bibliography and review provenance
 

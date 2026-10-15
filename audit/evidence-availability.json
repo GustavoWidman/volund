@@ -1,5 +1,5 @@
 {
-  "status": "Retained separately; not uploaded to Git and no external deposit published",
+  "status": "Retained separately; not uploaded to Git and no external archive deposit published",
   "filename": "v3-lean-evidence.tar.gz",
   "size_bytes": 22327392,
   "sha256": "3b53371632c8010336be846232f0a73090baa8700fb6ab5ade9fa15ddfef5dae",
@@ -7,5 +7,19 @@
   "present_evidence_files": 61087,
   "full_only_omitted_files": 21571,
   "replay_requires_separate_archive": true,
-  "publication_intent": "Evidence and reproduction materials will be made publicly available upon publication. Repository temporarily private for validation."
+  "repository_status": "Public: contains the manuscript, code and selected supporting evidence described in README.md and REPRODUCE.md; not all raw logs or provenance records.",
+  "paper_publication": {
+    "status": "Publicly available on SSRN",
+    "title": "Volund: An Empirical Study of Unattended Multiagent Program Optimization",
+    "authors": [
+      "Gustavo Wagon Widman",
+      "Laiza Ribeiro Silva"
+    ],
+    "posted_date": "2026-10-15",
+    "doi": "10.2139/ssrn.7610439",
+    "url": "https://doi.org/10.2139/ssrn.7610439",
+    "license": "CC-BY-4.0",
+    "license_scope": "Paper on SSRN only; no code or data license is assigned by this publication-status update."
+  },
+  "availability_note": "The submitted PDFs and manuscript sources retain submission-stage availability wording. The repository is now public, but the separate evidence archive has not been publicly deposited."
 }

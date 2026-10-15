@@ -14,11 +14,22 @@ no matched comparator. It preserves the C1 sparse-shift regression, finite
 validation coverage, and incomplete provider/project accounting. These descriptive
 results do not establish general superiority or a whole-run cost bound.
 
-The repository is private during validation. The PDFs promise public supporting
-code and evidence upon publication; no public archive deposit or completed
-submission is implied. The directory cleanup preserved the original manuscript and evidence. The
-2026-10-09 editorial revision subsequently tightened the main article; its
-measurements, figure assets, supplement source, and supplement PDF are unchanged.
+This paper is publicly available on [SSRN](https://doi.org/10.2139/ssrn.7610439).
+It was posted on 15 October 2026, by Gustavo Wagon Widman and Laiza Ribeiro Silva.
+The paper on SSRN is licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); that license does not
+assign a license to the repository's code or data. See the
+[citation metadata](../CITATION.cff).
+
+The submitted PDFs and their manuscript sources are preserved unchanged in this
+publication-status update. Their availability wording reflects the submission
+stage: this repository is now public, while the separately retained evidence
+archive has not been publicly deposited. This checkout provides only the code
+and selected evidence identified in the [reproduction guide](../REPRODUCE.md),
+not all raw logs or provenance records. The directory cleanup preserved the
+original manuscript and evidence. The 2026-10-09 editorial revision subsequently
+tightened the main article; its measurements, figure assets, supplement source,
+and supplement PDF are unchanged.
 
 `FINAL-BUILD-VERIFICATION.json` is the original historical build receipt, including
 old filenames and then-current source hashes. It is retained unchanged for
